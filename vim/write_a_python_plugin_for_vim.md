@@ -1,3 +1,20 @@
+
+## Table Of Contents
+
+<!-- vim-markdown-toc GitLab -->
+
+* [check vim support for python](#check-vim-support-for-python)
+* [add support for python to control vim](#add-support-for-python-to-control-vim)
+    * [python-vim installation](#python-vim-installation)
+    * [Simple Usage](#simple-usage)
+* [create python-plugins for vim](#create-python-plugins-for-vim)
+    * [write in vim script](#write-in-vim-script)
+    * [write in python file](#write-in-python-file)
+* [script help](#script-help)
+* [Reference](#reference)
+
+<!-- vim-markdown-toc -->
+
 ## check vim support for python
 
 ```vim
