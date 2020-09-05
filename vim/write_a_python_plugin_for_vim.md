@@ -1,7 +1,8 @@
 
 ## Table Of Contents
 
-<!-- vim-markdown-toc GitLab -->
+
+<!-- vim-markdown-toc Redcarpet -->
 
 * [check vim support for python](#check-vim-support-for-python)
 * [add support for python to control vim](#add-support-for-python-to-control-vim)
