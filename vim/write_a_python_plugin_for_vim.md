@@ -2,7 +2,7 @@
 ## Table Of Contents
 
 
-<!-- vim-markdown-toc Redcarpet -->
+<!-- vim-markdown-toc GFM -->
 
 * [check vim support for python](#check-vim-support-for-python)
 * [add support for python to control vim](#add-support-for-python-to-control-vim)
