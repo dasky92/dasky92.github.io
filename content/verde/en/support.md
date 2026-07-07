@@ -3,7 +3,7 @@ app: verde
 locale: en
 document: support
 title: Support
-version: "1.0.0"
+version: "1.1.0"
 effectiveDate: 2026-07-07
 ---
 
@@ -11,11 +11,14 @@ effectiveDate: 2026-07-07
 
 ## Contact Us
 
-For questions, bug reports, or suggestions, email us at **1621829808@qq.com**.
+For questions, bug reports, or suggestions:
 
-You can also use **Settings → Help & Feedback** in the App when feedback is enabled.
+- **Email:** 1621829808@qq.com
+- **GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
 
-Please include your device model, iOS version, and App version to help us respond faster.
+In-app feedback is not currently available. Please use the channels above.
+
+GitHub Issues are **public**. Do not post sensitive personal information. When contacting us, including your device model, iOS version, and App version helps us respond faster.
 
 ## Import Music
 

@@ -3,13 +3,13 @@
   "locale": "en",
   "document": "support",
   "title": "Support",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "effectiveDate": "2026-07-07",
   "sections": [
     {
       "id": "contact-us",
       "title": "Contact Us",
-      "body": "<p>For questions, bug reports, or suggestions, email us at <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>.</p>\n<p>You can also use <strong>Settings → Help &amp; Feedback</strong> in the App when feedback is enabled.</p>\n<p>Please include your device model, iOS version, and App version to help us respond faster.</p>\n"
+      "body": "<p>For questions, bug reports, or suggestions:</p>\n<ul>\n<li><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></li>\n<li><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></li>\n</ul>\n<p>In-app feedback is not currently available. Please use the channels above.</p>\n<p>GitHub Issues are <strong>public</strong>. Do not post sensitive personal information. When contacting us, including your device model, iOS version, and App version helps us respond faster.</p>\n"
     },
     {
       "id": "import-music",
@@ -47,7 +47,7 @@
     {
       "id": "contact-us",
       "title": "Contact Us",
-      "body": "<p>For questions, bug reports, or suggestions, email us at <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>.</p>\n<p>You can also use <strong>Settings → Help &amp; Feedback</strong> in the App when feedback is enabled.</p>\n<p>Please include your device model, iOS version, and App version to help us respond faster.</p>\n"
+      "body": "<p>For questions, bug reports, or suggestions:</p>\n<ul>\n<li><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></li>\n<li><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></li>\n</ul>\n<p>In-app feedback is not currently available. Please use the channels above.</p>\n<p>GitHub Issues are <strong>public</strong>. Do not post sensitive personal information. When contacting us, including your device model, iOS version, and App version helps us respond faster.</p>\n"
     },
     {
       "id": "import-music",

@@ -3,7 +3,7 @@
   "locale": "en",
   "document": "terms",
   "title": "Terms of Use",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "effectiveDate": "2026-07-07",
   "sections": [
     {
@@ -17,14 +17,14 @@
       "body": "<p>The App is designed as an offline-first music player. Core features — including playback, library management, liked songs, playback history, and search — operate entirely on your device without requiring an internet connection.</p>\n<p>You are solely responsible for the music files you import, store, and play within the App. We do not host, stream, or provide any music content.</p>\n"
     },
     {
-      "id": "limited-internet-usage",
-      "title": "Limited Internet Usage",
-      "body": "<p>The App does not collect, transmit, or share personal data unless you explicitly initiate a feedback or support request. In such cases:</p>\n<ul>\n<li>The App connects only to our designated support server.</li>\n<li>The connection is used solely to deliver your message and any optional attachments you voluntarily include.</li>\n<li>No automatic background data transfer, analytics, or tracking occurs at any other time.</li>\n</ul>\n<p>You can use the App completely offline; internet access is never required for normal operation.</p>\n"
+      "id": "internet-and-external-services",
+      "title": "Internet and External Services",
+      "body": "<p>You can use the App completely offline for normal operation. Internet access is never required for core playback or library features.</p>\n<p>The App or your device may connect to external services only in limited circumstances, such as:</p>\n<ul>\n<li>Downloading updates through the Apple App Store.</li>\n<li>Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.</li>\n<li>Communications <strong>you</strong> initiate by emailing us or posting on our GitHub Issues page.</li>\n</ul>\n<p>The App does not automatically upload your music library, playback history, or other personal data to our servers.</p>\n"
     },
     {
       "id": "license-and-restrictions",
       "title": "License and Restrictions",
-      "body": "<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial purposes. You may not:</p>\n<ul>\n<li>Copy, modify, reverse engineer, decompile, or create derivative works of the App.</li>\n<li>Rent, lease, sublicense, or distribute the App to third parties.</li>\n<li>Use the App in any way that violates applicable laws or infringes upon the rights of others.</li>\n</ul>\n"
+      "body": "<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial purposes. You may not:</p>\n<ul>\n<li>Copy, modify, reverse engineer, decompile, or create derivative works of the App, except as permitted by applicable law.</li>\n<li>Rent, lease, sublicense, or distribute the App to third parties.</li>\n<li>Use the App in any way that violates applicable laws or infringes upon the rights of others.</li>\n</ul>\n"
     },
     {
       "id": "user-content",
@@ -34,22 +34,27 @@
     {
       "id": "privacy",
       "title": "Privacy",
-      "body": "<p>Because the App operates offline, no personal information is collected by us when you use the App locally. Aside from information you voluntarily include in a feedback or support request, we do not collect personal data. See our Privacy Policy for details.</p>\n"
+      "body": "<p>Our collection and use of information is described in our <a href=\"privacy.html\">Privacy Policy</a>. In summary, the App is designed to operate locally without collecting personal information during normal use.</p>\n"
+    },
+    {
+      "id": "app-store-and-purchases",
+      "title": "App Store and Purchases",
+      "body": "<p>If you obtain the App through the Apple App Store, your purchase, billing, and refunds are also subject to Apple’s applicable terms and policies.</p>\n<p>If you are a consumer in the European Economic Area or the United Kingdom, statutory withdrawal rights for digital content may be handled through Apple’s purchase process where applicable.</p>\n"
     },
     {
       "id": "updates-and-support",
       "title": "Updates and Support",
-      "body": "<p>We may provide updates to improve performance, fix bugs, or add features. Updates may be delivered through the App Store.</p>\n<p>We welcome feedback but do not guarantee that we will address every request. Support is provided on a best-effort basis.</p>\n"
+      "body": "<p>We may provide updates to improve performance, fix bugs, or add features. Updates may be delivered through the App Store.</p>\n<p>Support is provided on a best-effort basis. You may contact us by email or through GitHub Issues (see Contact Us). We welcome feedback but do not guarantee that we will address every request.</p>\n"
     },
     {
       "id": "disclaimer-of-warranties",
       "title": "Disclaimer of Warranties",
-      "body": "<p>THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE FROM HARMFUL COMPONENTS. YOU USE THE APP AT YOUR OWN RISK.</p>\n"
+      "body": "<p>THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE FROM HARMFUL COMPONENTS. YOU USE THE APP AT YOUR OWN RISK.</p>\n<p>Some jurisdictions do not allow the exclusion of implied warranties, so some of the above exclusions may not apply to you.</p>\n"
     },
     {
       "id": "limitation-of-liability",
       "title": "Limitation of Liability",
-      "body": "<p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY).</p>\n"
+      "body": "<p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS BEFORE THE CLAIM AROSE.</p>\n<p>Nothing in these Terms limits liability that cannot be limited under applicable consumer protection law.</p>\n"
     },
     {
       "id": "termination",
@@ -57,19 +62,34 @@
       "body": "<p>We reserve the right to terminate or suspend your access to the App at our sole discretion for conduct that violates these Terms or is harmful to other users or us. Upon termination, you must cease using the App and delete all copies from your devices.</p>\n"
     },
     {
-      "id": "changes-to-these-terms",
-      "title": "Changes to These Terms",
-      "body": "<p>We may update these Terms from time to time. The latest version will be published at this URL. Your continued use of the App after changes constitutes acceptance of the new Terms.</p>\n"
-    },
-    {
       "id": "governing-law",
       "title": "Governing Law",
-      "body": "<p>These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions. Any disputes shall be subject to the exclusive jurisdiction of the courts in the applicable region.</p>\n"
+      "body": "<p>These Terms are governed by the laws of the <strong>People’s Republic of China</strong>, without regard to conflict-of-law rules.</p>\n<p>If you are a consumer, you may also benefit from mandatory consumer protection laws of your country of residence, and nothing in these Terms affects those non-waivable rights.</p>\n"
+    },
+    {
+      "id": "dispute-resolution",
+      "title": "Dispute Resolution",
+      "body": "<p>We encourage you to contact us first to resolve any dispute informally.</p>\n<p>If a dispute cannot be resolved informally, it shall be submitted to the courts with jurisdiction in <strong>Shanxi Province, People’s Republic of China</strong>, except where mandatory consumer protection law in your country gives you the right to bring proceedings in your local courts.</p>\n"
+    },
+    {
+      "id": "severability",
+      "title": "Severability",
+      "body": "<p>If any provision of these Terms is held invalid or unenforceable, the remaining provisions will remain in full force and effect.</p>\n"
+    },
+    {
+      "id": "entire-agreement",
+      "title": "Entire Agreement",
+      "body": "<p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App and supersede prior understandings on the same subject.</p>\n"
+    },
+    {
+      "id": "changes-to-these-terms",
+      "title": "Changes to These Terms",
+      "body": "<p>We may update these Terms from time to time. The latest version will be published at this URL with an updated effective date and version number. Your continued use of the App after changes constitutes acceptance of the new Terms, except where applicable law requires otherwise.</p>\n"
     },
     {
       "id": "contact-us",
       "title": "Contact Us",
-      "body": "<p>If you have questions, suggestions, or bug reports, contact us at:</p>\n<p><strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong></p>\n<p>(Please note: contacting us requires an internet connection on your device.)</p>\n"
+      "body": "<p>If you have questions, suggestions, or bug reports, contact us at:</p>\n<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n<p>(Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)</p>\n"
     }
   ]
 }

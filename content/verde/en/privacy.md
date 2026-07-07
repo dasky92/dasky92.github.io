@@ -3,7 +3,7 @@ app: verde
 locale: en
 document: privacy
 title: Privacy Policy
-version: "1.0.0"
+version: "1.1.0"
 effectiveDate: 2026-07-07
 ---
 
@@ -13,54 +13,120 @@ effectiveDate: 2026-07-07
 
 Verde Player (the "App") is an offline-first music player. Playback, library management, liked songs, and playback history run entirely on your device. We do not host, stream, or provide music content.
 
-This Privacy Policy explains what information we process, when we process it, and your choices.
+This Privacy Policy explains who we are, what information we process (if any), when we process it, and your choices.
+
+## Who We Are
+
+The data controller for the App is **dasky92**, an individual developer based in Shanxi Province, People's Republic of China.
+
+For privacy-related questions or requests, contact us using the details in the Contact Us section below.
+
+## Scope
+
+This Privacy Policy applies to users of the App worldwide, except where local law requires otherwise.
+
+The App is rated **4+** on the Apple App Store and is intended for a general audience. Nothing in this policy requires you to be a minimum age to use the App's on-device features; see Children's Privacy for how we handle information relating to children.
 
 ## Information We Collect
 
-**Local use (no account required).** When you use the App offline, we do not collect or transmit personal information to our servers. Your music files, metadata, playback history, and preferences are stored on your device.
+We designed the App to minimize data collection. Depending on how you use the App, the following may apply:
 
-**Feedback and support (optional).** If you choose to submit feedback or contact support from within the App, we receive only what you voluntarily provide, such as your name, email address, message text, and optional screenshot attachments. This requires an internet connection initiated by you.
+**1. Local use (no account required).** When you use the App offline, we do not collect or transmit personal information to our servers. Your music files, metadata, playback history, liked songs, and preferences are stored on your device.
 
-**Wi-Fi Transfer.** When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No data is sent to our servers during transfer.
+**2. Technical connections initiated by the App.** In limited cases, the App may connect to the internet without you typing personal information, for example:
+
+- Checking for or downloading App updates through the Apple App Store.
+- Fetching publicly hosted legal documents (such as this policy) from GitHub Pages.
+
+These requests are technical in nature. We do not use them to build a profile of you, and we do not receive your name, email address, or music library contents through these requests.
+
+**3. Information you voluntarily provide when contacting us.** If you choose to email us or open a GitHub Issue, we receive only what you choose to include (for example, your email address, message text, device details you choose to share, or screenshots). GitHub Issues are **public**; do not post sensitive personal information there.
+
+**Wi-Fi Transfer.** When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No music library data is sent to our servers during transfer.
+
+We do not integrate third-party analytics, advertising, or tracking SDKs.
 
 ## How We Use Information
 
 - **On-device data** is used solely to provide App features (playback, library organization, search, liked songs, and history).
-- **Feedback submissions** are used only to respond to your request, improve the App, and provide customer support.
+- **Voluntary correspondence** (email or GitHub Issues) is used only to respond to you, troubleshoot issues, and improve the App.
 
 We do not use your data for advertising, profiling, or sale to third parties.
+
+## Legal Basis for Processing (EEA and UK)
+
+If you are in the European Economic Area or the United Kingdom, we process personal information on the following bases:
+
+- **Performance of a contract / legitimate interests:** to provide the App's on-device features you request.
+- **Consent / legitimate interests:** to respond to messages you voluntarily send us.
+- **Legal obligations:** where we must retain or disclose information to comply with applicable law.
+
+You may withdraw consent where processing is based on consent, without affecting the lawfulness of processing before withdrawal.
 
 ## Data Storage and Retention
 
 - Music and library data remain on your device until you delete them or uninstall the App.
-- Feedback data sent to our support server is retained only as long as needed to handle your request and improve the App, unless a longer period is required by law.
+- Copies of correspondence you send us are retained only as long as needed to handle your request and maintain reasonable support records, unless a longer period is required by law.
 
 ## Third-Party Services
 
-- **Apple App Store** processes purchases and updates according to Apple's privacy policy.
-- **Our feedback server** receives only data you explicitly submit through the feedback form.
+- **Apple App Store** processes purchases, updates, and related account interactions according to [Apple's privacy policy](https://www.apple.com/legal/privacy/).
+- **GitHub Pages** hosts our public legal documents. The App may download these files; we do not receive personal data from you through that download.
+- **GitHub** processes information you submit if you use GitHub Issues, according to the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-We do not integrate third-party analytics or advertising SDKs.
+## International Data Transfers
+
+We are based in the People's Republic of China. If you contact us from outside China, information you provide may be processed in China and in countries where our email or GitHub service providers operate. Where required by law, we take reasonable steps appropriate to the circumstances of such transfers.
 
 ## Your Rights and Choices
 
-- You can use the App without submitting any personal information.
-- You can delete imported music and App data at any time from within the App.
-- You may choose not to include your email when submitting feedback.
-- Depending on your jurisdiction, you may have rights to access, correct, or delete personal information we hold from your feedback submissions. Contact us using the email below.
+Depending on your location, you may have the right to:
+
+- Access, correct, or delete personal information we hold about you from voluntary correspondence.
+- Restrict or object to certain processing.
+- Request data portability where applicable.
+- Lodge a complaint with a supervisory authority (see EEA and UK Residents below).
+
+To exercise these rights, email us at **1621829808@qq.com**. We may need to verify your request.
+
+You can use the App without contacting us or submitting personal information.
+
+## EEA and UK Residents
+
+If you are in the EEA or UK, you have the rights described above and may lodge a complaint with your local data protection authority.
+
+We aim to respond to privacy requests within **30 days**, subject to applicable law.
+
+In some EEA countries, the age of digital consent may be up to **16**. If you are below the age required in your country to consent to online data processing, please use the App with a parent or guardian and do not contact us directly without their permission.
+
+## California Residents
+
+We do **not** sell or share personal information for cross-context behavioral advertising.
+
+California residents may request information about categories of personal information we collect (if any) from voluntary correspondence, and may request deletion of such information, by emailing **1621829808@qq.com**.
+
+We will not discriminate against you for exercising privacy rights under California law.
 
 ## Children's Privacy
 
-The App is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us information, please contact us and we will delete it.
+The App is rated **4+** on the App Store. We do not knowingly collect personal information from children through the App.
+
+Because core features run locally and no account is required, we do not intentionally collect personal information from anyone, including children, during normal on-device use.
+
+**Please do not allow children to contact us by email or GitHub Issues without a parent or guardian's permission.** If you believe a child has provided us personal information without appropriate consent, contact us and we will take reasonable steps to delete it.
+
+For U.S. users, we do not knowingly collect personal information from children under **13** consistent with the Children's Online Privacy Protection Act (COPPA).
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy.
+We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.
 
 ## Contact Us
 
-If you have questions about this Privacy Policy, contact us at:
+If you have questions about this Privacy Policy or wish to exercise your rights, contact us at:
 
-**1621829808@qq.com**
+**Email:** 1621829808@qq.com
 
-(Please note: contacting us requires an internet connection on your device.)
+**GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
+
+(Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)

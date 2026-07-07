@@ -3,7 +3,7 @@ app: verde
 locale: en
 document: terms
 title: Terms of Use
-version: "1.0.0"
+version: "1.1.0"
 effectiveDate: 2026-07-07
 ---
 
@@ -19,21 +19,23 @@ The App is designed as an offline-first music player. Core features — includin
 
 You are solely responsible for the music files you import, store, and play within the App. We do not host, stream, or provide any music content.
 
-## Limited Internet Usage
+## Internet and External Services
 
-The App does not collect, transmit, or share personal data unless you explicitly initiate a feedback or support request. In such cases:
+You can use the App completely offline for normal operation. Internet access is never required for core playback or library features.
 
-- The App connects only to our designated support server.
-- The connection is used solely to deliver your message and any optional attachments you voluntarily include.
-- No automatic background data transfer, analytics, or tracking occurs at any other time.
+The App or your device may connect to external services only in limited circumstances, such as:
 
-You can use the App completely offline; internet access is never required for normal operation.
+- Downloading updates through the Apple App Store.
+- Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.
+- Communications **you** initiate by emailing us or posting on our GitHub Issues page.
+
+The App does not automatically upload your music library, playback history, or other personal data to our servers.
 
 ## License and Restrictions
 
 We grant you a personal, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial purposes. You may not:
 
-- Copy, modify, reverse engineer, decompile, or create derivative works of the App.
+- Copy, modify, reverse engineer, decompile, or create derivative works of the App, except as permitted by applicable law.
 - Rent, lease, sublicense, or distribute the App to third parties.
 - Use the App in any way that violates applicable laws or infringes upon the rights of others.
 
@@ -43,38 +45,66 @@ All audio files and metadata you add to the App remain your exclusive property. 
 
 ## Privacy
 
-Because the App operates offline, no personal information is collected by us when you use the App locally. Aside from information you voluntarily include in a feedback or support request, we do not collect personal data. See our Privacy Policy for details.
+Our collection and use of information is described in our [Privacy Policy](privacy.html). In summary, the App is designed to operate locally without collecting personal information during normal use.
+
+## App Store and Purchases
+
+If you obtain the App through the Apple App Store, your purchase, billing, and refunds are also subject to Apple's applicable terms and policies.
+
+If you are a consumer in the European Economic Area or the United Kingdom, statutory withdrawal rights for digital content may be handled through Apple's purchase process where applicable.
 
 ## Updates and Support
 
 We may provide updates to improve performance, fix bugs, or add features. Updates may be delivered through the App Store.
 
-We welcome feedback but do not guarantee that we will address every request. Support is provided on a best-effort basis.
+Support is provided on a best-effort basis. You may contact us by email or through GitHub Issues (see Contact Us). We welcome feedback but do not guarantee that we will address every request.
 
 ## Disclaimer of Warranties
 
 THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE FROM HARMFUL COMPONENTS. YOU USE THE APP AT YOUR OWN RISK.
 
+Some jurisdictions do not allow the exclusion of implied warranties, so some of the above exclusions may not apply to you.
+
 ## Limitation of Liability
 
-TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY).
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS BEFORE THE CLAIM AROSE.
+
+Nothing in these Terms limits liability that cannot be limited under applicable consumer protection law.
 
 ## Termination
 
 We reserve the right to terminate or suspend your access to the App at our sole discretion for conduct that violates these Terms or is harmful to other users or us. Upon termination, you must cease using the App and delete all copies from your devices.
 
-## Changes to These Terms
-
-We may update these Terms from time to time. The latest version will be published at this URL. Your continued use of the App after changes constitutes acceptance of the new Terms.
-
 ## Governing Law
 
-These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions. Any disputes shall be subject to the exclusive jurisdiction of the courts in the applicable region.
+These Terms are governed by the laws of the **People's Republic of China**, without regard to conflict-of-law rules.
+
+If you are a consumer, you may also benefit from mandatory consumer protection laws of your country of residence, and nothing in these Terms affects those non-waivable rights.
+
+## Dispute Resolution
+
+We encourage you to contact us first to resolve any dispute informally.
+
+If a dispute cannot be resolved informally, it shall be submitted to the courts with jurisdiction in **Shanxi Province, People's Republic of China**, except where mandatory consumer protection law in your country gives you the right to bring proceedings in your local courts.
+
+## Severability
+
+If any provision of these Terms is held invalid or unenforceable, the remaining provisions will remain in full force and effect.
+
+## Entire Agreement
+
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App and supersede prior understandings on the same subject.
+
+## Changes to These Terms
+
+We may update these Terms from time to time. The latest version will be published at this URL with an updated effective date and version number. Your continued use of the App after changes constitutes acceptance of the new Terms, except where applicable law requires otherwise.
 
 ## Contact Us
 
 If you have questions, suggestions, or bug reports, contact us at:
 
-**1621829808@qq.com**
+**Email:** 1621829808@qq.com
 
-(Please note: contacting us requires an internet connection on your device.)
+**GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
+
+(Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)

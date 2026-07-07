@@ -3,53 +3,83 @@
   "locale": "en",
   "document": "privacy",
   "title": "Privacy Policy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "effectiveDate": "2026-07-07",
   "sections": [
     {
       "id": "overview",
       "title": "Overview",
-      "body": "<p>Verde Player (the “App”) is an offline-first music player. Playback, library management, liked songs, and playback history run entirely on your device. We do not host, stream, or provide music content.</p>\n<p>This Privacy Policy explains what information we process, when we process it, and your choices.</p>\n"
+      "body": "<p>Verde Player (the “App”) is an offline-first music player. Playback, library management, liked songs, and playback history run entirely on your device. We do not host, stream, or provide music content.</p>\n<p>This Privacy Policy explains who we are, what information we process (if any), when we process it, and your choices.</p>\n"
+    },
+    {
+      "id": "who-we-are",
+      "title": "Who We Are",
+      "body": "<p>The data controller for the App is <strong>dasky92</strong>, an individual developer based in Shanxi Province, People’s Republic of China.</p>\n<p>For privacy-related questions or requests, contact us using the details in the Contact Us section below.</p>\n"
+    },
+    {
+      "id": "scope",
+      "title": "Scope",
+      "body": "<p>This Privacy Policy applies to users of the App worldwide, except where local law requires otherwise.</p>\n<p>The App is rated <strong>4+</strong> on the Apple App Store and is intended for a general audience. Nothing in this policy requires you to be a minimum age to use the App’s on-device features; see Children’s Privacy for how we handle information relating to children.</p>\n"
     },
     {
       "id": "information-we-collect",
       "title": "Information We Collect",
-      "body": "<p><strong>Local use (no account required).</strong> When you use the App offline, we do not collect or transmit personal information to our servers. Your music files, metadata, playback history, and preferences are stored on your device.</p>\n<p><strong>Feedback and support (optional).</strong> If you choose to submit feedback or contact support from within the App, we receive only what you voluntarily provide, such as your name, email address, message text, and optional screenshot attachments. This requires an internet connection initiated by you.</p>\n<p><strong>Wi-Fi Transfer.</strong> When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No data is sent to our servers during transfer.</p>\n"
+      "body": "<p>We designed the App to minimize data collection. Depending on how you use the App, the following may apply:</p>\n<p><strong>1. Local use (no account required).</strong> When you use the App offline, we do not collect or transmit personal information to our servers. Your music files, metadata, playback history, liked songs, and preferences are stored on your device.</p>\n<p><strong>2. Technical connections initiated by the App.</strong> In limited cases, the App may connect to the internet without you typing personal information, for example:</p>\n<ul>\n<li>Checking for or downloading App updates through the Apple App Store.</li>\n<li>Fetching publicly hosted legal documents (such as this policy) from GitHub Pages.</li>\n</ul>\n<p>These requests are technical in nature. We do not use them to build a profile of you, and we do not receive your name, email address, or music library contents through these requests.</p>\n<p><strong>3. Information you voluntarily provide when contacting us.</strong> If you choose to email us or open a GitHub Issue, we receive only what you choose to include (for example, your email address, message text, device details you choose to share, or screenshots). GitHub Issues are <strong>public</strong>; do not post sensitive personal information there.</p>\n<p><strong>Wi-Fi Transfer.</strong> When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No music library data is sent to our servers during transfer.</p>\n<p>We do not integrate third-party analytics, advertising, or tracking SDKs.</p>\n"
     },
     {
       "id": "how-we-use-information",
       "title": "How We Use Information",
-      "body": "<ul>\n<li><strong>On-device data</strong> is used solely to provide App features (playback, library organization, search, liked songs, and history).</li>\n<li><strong>Feedback submissions</strong> are used only to respond to your request, improve the App, and provide customer support.</li>\n</ul>\n<p>We do not use your data for advertising, profiling, or sale to third parties.</p>\n"
+      "body": "<ul>\n<li><strong>On-device data</strong> is used solely to provide App features (playback, library organization, search, liked songs, and history).</li>\n<li><strong>Voluntary correspondence</strong> (email or GitHub Issues) is used only to respond to you, troubleshoot issues, and improve the App.</li>\n</ul>\n<p>We do not use your data for advertising, profiling, or sale to third parties.</p>\n"
+    },
+    {
+      "id": "legal-basis-for-processing-eea-and-uk",
+      "title": "Legal Basis for Processing (EEA and UK)",
+      "body": "<p>If you are in the European Economic Area or the United Kingdom, we process personal information on the following bases:</p>\n<ul>\n<li><strong>Performance of a contract / legitimate interests:</strong> to provide the App’s on-device features you request.</li>\n<li><strong>Consent / legitimate interests:</strong> to respond to messages you voluntarily send us.</li>\n<li><strong>Legal obligations:</strong> where we must retain or disclose information to comply with applicable law.</li>\n</ul>\n<p>You may withdraw consent where processing is based on consent, without affecting the lawfulness of processing before withdrawal.</p>\n"
     },
     {
       "id": "data-storage-and-retention",
       "title": "Data Storage and Retention",
-      "body": "<ul>\n<li>Music and library data remain on your device until you delete them or uninstall the App.</li>\n<li>Feedback data sent to our support server is retained only as long as needed to handle your request and improve the App, unless a longer period is required by law.</li>\n</ul>\n"
+      "body": "<ul>\n<li>Music and library data remain on your device until you delete them or uninstall the App.</li>\n<li>Copies of correspondence you send us are retained only as long as needed to handle your request and maintain reasonable support records, unless a longer period is required by law.</li>\n</ul>\n"
     },
     {
       "id": "third-party-services",
       "title": "Third-Party Services",
-      "body": "<ul>\n<li><strong>Apple App Store</strong> processes purchases and updates according to Apple’s privacy policy.</li>\n<li><strong>Our feedback server</strong> receives only data you explicitly submit through the feedback form.</li>\n</ul>\n<p>We do not integrate third-party analytics or advertising SDKs.</p>\n"
+      "body": "<ul>\n<li><strong>Apple App Store</strong> processes purchases, updates, and related account interactions according to <a href=\"https://www.apple.com/legal/privacy/\">Apple’s privacy policy</a>.</li>\n<li><strong>GitHub Pages</strong> hosts our public legal documents. The App may download these files; we do not receive personal data from you through that download.</li>\n<li><strong>GitHub</strong> processes information you submit if you use GitHub Issues, according to the <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\">GitHub Privacy Statement</a>.</li>\n</ul>\n"
+    },
+    {
+      "id": "international-data-transfers",
+      "title": "International Data Transfers",
+      "body": "<p>We are based in the People’s Republic of China. If you contact us from outside China, information you provide may be processed in China and in countries where our email or GitHub service providers operate. Where required by law, we take reasonable steps appropriate to the circumstances of such transfers.</p>\n"
     },
     {
       "id": "your-rights-and-choices",
       "title": "Your Rights and Choices",
-      "body": "<ul>\n<li>You can use the App without submitting any personal information.</li>\n<li>You can delete imported music and App data at any time from within the App.</li>\n<li>You may choose not to include your email when submitting feedback.</li>\n<li>Depending on your jurisdiction, you may have rights to access, correct, or delete personal information we hold from your feedback submissions. Contact us using the email below.</li>\n</ul>\n"
+      "body": "<p>Depending on your location, you may have the right to:</p>\n<ul>\n<li>Access, correct, or delete personal information we hold about you from voluntary correspondence.</li>\n<li>Restrict or object to certain processing.</li>\n<li>Request data portability where applicable.</li>\n<li>Lodge a complaint with a supervisory authority (see EEA and UK Residents below).</li>\n</ul>\n<p>To exercise these rights, email us at <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>. We may need to verify your request.</p>\n<p>You can use the App without contacting us or submitting personal information.</p>\n"
+    },
+    {
+      "id": "eea-and-uk-residents",
+      "title": "EEA and UK Residents",
+      "body": "<p>If you are in the EEA or UK, you have the rights described above and may lodge a complaint with your local data protection authority.</p>\n<p>We aim to respond to privacy requests within <strong>30 days</strong>, subject to applicable law.</p>\n<p>In some EEA countries, the age of digital consent may be up to <strong>16</strong>. If you are below the age required in your country to consent to online data processing, please use the App with a parent or guardian and do not contact us directly without their permission.</p>\n"
+    },
+    {
+      "id": "california-residents",
+      "title": "California Residents",
+      "body": "<p>We do <strong>not</strong> sell or share personal information for cross-context behavioral advertising.</p>\n<p>California residents may request information about categories of personal information we collect (if any) from voluntary correspondence, and may request deletion of such information, by emailing <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>.</p>\n<p>We will not discriminate against you for exercising privacy rights under California law.</p>\n"
     },
     {
       "id": "childrens-privacy",
       "title": "Children's Privacy",
-      "body": "<p>The App is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>\n"
+      "body": "<p>The App is rated <strong>4+</strong> on the App Store. We do not knowingly collect personal information from children through the App.</p>\n<p>Because core features run locally and no account is required, we do not intentionally collect personal information from anyone, including children, during normal on-device use.</p>\n<p><strong>Please do not allow children to contact us by email or GitHub Issues without a parent or guardian’s permission.</strong> If you believe a child has provided us personal information without appropriate consent, contact us and we will take reasonable steps to delete it.</p>\n<p>For U.S. users, we do not knowingly collect personal information from children under <strong>13</strong> consistent with the Children’s Online Privacy Protection Act (COPPA).</p>\n"
     },
     {
       "id": "changes-to-this-policy",
       "title": "Changes to This Policy",
-      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy.</p>\n"
+      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.</p>\n"
     },
     {
       "id": "contact-us",
       "title": "Contact Us",
-      "body": "<p>If you have questions about this Privacy Policy, contact us at:</p>\n<p><strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong></p>\n<p>(Please note: contacting us requires an internet connection on your device.)</p>\n"
+      "body": "<p>If you have questions about this Privacy Policy or wish to exercise your rights, contact us at:</p>\n<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n<p>(Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)</p>\n"
     }
   ]
 }
