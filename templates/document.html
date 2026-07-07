@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{locale}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}} — {{appDisplayName}}</title>
+  <meta name="description" content="{{title}} for {{appDisplayName}}">
+  <link rel="stylesheet" href="{{assetPrefix}}assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <h1>{{title}}</h1>
+      <p class="meta">
+        <span>{{appDisplayName}}</span>
+        <span>Version {{version}}</span>
+        <span>{{effectiveDateLabel}}: {{effectiveDate}}</span>
+      </p>
+    </header>
+
+    <main>
+      {{sectionsHtml}}
+    </main>
+
+    <footer class="site-footer">
+      <nav class="nav-links" aria-label="Related pages">
+        <a href="{{localePrefix}}/">{{homeLabel}}</a>
+        <a href="{{localePrefix}}privacy.html">{{privacyLabel}}</a>
+        <a href="{{localePrefix}}terms.html">{{termsLabel}}</a>
+        <a href="{{localePrefix}}support.html">{{supportLabel}}</a>
+      </nav>
+      <p>{{contactLabel}}: <a href="mailto:{{supportEmail}}">{{supportEmail}}</a></p>
+    </footer>
+  </div>
+</body>
+</html>

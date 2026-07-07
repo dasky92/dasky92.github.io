@@ -1,0 +1,75 @@
+{
+  "app": "verde",
+  "locale": "en",
+  "document": "terms",
+  "title": "Terms of Use",
+  "version": "1.0.0",
+  "effectiveDate": "2026-07-07",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance",
+      "body": "<p>Welcome to Verde Player (the “App”). By downloading, installing, or using the App, you agree to these Terms of Use (the “Terms”). If you do not agree, please do not use the App.</p>\n"
+    },
+    {
+      "id": "offline-first-music-player",
+      "title": "Offline-First Music Player",
+      "body": "<p>The App is designed as an offline-first music player. Core features — including playback, library management, liked songs, playback history, and search — operate entirely on your device without requiring an internet connection.</p>\n<p>You are solely responsible for the music files you import, store, and play within the App. We do not host, stream, or provide any music content.</p>\n"
+    },
+    {
+      "id": "limited-internet-usage",
+      "title": "Limited Internet Usage",
+      "body": "<p>The App does not collect, transmit, or share personal data unless you explicitly initiate a feedback or support request. In such cases:</p>\n<ul>\n<li>The App connects only to our designated support server.</li>\n<li>The connection is used solely to deliver your message and any optional attachments you voluntarily include.</li>\n<li>No automatic background data transfer, analytics, or tracking occurs at any other time.</li>\n</ul>\n<p>You can use the App completely offline; internet access is never required for normal operation.</p>\n"
+    },
+    {
+      "id": "license-and-restrictions",
+      "title": "License and Restrictions",
+      "body": "<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial purposes. You may not:</p>\n<ul>\n<li>Copy, modify, reverse engineer, decompile, or create derivative works of the App.</li>\n<li>Rent, lease, sublicense, or distribute the App to third parties.</li>\n<li>Use the App in any way that violates applicable laws or infringes upon the rights of others.</li>\n</ul>\n"
+    },
+    {
+      "id": "user-content",
+      "title": "User Content",
+      "body": "<p>All audio files and metadata you add to the App remain your exclusive property. We do not claim ownership over your content. You are responsible for ensuring that you have the legal right to store and play those files using the App.</p>\n"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "body": "<p>Because the App operates offline, no personal information is collected by us when you use the App locally. Aside from information you voluntarily include in a feedback or support request, we do not collect personal data. See our Privacy Policy for details.</p>\n"
+    },
+    {
+      "id": "updates-and-support",
+      "title": "Updates and Support",
+      "body": "<p>We may provide updates to improve performance, fix bugs, or add features. Updates may be delivered through the App Store.</p>\n<p>We welcome feedback but do not guarantee that we will address every request. Support is provided on a best-effort basis.</p>\n"
+    },
+    {
+      "id": "disclaimer-of-warranties",
+      "title": "Disclaimer of Warranties",
+      "body": "<p>THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE FROM HARMFUL COMPONENTS. YOU USE THE APP AT YOUR OWN RISK.</p>\n"
+    },
+    {
+      "id": "limitation-of-liability",
+      "title": "Limitation of Liability",
+      "body": "<p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP (IF ANY).</p>\n"
+    },
+    {
+      "id": "termination",
+      "title": "Termination",
+      "body": "<p>We reserve the right to terminate or suspend your access to the App at our sole discretion for conduct that violates these Terms or is harmful to other users or us. Upon termination, you must cease using the App and delete all copies from your devices.</p>\n"
+    },
+    {
+      "id": "changes-to-these-terms",
+      "title": "Changes to These Terms",
+      "body": "<p>We may update these Terms from time to time. The latest version will be published at this URL. Your continued use of the App after changes constitutes acceptance of the new Terms.</p>\n"
+    },
+    {
+      "id": "governing-law",
+      "title": "Governing Law",
+      "body": "<p>These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions. Any disputes shall be subject to the exclusive jurisdiction of the courts in the applicable region.</p>\n"
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us",
+      "body": "<p>If you have questions, suggestions, or bug reports, contact us at:</p>\n<p><strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong></p>\n<p>(Please note: contacting us requires an internet connection on your device.)</p>\n"
+    }
+  ]
+}

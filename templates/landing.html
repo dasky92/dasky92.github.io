@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{locale}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{appDisplayName}} — {{tagline}}</title>
+  <meta name="description" content="{{tagline}}">
+  <link rel="stylesheet" href="{{assetPrefix}}assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="hero-icon" aria-hidden="true">♪</div>
+      <h1>{{appDisplayName}}</h1>
+      <p class="tagline">{{tagline}}</p>
+    </header>
+
+    <main>
+      {{bodyHtml}}
+
+      <nav class="cta-links" aria-label="Learn more">
+        <a href="{{localePrefix}}privacy.html">{{privacyLabel}}</a>
+        <a href="{{localePrefix}}terms.html">{{termsLabel}}</a>
+        <a href="{{localePrefix}}support.html" class="primary">{{supportLabel}}</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>{{contactLabel}}: <a href="mailto:{{supportEmail}}">{{supportEmail}}</a></p>
+    </footer>
+  </div>
+</body>
+</html>

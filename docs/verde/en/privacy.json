@@ -1,0 +1,55 @@
+{
+  "app": "verde",
+  "locale": "en",
+  "document": "privacy",
+  "title": "Privacy Policy",
+  "version": "1.0.0",
+  "effectiveDate": "2026-07-07",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "<p>Verde Player (the “App”) is an offline-first music player. Playback, library management, liked songs, and playback history run entirely on your device. We do not host, stream, or provide music content.</p>\n<p>This Privacy Policy explains what information we process, when we process it, and your choices.</p>\n"
+    },
+    {
+      "id": "information-we-collect",
+      "title": "Information We Collect",
+      "body": "<p><strong>Local use (no account required).</strong> When you use the App offline, we do not collect or transmit personal information to our servers. Your music files, metadata, playback history, and preferences are stored on your device.</p>\n<p><strong>Feedback and support (optional).</strong> If you choose to submit feedback or contact support from within the App, we receive only what you voluntarily provide, such as your name, email address, message text, and optional screenshot attachments. This requires an internet connection initiated by you.</p>\n<p><strong>Wi-Fi Transfer.</strong> When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No data is sent to our servers during transfer.</p>\n"
+    },
+    {
+      "id": "how-we-use-information",
+      "title": "How We Use Information",
+      "body": "<ul>\n<li><strong>On-device data</strong> is used solely to provide App features (playback, library organization, search, liked songs, and history).</li>\n<li><strong>Feedback submissions</strong> are used only to respond to your request, improve the App, and provide customer support.</li>\n</ul>\n<p>We do not use your data for advertising, profiling, or sale to third parties.</p>\n"
+    },
+    {
+      "id": "data-storage-and-retention",
+      "title": "Data Storage and Retention",
+      "body": "<ul>\n<li>Music and library data remain on your device until you delete them or uninstall the App.</li>\n<li>Feedback data sent to our support server is retained only as long as needed to handle your request and improve the App, unless a longer period is required by law.</li>\n</ul>\n"
+    },
+    {
+      "id": "third-party-services",
+      "title": "Third-Party Services",
+      "body": "<ul>\n<li><strong>Apple App Store</strong> processes purchases and updates according to Apple’s privacy policy.</li>\n<li><strong>Our feedback server</strong> receives only data you explicitly submit through the feedback form.</li>\n</ul>\n<p>We do not integrate third-party analytics or advertising SDKs.</p>\n"
+    },
+    {
+      "id": "your-rights-and-choices",
+      "title": "Your Rights and Choices",
+      "body": "<ul>\n<li>You can use the App without submitting any personal information.</li>\n<li>You can delete imported music and App data at any time from within the App.</li>\n<li>You may choose not to include your email when submitting feedback.</li>\n<li>Depending on your jurisdiction, you may have rights to access, correct, or delete personal information we hold from your feedback submissions. Contact us using the email below.</li>\n</ul>\n"
+    },
+    {
+      "id": "childrens-privacy",
+      "title": "Children's Privacy",
+      "body": "<p>The App is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>\n"
+    },
+    {
+      "id": "changes-to-this-policy",
+      "title": "Changes to This Policy",
+      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy.</p>\n"
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us",
+      "body": "<p>If you have questions about this Privacy Policy, contact us at:</p>\n<p><strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong></p>\n<p>(Please note: contacting us requires an internet connection on your device.)</p>\n"
+    }
+  ]
+}

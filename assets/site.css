@@ -1,0 +1,269 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f5f5f7;
+  --card: #ffffff;
+  --text: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --accent: #2d8a4e;
+  --border: rgba(0, 0, 0, 0.08);
+  --max-width: 720px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --card: #1c1c1e;
+    --text: #f5f5f7;
+    --text-secondary: #98989d;
+    --border: rgba(255, 255, 255, 0.12);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.site-header {
+  margin-bottom: 32px;
+}
+
+.site-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.meta span + span::before {
+  content: " · ";
+}
+
+.doc-section {
+  margin-bottom: 28px;
+}
+
+.doc-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.doc-section p {
+  margin: 0 0 12px;
+}
+
+.doc-section ul,
+.doc-section ol {
+  margin: 0 0 12px;
+  padding-left: 1.25rem;
+}
+
+.doc-section li {
+  margin-bottom: 6px;
+}
+
+.site-footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.nav-links a {
+  font-weight: 500;
+}
+
+/* Landing / marketing */
+
+.hero {
+  text-align: center;
+  padding: 32px 0 24px;
+}
+
+.hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #3cb371, #2d8a4e);
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  letter-spacing: -0.03em;
+}
+
+.hero .tagline {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin: 0 0 24px;
+}
+
+.features {
+  display: grid;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.feature-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.feature-card p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.cta-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.cta-links a {
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.cta-links a:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+}
+
+.cta-links a.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Marketing landing sections (h2 blocks in main) */
+
+.hero + main h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 24px 0 8px;
+  padding: 20px 20px 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 16px 16px 0 0;
+}
+
+.hero + main h2:first-of-type {
+  margin-top: 0;
+}
+
+.hero + main h2 + p {
+  margin: 0 0 16px;
+  padding: 0 20px 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+/* Language picker */
+
+.lang-picker {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.lang-picker li {
+  margin-bottom: 12px;
+}
+
+.lang-picker a {
+  display: block;
+  padding: 16px 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.lang-picker a:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .site-footer .nav-links {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "verde",
+  "displayName": "Verde Player",
+  "tagline": {
+    "en": "Offline Music Player",
+    "zh-Hans": "离线音乐播放器"
+  },
+  "supportEmail": "1621829808@qq.com",
+  "locales": [
+  {
+    "id": "en",
+    "label": "English"
+  },
+  {
+    "id": "zh-Hans",
+    "label": "简体中文"
+  }
+  ],
+  "documents": {
+    "legal": ["privacy", "terms"],
+    "support": ["support"],
+    "marketing": ["marketing"]
+  }
+}

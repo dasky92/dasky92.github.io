@@ -1,0 +1,13 @@
+{
+  "name": "dasky92-github-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && npx serve docs"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}

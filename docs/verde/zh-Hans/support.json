@@ -1,0 +1,83 @@
+{
+  "app": "verde",
+  "locale": "zh-Hans",
+  "document": "support",
+  "title": "技术支持",
+  "version": "1.0.0",
+  "effectiveDate": "2026-07-07",
+  "sections": [
+    {
+      "id": "联系我们",
+      "title": "联系我们",
+      "body": "<p>如有问题、错误报告或建议，请发送邮件至 <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>。</p>\n<p>您也可以在应用内通过 <strong>设置 → 帮助与反馈</strong> 提交（在功能开启时）。</p>\n<p>请附上设备型号、iOS 版本和应用版本，以便我们更快回复。</p>\n"
+    },
+    {
+      "id": "导入音乐",
+      "title": "导入音乐",
+      "body": "<p>前往 <strong>设置 → 导入</strong>，从「文件」App 或 iCloud 云盘选择音频文件。</p>\n<p>支持的格式包括 MP3、FLAC、AAC、M4A、WAV、OGG、Opus、ALAC 和 AIFF。</p>\n"
+    },
+    {
+      "id": "wi-fi-传输",
+      "title": "Wi-Fi 传输",
+      "body": "<p>在设置中开启 <strong>Wi-Fi 传输</strong>，从同一局域网的电脑上传歌曲。</p>\n<p>上传时请保持应用停留在设置页面。离开设置后传输将自动停止。</p>\n"
+    },
+    {
+      "id": "从其他-app-共享",
+      "title": "从其他 App 共享",
+      "body": "<p>在「文件」、Safari 或其他 App 中点 <strong>共享</strong>，选择 Verde 即可将音频复制到曲库。</p>\n<p>也可通过共享菜单的 <strong>打开方式</strong> 用 Verde 打开音频文件。</p>\n"
+    },
+    {
+      "id": "喜欢的歌曲",
+      "title": "喜欢的歌曲",
+      "body": "<p>在播放器中点按心形图标，即可将歌曲保存到 <strong>喜欢</strong> 收藏。</p>\n"
+    },
+    {
+      "id": "播放与曲库",
+      "title": "播放与曲库",
+      "body": "<ul>\n<li>在「曲库」标签页按 <strong>歌曲</strong> 或 <strong>艺人</strong> 浏览。</li>\n<li>使用 <strong>搜索</strong> 查找艺人名与歌曲名。</li>\n<li>支持顺序播放、随机播放与单曲循环。</li>\n<li>播放时支持锁屏与控制中心的播放控制。</li>\n</ul>\n"
+    },
+    {
+      "id": "隐私与协议",
+      "title": "隐私与协议",
+      "body": "<ul>\n<li><a href=\"privacy.html\">隐私政策</a></li>\n<li><a href=\"terms.html\">用户协议</a></li>\n</ul>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "联系我们",
+      "title": "联系我们",
+      "body": "<p>如有问题、错误报告或建议，请发送邮件至 <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>。</p>\n<p>您也可以在应用内通过 <strong>设置 → 帮助与反馈</strong> 提交（在功能开启时）。</p>\n<p>请附上设备型号、iOS 版本和应用版本，以便我们更快回复。</p>\n"
+    },
+    {
+      "id": "导入音乐",
+      "title": "导入音乐",
+      "body": "<p>前往 <strong>设置 → 导入</strong>，从「文件」App 或 iCloud 云盘选择音频文件。</p>\n<p>支持的格式包括 MP3、FLAC、AAC、M4A、WAV、OGG、Opus、ALAC 和 AIFF。</p>\n"
+    },
+    {
+      "id": "wi-fi-传输",
+      "title": "Wi-Fi 传输",
+      "body": "<p>在设置中开启 <strong>Wi-Fi 传输</strong>，从同一局域网的电脑上传歌曲。</p>\n<p>上传时请保持应用停留在设置页面。离开设置后传输将自动停止。</p>\n"
+    },
+    {
+      "id": "从其他-app-共享",
+      "title": "从其他 App 共享",
+      "body": "<p>在「文件」、Safari 或其他 App 中点 <strong>共享</strong>，选择 Verde 即可将音频复制到曲库。</p>\n<p>也可通过共享菜单的 <strong>打开方式</strong> 用 Verde 打开音频文件。</p>\n"
+    },
+    {
+      "id": "喜欢的歌曲",
+      "title": "喜欢的歌曲",
+      "body": "<p>在播放器中点按心形图标，即可将歌曲保存到 <strong>喜欢</strong> 收藏。</p>\n"
+    },
+    {
+      "id": "播放与曲库",
+      "title": "播放与曲库",
+      "body": "<ul>\n<li>在「曲库」标签页按 <strong>歌曲</strong> 或 <strong>艺人</strong> 浏览。</li>\n<li>使用 <strong>搜索</strong> 查找艺人名与歌曲名。</li>\n<li>支持顺序播放、随机播放与单曲循环。</li>\n<li>播放时支持锁屏与控制中心的播放控制。</li>\n</ul>\n"
+    },
+    {
+      "id": "隐私与协议",
+      "title": "隐私与协议",
+      "body": "<ul>\n<li><a href=\"privacy.html\">隐私政策</a></li>\n<li><a href=\"terms.html\">用户协议</a></li>\n</ul>\n"
+    }
+  ]
+}
