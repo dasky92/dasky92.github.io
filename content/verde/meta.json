@@ -19,6 +19,6 @@
   "documents": {
     "legal": ["privacy", "terms"],
     "support": ["support"],
-    "marketing": ["marketing"]
+    "marketing": ["marketing.html"]
   }
 }

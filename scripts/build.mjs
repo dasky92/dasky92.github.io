@@ -13,7 +13,6 @@ const TEMPLATES_DIR = path.join(ROOT, "templates");
 const ASSETS_DIR = path.join(ROOT, "assets");
 
 const JSON_DOCUMENTS = new Set(["privacy", "terms", "support"]);
-const MARKETING_DOCUMENT = "marketing";
 
 const md = new MarkdownIt({
   html: false,
@@ -161,28 +160,6 @@ function buildDocumentHtml({
   });
 }
 
-function buildLandingHtml({ frontmatter, bodyHtml, locale, appMeta, labels }) {
-  const template = loadTemplate("landing.html");
-  const tagline =
-    typeof appMeta.tagline === "object"
-      ? appMeta.tagline[locale] ?? appMeta.tagline.en
-      : appMeta.tagline;
-
-  return renderTemplate(template, {
-    locale,
-    appDisplayName: appMeta.displayName,
-    tagline,
-    bodyHtml,
-    assetPrefix: assetPrefixFor(appMeta.slug, locale),
-    localePrefix: localePrefixFor(appMeta.slug, locale),
-    privacyLabel: labels.privacy,
-    termsLabel: labels.terms,
-    supportLabel: labels.support,
-    contactLabel: labels.contact,
-    supportEmail: appMeta.supportEmail,
-  });
-}
-
 function buildLangIndexHtml({ appMeta, labels }) {
   const template = loadTemplate("lang-index.html");
   const localeLinks = appMeta.locales
@@ -201,6 +178,12 @@ function buildLangIndexHtml({ appMeta, labels }) {
     localeLinks,
     assetPrefix,
   });
+}
+
+function processMarketingHtml(filePath, appMeta, localeId) {
+  const html = fs.readFileSync(filePath, "utf8");
+  const outDir = path.join(DOCS_DIR, appMeta.slug, localeId);
+  writeFileEnsuringDir(path.join(outDir, "index.html"), html);
 }
 
 function escapeHtml(text) {
@@ -253,20 +236,6 @@ function processMarkdownFile(filePath, appMeta) {
   const app = appMeta.slug;
   const outDir = path.join(DOCS_DIR, app, locale);
 
-  if (document === MARKETING_DOCUMENT) {
-    const marketingMd = new MarkdownIt({ html: true, linkify: true, typographer: true });
-    const bodyHtml = marketingMd.render(bodyWithoutH1);
-    const html = buildLandingHtml({
-      frontmatter,
-      bodyHtml,
-      locale,
-      appMeta,
-      labels,
-    });
-    writeFileEnsuringDir(path.join(outDir, "index.html"), html);
-    return;
-  }
-
   const html = buildDocumentHtml({
     meta: appMeta,
     frontmatter,
@@ -304,6 +273,11 @@ function buildApp(appSlug) {
     for (const file of mdFiles) {
       processMarkdownFile(path.join(localeDir, file), appMeta);
     }
+
+    const marketingHtml = path.join(localeDir, "marketing.html");
+    if (fs.existsSync(marketingHtml)) {
+      processMarketingHtml(marketingHtml, appMeta, locale.id);
+    }
   }
 
   const defaultLocale = appMeta.locales[0]?.id ?? "en";
@@ -326,6 +300,7 @@ function main() {
   }
 
   copyDir(ASSETS_DIR, path.join(DOCS_DIR, "assets"));
+  writeFileEnsuringDir(path.join(DOCS_DIR, ".nojekyll"), "");
 
   const apps = fs
     .readdirSync(CONTENT_DIR, { withFileTypes: true })

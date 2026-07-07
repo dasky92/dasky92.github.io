@@ -49,7 +49,9 @@ Base: `https://dasky92.github.io/verde`
 | `privacy.md` | yes | yes | App Store, users, in-app legal |
 | `terms.md` | yes | yes | Users, in-app legal consent |
 | `support.md` | yes | yes | App Store Support URL, in-app help |
-| `marketing.md` | yes (as `index.html`) | no | Humans / sharing / landing |
+| `marketing.html` | yes (as `index.html`) | no | Humans / sharing / landing |
+
+Marketing pages are **hand-authored HTML** in `content/{app}/{locale}/marketing.html` — not Markdown. Edit directly for full design control.
 
 ## Editing workflow
 
