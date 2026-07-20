@@ -2,10 +2,22 @@
   "slug": "verde",
   "displayName": "Verde Player",
   "tagline": {
-    "en": "Offline Music Player",
-    "zh-Hans": "离线音乐播放器"
+    "en": "Offline Music Player — FLAC, MP3 & More",
+    "zh-Hans": "离线音乐播放器 — 支持 FLAC、MP3 等"
+  },
+  "shortDescription": {
+    "en": "A silky-smooth offline music player for iPhone and iPad. One of the most fluid experiences closest to Apple Music's native app. Tiny install size under 10 MB. Import FLAC, MP3, AAC and more. No ads, no account, no tracking.",
+    "zh-Hans": "一款丝般顺滑的 iPhone / iPad 离线音乐播放器。最接近 Apple Music 原生 App 的丝滑体验之一。安装包仅不到 10 MB。支持 FLAC、MP3、AAC 等格式。无广告、无账号、无追踪。"
+  },
+  "keywords": {
+    "en": ["offline music player", "FLAC player iPhone iPad", "MP3 player", "music app no ads", "small music app", "local music player", "offline audio player", "iPhone iPad music player under 10MB"],
+    "zh-Hans": ["离线音乐播放器", "FLAC 播放器 iPhone iPad", "MP3 播放器", "无广告音乐 App", "小体积音乐 App", "本地音乐播放器", "iPhone iPad 音乐播放器", "10MB 以下音乐 App"]
   },
   "supportEmail": "1621829808@qq.com",
+  "appStoreId": "6780851078",
+  "price": "Paid",
+  "operatingSystem": "iOS",
+  "applicationCategory": "MusicApplication",
   "locales": [
   {
     "id": "en",

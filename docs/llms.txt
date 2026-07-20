@@ -1,0 +1,14 @@
+# dasky92.github.io
+> A collection of app marketing, support, and legal documents.
+
+# Verde Player
+> A silky-smooth offline music player for iPhone and iPad. One of the most fluid experiences closest to Apple Music's native app. Tiny install size under 10 MB. Import FLAC, MP3, AAC and more. No ads, no account, no tracking.
+- [English Landing](verde/en/): Marketing homepage
+- [English privacy](verde/en/privacy.html): privacy document
+- [English terms](verde/en/terms.html): terms document
+- [English support](verde/en/support.html): support document
+- [简体中文 Landing](verde/zh-Hans/): Marketing homepage
+- [简体中文 privacy](verde/zh-Hans/privacy.html): privacy document
+- [简体中文 terms](verde/zh-Hans/terms.html): terms document
+- [简体中文 support](verde/zh-Hans/support.html): support document
+

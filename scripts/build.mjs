@@ -311,6 +311,37 @@ function main() {
     buildApp(app);
   }
 
+  // --- AEO: llms.txt (https://llmstxt.org) ---
+  const llmEntries = [];
+  for (const app of apps) {
+    const appDir2 = path.join(CONTENT_DIR, app);
+    const metaPath2 = path.join(appDir2, "meta.json");
+    if (!fs.existsSync(metaPath2)) continue;
+    const meta2 = JSON.parse(fs.readFileSync(metaPath2, "utf8"));
+    const displayName = meta2.displayName ?? app;
+    const shortDescEn = meta2.shortDescription?.en ?? "";
+    llmEntries.push(`# ${displayName}`);
+    if (shortDescEn) llmEntries.push(`> ${shortDescEn}`);
+    for (const loc of (meta2.locales ?? [])) {
+      const base = `${meta2.slug}/${loc.id}`;
+      llmEntries.push(`- [${loc.label} Landing](${base}/): Marketing homepage`);
+      for (const docType of ["privacy", "terms", "support"]) {
+        llmEntries.push(`- [${loc.label} ${docType}](${base}/${docType}.html): ${docType} document`);
+      }
+    }
+    llmEntries.push("");
+  }
+  writeFileEnsuringDir(
+    path.join(DOCS_DIR, "llms.txt"),
+    `# dasky92.github.io\n> A collection of app marketing, support, and legal documents.\n\n${llmEntries.join("\n")}\n`,
+  );
+
+  // robots.txt
+  writeFileEnsuringDir(
+    path.join(DOCS_DIR, "robots.txt"),
+    "User-agent: *\nAllow: /\n\nSitemap: https://dasky92.github.io/sitemap.xml\n",
+  );
+
   console.log(`Done. Output: ${DOCS_DIR}`);
 }
 
