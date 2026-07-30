@@ -47,6 +47,7 @@
   </script>
 
   <link rel="stylesheet" href="../../assets/marketing.css">
+  <script>(function(){try{var t=localStorage.getItem('verde-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
 <body class="marketing">
   <div class="marketing-bg" aria-hidden="true"></div>
@@ -63,6 +64,7 @@
         <a href="./support.html">Support</a>
         <a href="../zh-Hans/">中文</a>
       </div>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle color theme" title="Toggle color theme"></button>
     </div>
   </nav>
 
@@ -271,5 +273,6 @@
     </div>
     <p class="marketing-footer-copy">© Verde Player</p>
   </footer>
+  <script>(function(){var btn=document.querySelector('[data-theme-toggle]');if(!btn)return;var mq=window.matchMedia('(prefers-color-scheme: dark)');var SUN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';var MOON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';function eff(){return document.documentElement.getAttribute('data-theme')||(mq.matches?'dark':'light');}function render(){var e=eff();btn.innerHTML=(e==='dark')?MOON:SUN;var to=e==='dark'?'light':'dark';btn.setAttribute('title','Switch to '+to+' theme');btn.setAttribute('aria-label','Switch to '+to+' theme');}btn.addEventListener('click',function(){var next=eff()==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('verde-theme',next);}catch(e){}render();});try{mq.addEventListener('change',render);}catch(e){mq.addListener(render);}render();})();</script>
 </body>
 </html>
