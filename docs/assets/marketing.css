@@ -138,6 +138,7 @@ body.marketing a:hover {
   display: grid;
   place-items: center;
   font-size: 1.1rem;
+  color: #fff;
   box-shadow: 0 4px 16px var(--accent-glow);
 }
 
