@@ -3,8 +3,8 @@ app: verde
 locale: zh-Hans
 document: privacy
 title: 隐私政策
-version: "1.1.0"
-effectiveDate: 2026-07-07
+version: "1.2.0"
+effectiveDate: 2026-07-27
 ---
 
 # 隐私政策
@@ -44,6 +44,8 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 
 **Wi-Fi 传输。** 当您开启 Wi-Fi 传输时，本应用使用本地网络接收同一局域网内电脑上传的音乐文件。传输过程中不会向我们的服务器发送曲库数据。
 
+**Scrobbling（可选，默认关闭）。** 若您在「设置」中开启 Scrobbling 并登录 Last.fm 或 ListenBrainz，本应用会将您所听曲目的艺术家、曲名、专辑与播放时间戳发送至所选服务。仅当 Scrobbling 处于开启且您已登录时才会发送。网络不可用时，scrobble 会暂存于您的设备并在之后发送。我们不会向这些服务共享其他数据（曲库内容、文件或标识符）。您可随时在「设置」中关闭 Scrobbling；各服务方的隐私实践请参见「第三方服务」。
+
 我们不集成第三方分析、广告或跟踪 SDK。
 
 ## 我们如何使用信息
@@ -73,6 +75,8 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 - **Apple App Store** 根据 [Apple 隐私政策](https://www.apple.com/legal/privacy/) 处理购买、更新及相关账户交互。
 - **GitHub Pages** 托管我们公开的法律文档。本应用可能下载这些文件；我们不会通过该下载获取您的个人数据。
 - 若您使用 GitHub Issues，**GitHub** 将根据 [GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) 处理您提交的信息。
+- **Last.fm**（CBS Interactive）。当您开启 Scrobbling 并登录 Last.fm 时，您的收听数据将发送至 Last.fm 服务器，用于个人收听统计与推荐。Last.fm 对该数据的使用受 [Last.fm 隐私政策](https://www.last.fm/legal/privacy) 约束。此功能为可选，可在「设置」中关闭。
+- **ListenBrainz**（MetaBrainz Foundation）。当您开启 Scrobbling 并登录 ListenBrainz 时，您的收听数据将发送至 ListenBrainz 服务并公开存储（您可将个人资料设为私有）。ListenBrainz 对该数据的使用受 [MetaBrainz 隐私政策](https://metabrainz.org/privacy) 约束。此功能为可选，可在「设置」中关闭。
 
 ## 国际数据传输
 
@@ -87,7 +91,7 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 - 在适用时要求数据可携带；
 - 向监管机构投诉（见「欧洲经济区与英国用户」）。
 
-如需行使上述权利，请发送邮件至 **1621829808@qq.com**。我们可能需要核实您的请求。
+如需行使上述权利，请发送邮件至 **[1621829808@qq.com](mailto:1621829808@qq.com)**。我们可能需要核实您的请求。
 
 您可以在不联系我们、不提交个人信息的情况下使用本应用。
 
@@ -103,7 +107,7 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 
 我们**不会**出售或共享个人信息用于跨情境行为广告。
 
-加州居民可发送邮件至 **1621829808@qq.com**，了解我们（如有）从自愿联系中收集的个人信息类别，并可要求删除相关信息。
+加州居民可发送邮件至 **[1621829808@qq.com](mailto:1621829808@qq.com)**，了解我们（如有）从自愿联系中收集的个人信息类别，并可要求删除相关信息。
 
 我们不会因您行使加州法律规定的隐私权利而歧视您。
 
@@ -121,12 +125,19 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 
 我们可能会不时更新本隐私政策。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受更新后的政策。
 
+### 版本历史
+
+| 版本 | 生效日期 | 主要变更 |
+| --- | --- | --- |
+| 1.2.0 | 2026-07-27 | 新增 Scrobbling（Last.fm / ListenBrainz）相关数据披露与第三方服务说明。 |
+| 1.1.0 | 2026-07-07 | 首次发布。 |
+
 ## 联系我们
 
 如对本隐私政策有疑问或希望行使您的权利，请联系：
 
-**电子邮箱：** 1621829808@qq.com
+**电子邮箱：** [1621829808@qq.com](mailto:1621829808@qq.com)
 
-**GitHub Issues：** https://github.com/dasky92/dasky92.github.io/issues
+**GitHub Issues：** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 （请注意：联系我们需要您的设备具备互联网连接。GitHub Issues 为公开可见。）

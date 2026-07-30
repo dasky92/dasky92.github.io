@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: terms
 title: Terms of Use
-version: "1.1.0"
-effectiveDate: 2026-07-07
+version: "1.2.0"
+effectiveDate: 2026-07-27
 ---
 
 # Terms of Use
@@ -28,8 +28,11 @@ The App or your device may connect to external services only in limited circumst
 - Downloading updates through the Apple App Store.
 - Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.
 - Communications **you** initiate by emailing us or posting on our GitHub Issues page.
+- Optional Scrobbling **that you explicitly enable**: after signing in to Last.fm or ListenBrainz in Settings, the App sends the artist, track, album, and playback timestamp of songs you listen to the selected service. This feature is off by default and can be turned off at any time.
 
 The App does not automatically upload your music library, playback history, or other personal data to our servers.
+
+Third-party services you connect (such as Last.fm or ListenBrainz) are governed by their own terms of service and privacy policies, which you should review and comply with; we are not responsible for the practices of those third-party services. For details on data handling related to Scrobbling, see our [Privacy Policy](privacy.html).
 
 ## License and Restrictions
 
@@ -99,12 +102,19 @@ These Terms, together with our Privacy Policy, constitute the entire agreement b
 
 We may update these Terms from time to time. The latest version will be published at this URL with an updated effective date and version number. Your continued use of the App after changes constitutes acceptance of the new Terms, except where applicable law requires otherwise.
 
+### Version History
+
+| Version | Effective Date | Summary of Changes |
+| --- | --- | --- |
+| 1.2.0 | 2026-07-27 | Added optional Scrobbling (Last.fm / ListenBrainz) and third-party services terms. |
+| 1.1.0 | 2026-07-07 | Initial publication. |
+
 ## Contact Us
 
 If you have questions, suggestions, or bug reports, contact us at:
 
-**Email:** 1621829808@qq.com
+**Email:** [1621829808@qq.com](mailto:1621829808@qq.com)
 
-**GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
+**GitHub Issues:** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 (Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)

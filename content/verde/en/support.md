@@ -13,8 +13,8 @@ effectiveDate: 2026-07-07
 
 For questions, bug reports, or suggestions:
 
-- **Email:** 1621829808@qq.com
-- **GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
+- **Email:** [1621829808@qq.com](mailto:1621829808@qq.com)
+- **GitHub Issues:** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 In-app feedback is not currently available. Please use the channels above.
 

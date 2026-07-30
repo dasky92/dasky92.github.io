@@ -3,8 +3,8 @@ app: verde
 locale: zh-Hans
 document: terms
 title: 用户协议
-version: "1.1.0"
-effectiveDate: 2026-07-07
+version: "1.2.0"
+effectiveDate: 2026-07-27
 ---
 
 # 用户协议
@@ -27,9 +27,12 @@ effectiveDate: 2026-07-07
 
 - 通过 Apple App Store 下载更新；
 - 从 GitHub Pages 获取公开发布的法律文档（如本协议）；
-- **由您主动发起**的邮件联系或 GitHub Issues 发帖。
+- **由您主动发起**的邮件联系或 GitHub Issues 发帖；
+- **由您主动开启**的可选 Scrobbling：在「设置」中登录 Last.fm 或 ListenBrainz 后，将您所听曲目的艺术家、曲名、专辑与播放时间戳发送至所选服务。该功能默认关闭，可随时关闭。
 
 本应用不会自动将您的曲库、播放历史或其他个人数据上传至我们的服务器。
+
+您接入的第三方服务（如 Last.fm、ListenBrainz）受其各自的服务条款与隐私政策约束，您应自行查阅并遵守；我们不对这些第三方服务的行为承担责任。Scrobbling 相关的数据处理详见[隐私政策](privacy.html)。
 
 ## 许可与限制
 
@@ -99,12 +102,19 @@ effectiveDate: 2026-07-07
 
 我们可能会不时更新本协议。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受新协议。
 
+### 版本历史
+
+| 版本 | 生效日期 | 主要变更 |
+| --- | --- | --- |
+| 1.2.0 | 2026-07-27 | 新增可选 Scrobbling（Last.fm / ListenBrainz）及第三方服务条款说明。 |
+| 1.1.0 | 2026-07-07 | 首次发布。 |
+
 ## 联系我们
 
 如有任何问题、建议或错误报告，请联系：
 
-**电子邮箱：** 1621829808@qq.com
+**电子邮箱：** [1621829808@qq.com](mailto:1621829808@qq.com)
 
-**GitHub Issues：** https://github.com/dasky92/dasky92.github.io/issues
+**GitHub Issues：** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 （请注意：联系我们需要您的设备具备互联网连接。GitHub Issues 为公开可见。）

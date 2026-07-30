@@ -3,8 +3,8 @@
   "locale": "zh-Hans",
   "document": "privacy",
   "title": "隐私政策",
-  "version": "1.1.0",
-  "effectiveDate": "2026-07-07",
+  "version": "1.2.0",
+  "effectiveDate": "2026-07-27",
   "sections": [
     {
       "id": "概述",
@@ -24,7 +24,7 @@
     {
       "id": "我们收集的信息",
       "title": "我们收集的信息",
-      "body": "<p>我们尽可能减少数据收集。根据您如何使用本应用，可能适用以下情形：</p>\n<p><strong>1. 本地使用（无需账号）。</strong> 当您离线使用本应用时，我们不会向服务器收集或传输个人信息。您的音乐文件、元数据、播放历史、喜欢歌曲与偏好设置均保存在您的设备上。</p>\n<p><strong>2. 由本应用发起的技术性网络连接。</strong> 在有限情形下，本应用可能在您未主动输入个人信息的情况下连接互联网，例如：</p>\n<ul>\n<li>通过 Apple App Store 检查或下载应用更新；</li>\n<li>从 GitHub Pages 获取公开发布的法律文档（如本政策）。</li>\n</ul>\n<p>上述请求属于技术性请求。我们不会借此建立您的用户画像，也不会通过这些请求获取您的姓名、电子邮箱或曲库内容。</p>\n<p><strong>3. 您主动联系时自愿提供的信息。</strong> 若您选择发送邮件或打开 GitHub Issue，我们仅会收到您主动提供的内容（例如电子邮箱、消息文本、您选择附上的设备信息或截图）。GitHub Issues 为<strong>公开</strong>页面，请勿发布敏感个人信息。</p>\n<p><strong>Wi-Fi 传输。</strong> 当您开启 Wi-Fi 传输时，本应用使用本地网络接收同一局域网内电脑上传的音乐文件。传输过程中不会向我们的服务器发送曲库数据。</p>\n<p>我们不集成第三方分析、广告或跟踪 SDK。</p>\n"
+      "body": "<p>我们尽可能减少数据收集。根据您如何使用本应用，可能适用以下情形：</p>\n<p><strong>1. 本地使用（无需账号）。</strong> 当您离线使用本应用时，我们不会向服务器收集或传输个人信息。您的音乐文件、元数据、播放历史、喜欢歌曲与偏好设置均保存在您的设备上。</p>\n<p><strong>2. 由本应用发起的技术性网络连接。</strong> 在有限情形下，本应用可能在您未主动输入个人信息的情况下连接互联网，例如：</p>\n<ul>\n<li>通过 Apple App Store 检查或下载应用更新；</li>\n<li>从 GitHub Pages 获取公开发布的法律文档（如本政策）。</li>\n</ul>\n<p>上述请求属于技术性请求。我们不会借此建立您的用户画像，也不会通过这些请求获取您的姓名、电子邮箱或曲库内容。</p>\n<p><strong>3. 您主动联系时自愿提供的信息。</strong> 若您选择发送邮件或打开 GitHub Issue，我们仅会收到您主动提供的内容（例如电子邮箱、消息文本、您选择附上的设备信息或截图）。GitHub Issues 为<strong>公开</strong>页面，请勿发布敏感个人信息。</p>\n<p><strong>Wi-Fi 传输。</strong> 当您开启 Wi-Fi 传输时，本应用使用本地网络接收同一局域网内电脑上传的音乐文件。传输过程中不会向我们的服务器发送曲库数据。</p>\n<p><strong>Scrobbling（可选，默认关闭）。</strong> 若您在「设置」中开启 Scrobbling 并登录 Last.fm 或 ListenBrainz，本应用会将您所听曲目的艺术家、曲名、专辑与播放时间戳发送至所选服务。仅当 Scrobbling 处于开启且您已登录时才会发送。网络不可用时，scrobble 会暂存于您的设备并在之后发送。我们不会向这些服务共享其他数据（曲库内容、文件或标识符）。您可随时在「设置」中关闭 Scrobbling；各服务方的隐私实践请参见「第三方服务」。</p>\n<p>我们不集成第三方分析、广告或跟踪 SDK。</p>\n"
     },
     {
       "id": "我们如何使用信息",
@@ -44,7 +44,7 @@
     {
       "id": "第三方服务",
       "title": "第三方服务",
-      "body": "<ul>\n<li><strong>Apple App Store</strong> 根据 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a> 处理购买、更新及相关账户交互。</li>\n<li><strong>GitHub Pages</strong> 托管我们公开的法律文档。本应用可能下载这些文件；我们不会通过该下载获取您的个人数据。</li>\n<li>若您使用 GitHub Issues，<strong>GitHub</strong> 将根据 <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\">GitHub 隐私声明</a> 处理您提交的信息。</li>\n</ul>\n"
+      "body": "<ul>\n<li><strong>Apple App Store</strong> 根据 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a> 处理购买、更新及相关账户交互。</li>\n<li><strong>GitHub Pages</strong> 托管我们公开的法律文档。本应用可能下载这些文件；我们不会通过该下载获取您的个人数据。</li>\n<li>若您使用 GitHub Issues，<strong>GitHub</strong> 将根据 <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\">GitHub 隐私声明</a> 处理您提交的信息。</li>\n<li><strong>Last.fm</strong>（CBS Interactive）。当您开启 Scrobbling 并登录 Last.fm 时，您的收听数据将发送至 Last.fm 服务器，用于个人收听统计与推荐。Last.fm 对该数据的使用受 <a href=\"https://www.last.fm/legal/privacy\">Last.fm 隐私政策</a> 约束。此功能为可选，可在「设置」中关闭。</li>\n<li><strong>ListenBrainz</strong>（MetaBrainz Foundation）。当您开启 Scrobbling 并登录 ListenBrainz 时，您的收听数据将发送至 ListenBrainz 服务并公开存储（您可将个人资料设为私有）。ListenBrainz 对该数据的使用受 <a href=\"https://metabrainz.org/privacy\">MetaBrainz 隐私政策</a> 约束。此功能为可选，可在「设置」中关闭。</li>\n</ul>\n"
     },
     {
       "id": "国际数据传输",
@@ -74,7 +74,7 @@
     {
       "id": "本政策的变更",
       "title": "本政策的变更",
-      "body": "<p>我们可能会不时更新本隐私政策。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受更新后的政策。</p>\n"
+      "body": "<p>我们可能会不时更新本隐私政策。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受更新后的政策。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>主要变更</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.2.0</td>\n<td>2026-07-27</td>\n<td>新增 Scrobbling（Last.fm / ListenBrainz）相关数据披露与第三方服务说明。</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>首次发布。</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "联系我们",

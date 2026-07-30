@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: privacy
 title: Privacy Policy
-version: "1.1.0"
-effectiveDate: 2026-07-07
+version: "1.2.0"
+effectiveDate: 2026-07-27
 ---
 
 # Privacy Policy
@@ -44,6 +44,8 @@ These requests are technical in nature. We do not use them to build a profile of
 
 **Wi-Fi Transfer.** When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No music library data is sent to our servers during transfer.
 
+**Scrobbling (optional, off by default).** If you turn on Scrobbling in Settings and sign in to Last.fm or ListenBrainz, the App sends the artist, track, album, and playback timestamp of songs you listen to the selected service. This happens only while Scrobbling is enabled and you are authenticated. When the network is unavailable, scrobbles are stored on your device and sent later. No other data (library contents, files, or identifiers) is shared with these services. You can turn Scrobbling off at any time; see Third-Party Services for the providers' privacy practices.
+
 We do not integrate third-party analytics, advertising, or tracking SDKs.
 
 ## How We Use Information
@@ -73,6 +75,8 @@ You may withdraw consent where processing is based on consent, without affecting
 - **Apple App Store** processes purchases, updates, and related account interactions according to [Apple's privacy policy](https://www.apple.com/legal/privacy/).
 - **GitHub Pages** hosts our public legal documents. The App may download these files; we do not receive personal data from you through that download.
 - **GitHub** processes information you submit if you use GitHub Issues, according to the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+- **Last.fm** (CBS Interactive). When you enable Scrobbling and sign in to Last.fm, your listening data is sent to Last.fm's servers for personal listening stats and recommendations. Last.fm's use of that data is governed by [Last.fm's Privacy Policy](https://www.last.fm/legal/privacy). This is opt-in and can be disabled in Settings.
+- **ListenBrainz** (MetaBrainz Foundation). When you enable Scrobbling and sign in to ListenBrainz, your listening data is sent to the ListenBrainz service, which stores it openly (you may set your profile to private). ListenBrainz's use of that data is governed by the [MetaBrainz Privacy Policy](https://metabrainz.org/privacy). This is opt-in and can be disabled in Settings.
 
 ## International Data Transfers
 
@@ -87,7 +91,7 @@ Depending on your location, you may have the right to:
 - Request data portability where applicable.
 - Lodge a complaint with a supervisory authority (see EEA and UK Residents below).
 
-To exercise these rights, email us at **1621829808@qq.com**. We may need to verify your request.
+To exercise these rights, email us at **[1621829808@qq.com](mailto:1621829808@qq.com)**. We may need to verify your request.
 
 You can use the App without contacting us or submitting personal information.
 
@@ -103,7 +107,7 @@ In some EEA countries, the age of digital consent may be up to **16**. If you ar
 
 We do **not** sell or share personal information for cross-context behavioral advertising.
 
-California residents may request information about categories of personal information we collect (if any) from voluntary correspondence, and may request deletion of such information, by emailing **1621829808@qq.com**.
+California residents may request information about categories of personal information we collect (if any) from voluntary correspondence, and may request deletion of such information, by emailing **[1621829808@qq.com](mailto:1621829808@qq.com)**.
 
 We will not discriminate against you for exercising privacy rights under California law.
 
@@ -121,12 +125,19 @@ For U.S. users, we do not knowingly collect personal information from children u
 
 We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.
 
+### Version History
+
+| Version | Effective Date | Summary of Changes |
+| --- | --- | --- |
+| 1.2.0 | 2026-07-27 | Added Scrobbling (Last.fm / ListenBrainz) data disclosure and third-party service details. |
+| 1.1.0 | 2026-07-07 | Initial publication. |
+
 ## Contact Us
 
 If you have questions about this Privacy Policy or wish to exercise your rights, contact us at:
 
-**Email:** 1621829808@qq.com
+**Email:** [1621829808@qq.com](mailto:1621829808@qq.com)
 
-**GitHub Issues:** https://github.com/dasky92/dasky92.github.io/issues
+**GitHub Issues:** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 (Please note: contacting us requires an internet connection on your device. GitHub Issues are publicly visible.)

@@ -3,8 +3,8 @@
   "locale": "en",
   "document": "terms",
   "title": "Terms of Use",
-  "version": "1.1.0",
-  "effectiveDate": "2026-07-07",
+  "version": "1.2.0",
+  "effectiveDate": "2026-07-27",
   "sections": [
     {
       "id": "acceptance",
@@ -19,7 +19,7 @@
     {
       "id": "internet-and-external-services",
       "title": "Internet and External Services",
-      "body": "<p>You can use the App completely offline for normal operation. Internet access is never required for core playback or library features.</p>\n<p>The App or your device may connect to external services only in limited circumstances, such as:</p>\n<ul>\n<li>Downloading updates through the Apple App Store.</li>\n<li>Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.</li>\n<li>Communications <strong>you</strong> initiate by emailing us or posting on our GitHub Issues page.</li>\n</ul>\n<p>The App does not automatically upload your music library, playback history, or other personal data to our servers.</p>\n"
+      "body": "<p>You can use the App completely offline for normal operation. Internet access is never required for core playback or library features.</p>\n<p>The App or your device may connect to external services only in limited circumstances, such as:</p>\n<ul>\n<li>Downloading updates through the Apple App Store.</li>\n<li>Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.</li>\n<li>Communications <strong>you</strong> initiate by emailing us or posting on our GitHub Issues page.</li>\n<li>Optional Scrobbling <strong>that you explicitly enable</strong>: after signing in to Last.fm or ListenBrainz in Settings, the App sends the artist, track, album, and playback timestamp of songs you listen to the selected service. This feature is off by default and can be turned off at any time.</li>\n</ul>\n<p>The App does not automatically upload your music library, playback history, or other personal data to our servers.</p>\n<p>Third-party services you connect (such as Last.fm or ListenBrainz) are governed by their own terms of service and privacy policies, which you should review and comply with; we are not responsible for the practices of those third-party services. For details on data handling related to Scrobbling, see our <a href=\"privacy.html\">Privacy Policy</a>.</p>\n"
     },
     {
       "id": "license-and-restrictions",
@@ -84,7 +84,7 @@
     {
       "id": "changes-to-these-terms",
       "title": "Changes to These Terms",
-      "body": "<p>We may update these Terms from time to time. The latest version will be published at this URL with an updated effective date and version number. Your continued use of the App after changes constitutes acceptance of the new Terms, except where applicable law requires otherwise.</p>\n"
+      "body": "<p>We may update these Terms from time to time. The latest version will be published at this URL with an updated effective date and version number. Your continued use of the App after changes constitutes acceptance of the new Terms, except where applicable law requires otherwise.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.2.0</td>\n<td>2026-07-27</td>\n<td>Added optional Scrobbling (Last.fm / ListenBrainz) and third-party services terms.</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>Initial publication.</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "contact-us",

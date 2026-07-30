@@ -16,7 +16,10 @@ const JSON_DOCUMENTS = new Set(["privacy", "terms", "support"]);
 
 const md = new MarkdownIt({
   html: false,
-  linkify: true,
+  // linkify is disabled so domain-like prose tokens (e.g. "Last.fm") are not
+  // auto-wrapped in <a href="http://Last.fm">. All outbound links are authored
+  // explicitly as [text](url) in the markdown sources.
+  linkify: false,
   typographer: true,
 });
 

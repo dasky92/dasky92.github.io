@@ -13,8 +13,8 @@ effectiveDate: 2026-07-07
 
 如有问题、错误报告或建议，请通过以下方式联系：
 
-- **电子邮箱：** 1621829808@qq.com
-- **GitHub Issues：** https://github.com/dasky92/dasky92.github.io/issues
+- **电子邮箱：** [1621829808@qq.com](mailto:1621829808@qq.com)
+- **GitHub Issues：** [https://github.com/dasky92/dasky92.github.io/issues](https://github.com/dasky92/dasky92.github.io/issues)
 
 应用内反馈入口暂未开放，请使用以上渠道。
 
