@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: terms
 title: Terms of Use
-version: "1.2.0"
-effectiveDate: 2026-07-27
+version: "1.4.0"
+effectiveDate: 2026-08-03
 ---
 
 # Terms of Use
@@ -106,6 +106,7 @@ We may update these Terms from time to time. The latest version will be publishe
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.4.0 | 2026-08-03 | Document version updated to 1.4.0. |
 | 1.2.0 | 2026-07-27 | Added optional Scrobbling (Last.fm / ListenBrainz) and third-party services terms. |
 | 1.1.0 | 2026-07-07 | Initial publication. |
 

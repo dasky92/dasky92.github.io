@@ -3,8 +3,8 @@ app: verde
 locale: zh-Hans
 document: privacy
 title: 隐私政策
-version: "1.2.0"
-effectiveDate: 2026-07-27
+version: "1.4.0"
+effectiveDate: 2026-08-03
 ---
 
 # 隐私政策
@@ -129,6 +129,7 @@ Verde Player（以下简称「本应用」）是一款离线优先的音乐播�
 
 | 版本 | 生效日期 | 主要变更 |
 | --- | --- | --- |
+| 1.4.0 | 2026-08-03 | 文档版本更新至 1.4.0。 |
 | 1.2.0 | 2026-07-27 | 新增 Scrobbling（Last.fm / ListenBrainz）相关数据披露与第三方服务说明。 |
 | 1.1.0 | 2026-07-07 | 首次发布。 |
 

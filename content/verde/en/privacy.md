@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: privacy
 title: Privacy Policy
-version: "1.2.0"
-effectiveDate: 2026-07-27
+version: "1.4.0"
+effectiveDate: 2026-08-03
 ---
 
 # Privacy Policy
@@ -129,6 +129,7 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.4.0 | 2026-08-03 | Document version updated to 1.4.0. |
 | 1.2.0 | 2026-07-27 | Added Scrobbling (Last.fm / ListenBrainz) data disclosure and third-party service details. |
 | 1.1.0 | 2026-07-07 | Initial publication. |
 

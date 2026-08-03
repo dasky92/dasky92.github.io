@@ -3,8 +3,8 @@ app: verde
 locale: zh-Hans
 document: terms
 title: 用户协议
-version: "1.2.0"
-effectiveDate: 2026-07-27
+version: "1.4.0"
+effectiveDate: 2026-08-03
 ---
 
 # 用户协议
@@ -106,6 +106,7 @@ effectiveDate: 2026-07-27
 
 | 版本 | 生效日期 | 主要变更 |
 | --- | --- | --- |
+| 1.4.0 | 2026-08-03 | 文档版本更新至 1.4.0。 |
 | 1.2.0 | 2026-07-27 | 新增可选 Scrobbling（Last.fm / ListenBrainz）及第三方服务条款说明。 |
 | 1.1.0 | 2026-07-07 | 首次发布。 |
 

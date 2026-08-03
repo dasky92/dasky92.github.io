@@ -3,8 +3,8 @@
   "locale": "en",
   "document": "privacy",
   "title": "Privacy Policy",
-  "version": "1.2.0",
-  "effectiveDate": "2026-07-27",
+  "version": "1.4.0",
+  "effectiveDate": "2026-08-03",
   "sections": [
     {
       "id": "overview",
@@ -74,7 +74,7 @@
     {
       "id": "changes-to-this-policy",
       "title": "Changes to This Policy",
-      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.2.0</td>\n<td>2026-07-27</td>\n<td>Added Scrobbling (Last.fm / ListenBrainz) data disclosure and third-party service details.</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>Initial publication.</td>\n</tr>\n</tbody>\n</table>\n"
+      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.4.0</td>\n<td>2026-08-03</td>\n<td>Document version updated to 1.4.0.</td>\n</tr>\n<tr>\n<td>1.2.0</td>\n<td>2026-07-27</td>\n<td>Added Scrobbling (Last.fm / ListenBrainz) data disclosure and third-party service details.</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>Initial publication.</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "contact-us",
