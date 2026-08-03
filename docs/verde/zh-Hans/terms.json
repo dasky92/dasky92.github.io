@@ -84,7 +84,7 @@
     {
       "id": "本协议的变更",
       "title": "本协议的变更",
-      "body": "<p>我们可能会不时更新本协议。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受新协议。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>主要变更</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.4.0</td>\n<td>2026-08-03</td>\n<td>文档版本更新至 1.4.0。</td>\n</tr>\n<tr>\n<td>1.2.0</td>\n<td>2026-07-27</td>\n<td>新增可选 Scrobbling（Last.fm / ListenBrainz）及第三方服务条款说明。</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>首次发布。</td>\n</tr>\n</tbody>\n</table>\n"
+      "body": "<p>我们可能会不时更新本协议。最新版本将发布于本 URL，并更新生效日期与版本号。除适用法律另有规定外，您在变更后继续使用本应用，即表示接受新协议。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>主要变更</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.4.0</td>\n<td>2026-08-03</td>\n<td>新增可选 Scrobbling（Last.fm / ListenBrainz）及第三方服务条款说明。</td>\n</tr>\n<tr>\n<td>1.1.0</td>\n<td>2026-07-07</td>\n<td>首次发布。</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "联系我们",
