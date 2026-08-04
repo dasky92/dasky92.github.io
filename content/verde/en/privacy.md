@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: privacy
 title: Privacy Policy
-version: "1.4.0"
-effectiveDate: 2026-08-03
+version: "1.5.0"
+effectiveDate: 2026-08-04
 ---
 
 # Privacy Policy
@@ -43,6 +43,8 @@ These requests are technical in nature. We do not use them to build a profile of
 **3. Information you voluntarily provide when contacting us.** If you choose to email us or open a GitHub Issue, we receive only what you choose to include (for example, your email address, message text, device details you choose to share, or screenshots). GitHub Issues are **public**; do not post sensitive personal information there.
 
 **Wi-Fi Transfer.** When you enable Wi-Fi Transfer, the App uses your local network to receive music files from a computer on the same network. No music library data is sent to our servers during transfer.
+
+**WebDAV import (optional).** If you add a WebDAV server in Sources, the App connects to **the server you configure** (for example a home NAS or a provider that offers WebDAV) to browse and download audio into your local library. Server address, username, and password are stored on your device (credentials in the Keychain). Downloaded files stay on your device and are not uploaded to our servers. We do not operate the WebDAV server and do not receive your server credentials or library contents through this feature. LAN HTTP access, when used, requires your explicit consent in the App.
 
 **Scrobbling (optional, off by default).** If you turn on Scrobbling in Settings and sign in to Last.fm or ListenBrainz, the App sends the artist, track, album, and playback timestamp of songs you listen to the selected service. This happens only while Scrobbling is enabled and you are authenticated. When the network is unavailable, scrobbles are stored on your device and sent later. No other data (library contents, files, or identifiers) is shared with these services. You can turn Scrobbling off at any time; see Third-Party Services for the providers' privacy practices.
 
@@ -129,6 +131,7 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.5.0 | 2026-08-04 | Added WebDAV import disclosure (user-configured servers; credentials stay on device). |
 | 1.4.0 | 2026-08-03 | Added Scrobbling (Last.fm / ListenBrainz) data disclosure and third-party service details. |
 | 1.1.0 | 2026-07-07 | Initial publication. |
 

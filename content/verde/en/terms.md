@@ -3,8 +3,8 @@ app: verde
 locale: en
 document: terms
 title: Terms of Use
-version: "1.4.0"
-effectiveDate: 2026-08-03
+version: "1.5.0"
+effectiveDate: 2026-08-04
 ---
 
 # Terms of Use
@@ -29,10 +29,11 @@ The App or your device may connect to external services only in limited circumst
 - Fetching publicly hosted legal documents (such as these Terms) from GitHub Pages.
 - Communications **you** initiate by emailing us or posting on our GitHub Issues page.
 - Optional Scrobbling **that you explicitly enable**: after signing in to Last.fm or ListenBrainz in Settings, the App sends the artist, track, album, and playback timestamp of songs you listen to the selected service. This feature is off by default and can be turned off at any time.
+- Optional WebDAV import **that you configure**: when you add a WebDAV server in Sources, the App connects to that server to browse and download audio into your local library. Credentials and downloaded files remain on your device. We do not operate your WebDAV server.
 
 The App does not automatically upload your music library, playback history, or other personal data to our servers.
 
-Third-party services you connect (such as Last.fm or ListenBrainz) are governed by their own terms of service and privacy policies, which you should review and comply with; we are not responsible for the practices of those third-party services. For details on data handling related to Scrobbling, see our [Privacy Policy](privacy.html).
+Third-party services you connect (such as Last.fm, ListenBrainz, or a WebDAV host you choose) are governed by their own terms of service and privacy policies, which you should review and comply with; we are not responsible for the practices of those third-party services. For details on data handling related to Scrobbling and WebDAV, see our [Privacy Policy](privacy.html).
 
 ## License and Restrictions
 
@@ -106,6 +107,7 @@ We may update these Terms from time to time. The latest version will be publishe
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.5.0 | 2026-08-04 | Added optional WebDAV import terms for user-configured servers. |
 | 1.4.0 | 2026-08-03 | Added optional Scrobbling (Last.fm / ListenBrainz) and third-party services terms. |
 | 1.1.0 | 2026-07-07 | Initial publication. |
 

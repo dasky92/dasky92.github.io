@@ -3,8 +3,8 @@ app: verde
 locale: zh-Hans
 document: terms
 title: 用户协议
-version: "1.4.0"
-effectiveDate: 2026-08-03
+version: "1.5.0"
+effectiveDate: 2026-08-04
 ---
 
 # 用户协议
@@ -29,10 +29,11 @@ effectiveDate: 2026-08-03
 - 从 GitHub Pages 获取公开发布的法律文档（如本协议）；
 - **由您主动发起**的邮件联系或 GitHub Issues 发帖；
 - **由您主动开启**的可选 Scrobbling：在「设置」中登录 Last.fm 或 ListenBrainz 后，将您所听曲目的艺术家、曲名、专辑与播放时间戳发送至所选服务。该功能默认关闭，可随时关闭。
+- **由您自行配置**的可选 WebDAV 导入：在「来源」中添加 WebDAV 服务器后，本应用连接该服务器以浏览并下载音频至本地曲库。凭证与下载文件保留在本机。我们不运营您的 WebDAV 服务器。
 
 本应用不会自动将您的曲库、播放历史或其他个人数据上传至我们的服务器。
 
-您接入的第三方服务（如 Last.fm、ListenBrainz）受其各自的服务条款与隐私政策约束，您应自行查阅并遵守；我们不对这些第三方服务的行为承担责任。Scrobbling 相关的数据处理详见[隐私政策](privacy.html)。
+您接入的第三方服务（如 Last.fm、ListenBrainz，或您选择的 WebDAV 主机）受其各自的服务条款与隐私政策约束，您应自行查阅并遵守；我们不对这些第三方服务的行为承担责任。Scrobbling 与 WebDAV 相关的数据处理详见[隐私政策](privacy.html)。
 
 ## 许可与限制
 
@@ -106,6 +107,7 @@ effectiveDate: 2026-08-03
 
 | 版本 | 生效日期 | 主要变更 |
 | --- | --- | --- |
+| 1.5.0 | 2026-08-04 | 新增可选 WebDAV 导入相关条款（用户自配服务器）。 |
 | 1.4.0 | 2026-08-03 | 新增可选 Scrobbling（Last.fm / ListenBrainz）及第三方服务条款说明。 |
 | 1.1.0 | 2026-07-07 | 首次发布。 |
 
