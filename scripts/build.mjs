@@ -13,6 +13,8 @@ const TEMPLATES_DIR = path.join(ROOT, "templates");
 const ASSETS_DIR = path.join(ROOT, "assets");
 
 const JSON_DOCUMENTS = new Set(["privacy", "terms", "support"]);
+const BASE_URL = "https://dasky92.github.io";
+const SITEMAP_DOCS = ["privacy", "terms", "support"];
 
 const md = new MarkdownIt({
   html: false,
@@ -297,6 +299,85 @@ function buildApp(appSlug) {
   console.log(`Built app: ${appSlug}`);
 }
 
+function isoDate(value) {
+  return new Date(value).toISOString().slice(0, 10);
+}
+
+function buildSitemap(apps) {
+  const groups = [];
+
+  for (const app of apps) {
+    const appDir = path.join(CONTENT_DIR, app);
+    const metaPath = path.join(appDir, "meta.json");
+    if (!fs.existsSync(metaPath)) continue;
+    const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
+
+    groups.push({
+      loc: `${BASE_URL}/${meta.slug}/`,
+      lastmod: isoDate(fs.statSync(metaPath).mtime),
+      priority: "0.8",
+      locales: [],
+    });
+
+    const pageKeys = ["index", ...SITEMAP_DOCS];
+    for (const key of pageKeys) {
+      const variants = [];
+      for (const loc of (meta.locales ?? [])) {
+        const localeDir = path.join(appDir, loc.id);
+        const suffix = key === "index" ? "" : `${key}.html`;
+        const url = `${BASE_URL}/${meta.slug}/${loc.id}/${suffix}`;
+        const src =
+          key === "index"
+            ? path.join(localeDir, "marketing.html")
+            : path.join(localeDir, `${key}.md`);
+        if (fs.existsSync(src)) {
+          variants.push({ url, lastmod: isoDate(fs.statSync(src).mtime), locale: loc.id });
+        }
+      }
+      if (!variants.length) continue;
+      const alternates = variants.map((v) => ({ url: v.url, locale: v.locale }));
+      variants.forEach((v) => {
+        groups.push({
+          loc: v.url,
+          lastmod: v.lastmod,
+          priority: key === "index" ? "1.0" : "0.6",
+          locales: alternates,
+        });
+      });
+    }
+  }
+
+  const urlXml = groups
+    .map((g) => {
+      const links = g.locales
+        .map(
+          (l) =>
+            `    <xhtml:link rel="alternate" hreflang="${l.locale}" href="${l.url}"/>`,
+        )
+        .join("\n");
+      return [
+        "  <url>",
+        `    <loc>${g.loc}</loc>`,
+        `    <lastmod>${g.lastmod}</lastmod>`,
+        `    <priority>${g.priority}</priority>`,
+        links,
+        "  </url>",
+      ].join("\n");
+    })
+    .join("\n");
+
+  const xml = [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"`,
+    `        xmlns:xhtml="http://www.w3.org/1999/xhtml">`,
+    urlXml,
+    `</urlset>`,
+    ``,
+  ].join("\n");
+
+  writeFileEnsuringDir(path.join(DOCS_DIR, "sitemap.xml"), xml);
+}
+
 function main() {
   if (fs.existsSync(DOCS_DIR)) {
     fs.rmSync(DOCS_DIR, { recursive: true });
@@ -342,8 +423,11 @@ function main() {
   // robots.txt
   writeFileEnsuringDir(
     path.join(DOCS_DIR, "robots.txt"),
-    "User-agent: *\nAllow: /\n\nSitemap: https://dasky92.github.io/sitemap.xml\n",
+    `User-agent: *\nAllow: /\n\nSitemap: ${BASE_URL}/sitemap.xml\n`,
   );
+
+  // sitemap.xml
+  buildSitemap(apps);
 
   console.log(`Done. Output: ${DOCS_DIR}`);
 }

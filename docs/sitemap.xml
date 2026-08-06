@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dasky92.github.io/verde/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <priority>0.8</priority>
+
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/en/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/zh-Hans/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/en/privacy.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/zh-Hans/privacy.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/en/terms.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/zh-Hans/terms.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/en/support.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/support.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/verde/zh-Hans/support.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/verde/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/verde/zh-Hans/support.html"/>
+  </url>
+</urlset>
