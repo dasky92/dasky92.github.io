@@ -1,0 +1,100 @@
+{
+  "app": "eyesProtector",
+  "locale": "en",
+  "document": "privacy",
+  "title": "Privacy Policy",
+  "version": "1.0.0",
+  "effectiveDate": "2026-08-11",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "<p>EyesProtector (the “App”) is an eye-strain <strong>habit coach</strong> and near-work glasses <strong>workflow companion</strong> for Mac, iPhone, and iPad. It helps you keep look-away breaks during work hours, optionally supports dual-pair commute prompts, and may let you log subjective strain scores.</p>\n<p>The App is <strong>not</strong> a medical device and does <strong>not</strong> diagnose, treat, or replace professional eye care.</p>\n<p>This Privacy Policy explains who we are, what information we process, how optional <strong>iCloud</strong> sync and <strong>paid</strong> features relate to privacy, and your choices. We designed the App to minimize collection: the core habit loop works on-device without creating an account with us.</p>\n"
+    },
+    {
+      "id": "who-we-are",
+      "title": "Who We Are",
+      "body": "<p>The data controller for the App is <strong>dasky92</strong>, an individual developer based in the People’s Republic of China.</p>\n<p>For privacy-related questions or requests, contact us using the details in Contact Us below.</p>\n"
+    },
+    {
+      "id": "scope",
+      "title": "Scope",
+      "body": "<p>This policy applies to users of the App <strong>worldwide</strong>, except where local law requires otherwise.</p>\n<p>The App is intended for Apple App Store distribution under a Health &amp; Fitness / habit positioning. Age rating is subject to Apple’s review (we expect a general audience rating such as 4+, not a children’s-directed product).</p>\n"
+    },
+    {
+      "id": "information-we-process",
+      "title": "Information We Process",
+      "body": "<p>We minimize collection. Depending on how you use the App, the following may apply.</p>\n<h3>1. On-device use (default; no account with us)</h3>\n<p>When you use the App without enabling sync, the following typically remain on your device and are <strong>not</strong> uploaded to servers we operate (we do <strong>not</strong> run a custom account backend):</p>\n<ul>\n<li>Look-away schedules, work hours, pause / off-work / mute-for-today state</li>\n<li>Pairing plan (single-pair vs dual-pair) and related reminder preferences</li>\n<li>Smart Pause preferences (for example Focus toggle, frontmost-app list on Mac)</li>\n<li>Symptom / strain diary entries (scores and optional notes) and look-away adherence history</li>\n<li>Appearance and other local settings</li>\n</ul>\n<p>Uninstalling the App usually removes on-device App data, subject to how your operating system manages storage.</p>\n<h3>2. Optional iCloud sync (off unless you turn it on)</h3>\n<p>If you enable <strong>iCloud Sync</strong> in the App:</p>\n<ul>\n<li>Selected settings, reminder-related state, symptom diary, and related habit data may sync across devices signed into the <strong>same Apple ID</strong> using <strong>Apple iCloud</strong> (for example Apple’s Key-Value / iCloud-backed sync mechanisms used by the App).</li>\n<li>Sync is provided and hosted by <strong>Apple</strong>. We do <strong>not</strong> operate a separate cloud database of your diary on our own servers, and we <strong>cannot</strong> log into your iCloud account to read your synced contents.</li>\n<li>Turning sync <strong>off</strong> in the App stops new sync from the App’s side; a local copy typically remains on the device. Copies already stored in iCloud are governed by <strong>Apple’s</strong> iCloud retention and deletion controls (System Settings / Settings → [your name] → iCloud, and Apple’s help articles).</li>\n<li>iCloud availability, quotas, and regional features are determined by Apple and your Apple ID / storefront.</li>\n</ul>\n<p>See <a href=\"https://www.apple.com/legal/privacy/\">Apple’s Privacy Policy</a> and iCloud terms for Apple’s processing.</p>\n<h3>3. Permissions and system features you grant</h3>\n<p>With your permission (or as exposed by the OS), the App may use:</p>\n<ul>\n<li><strong>Notifications</strong> — to deliver look-away or related habit prompts</li>\n<li><strong>Focus Status</strong> (where available) — so Smart Pause can shelve reminders while Focus is on</li>\n<li><strong>Frontmost application information on Mac</strong> — only to match apps you added to the Smart Pause list (for example meeting apps)</li>\n</ul>\n<p>You can revoke these in system settings. Denying permission may limit related features; the rest of the App can still work.</p>\n<h3>4. Technical network connections</h3>\n<p>The App or your device may connect to the internet without you typing personal information into a form we host, for example:</p>\n<ul>\n<li>Checking for or downloading updates through the <strong>Apple App Store</strong></li>\n<li>Completing <strong>In-App Purchases / subscriptions</strong> (if offered) via Apple</li>\n<li>Fetching publicly hosted legal documents (such as this policy) from <strong>GitHub Pages</strong></li>\n<li>Communicating with <strong>Apple iCloud</strong> when sync is enabled</li>\n</ul>\n<p>We do not use these connections to build advertising profiles about you.</p>\n<h3>5. Information you voluntarily send us</h3>\n<p>If you email us or open a GitHub Issue, we receive only what you choose to include (for example email address, message text, device details, screenshots). <strong>GitHub Issues are public</strong>—do not post sensitive personal or health details there.</p>\n<h3>6. What we do not do</h3>\n<ul>\n<li>No phone number / WeChat / social login required for the core loop</li>\n<li>No camera-based face or attention detection</li>\n<li>No third-party advertising or analytics SDKs integrated by us for cross-app tracking (as of this version)</li>\n<li>We do <strong>not sell</strong> your personal information</li>\n</ul>\n"
+    },
+    {
+      "id": "purchases-subscriptions-and-apple-billing",
+      "title": "Purchases, subscriptions, and Apple billing",
+      "body": "<p>If the App Store listing offers a <strong>paid</strong> capability (for example multi-device <strong>iCloud sync</strong> as a subscription or one-time In-App Purchase):</p>\n<ul>\n<li><strong>Apple</strong> processes payment, receipts, and refunds under Apple’s terms. We do not receive your full payment card number.</li>\n<li>Apple may share limited purchase/entitlement signals with the App (for example whether a subscription is active) so we can unlock the paid feature.</li>\n<li>Manage or cancel subscriptions in your Apple ID subscription settings; refunds follow Apple’s process and applicable law.</li>\n</ul>\n<p>Free core features (look-away rhythm and shelving, pairing plan, local diary) are intended to work <strong>without</strong> purchasing sync. Exact SKUs and pricing appear on the App Store product page and may vary by country or region.</p>\n"
+    },
+    {
+      "id": "how-we-use-information",
+      "title": "How We Use Information",
+      "body": "<ul>\n<li><strong>On-device data</strong> — to provide reminders, habit review, Smart Pause, and settings you configure</li>\n<li><strong>iCloud sync (if enabled)</strong> — to keep the data you choose to sync consistent across your devices</li>\n<li><strong>Purchase entitlements</strong> — to unlock paid features you bought</li>\n<li><strong>Voluntary correspondence</strong> — to respond, troubleshoot, and improve the App</li>\n</ul>\n<p>We do not use your data for third-party advertising or sell it.</p>\n"
+    },
+    {
+      "id": "legal-basis-for-processing-eea-and-uk",
+      "title": "Legal Basis for Processing (EEA and UK)",
+      "body": "<p>If you are in the European Economic Area or the United Kingdom, we process personal information on bases that may include:</p>\n<ul>\n<li><strong>Performance of a contract / legitimate interests</strong> — to provide on-device features you request</li>\n<li><strong>Consent</strong> — where you enable optional sync, notifications, or similar OS permissions, or where you contact us</li>\n<li><strong>Legal obligations</strong> — where we must retain or disclose information to comply with law</li>\n</ul>\n<p>You may withdraw consent where processing is based on consent, without affecting lawfulness before withdrawal.</p>\n"
+    },
+    {
+      "id": "data-storage-and-retention",
+      "title": "Data Storage and Retention",
+      "body": "<ul>\n<li>Local App data remains on your device until you delete it or uninstall the App</li>\n<li>iCloud copies (if any) are retained under Apple’s iCloud rules until you delete them via Apple controls or your Apple account lifecycle</li>\n<li>Correspondence you send us is kept only as long as needed to handle your request and maintain reasonable support records, unless a longer period is required by law</li>\n</ul>\n"
+    },
+    {
+      "id": "third-party-services",
+      "title": "Third-Party Services",
+      "body": "<ul>\n<li><strong>Apple App Store / Apple ID / In-App Purchase</strong> — <a href=\"https://www.apple.com/legal/privacy/\">Apple Privacy Policy</a></li>\n<li><strong>Apple iCloud</strong> — when sync is enabled; Apple’s iCloud terms and privacy disclosures apply</li>\n<li><strong>GitHub Pages</strong> — hosts public legal/marketing pages; downloads of those pages do not send us your diary</li>\n<li><strong>GitHub</strong> — if you use Issues: <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\">GitHub Privacy Statement</a></li>\n</ul>\n"
+    },
+    {
+      "id": "international-data-transfers",
+      "title": "International Data Transfers",
+      "body": "<p>We are based in the People’s Republic of China. If you contact us from outside China, information you provide may be processed in China and in countries where our email or GitHub providers operate. Apple may process App Store, IAP, and iCloud data in regions Apple determines. Where required by law, we take reasonable steps appropriate to the circumstances of transfers we control.</p>\n"
+    },
+    {
+      "id": "your-rights-and-choices",
+      "title": "Your Rights and Choices",
+      "body": "<p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing, and to data portability or to lodge a complaint with a supervisory authority.</p>\n<p>To exercise rights regarding information <strong>we</strong> hold from voluntary correspondence, email <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>. We may need to verify your request.</p>\n<p>Practical choices in the product:</p>\n<ul>\n<li>Keep sync off for a fully local workflow</li>\n<li>Turn sync off later; manage iCloud data in system settings</li>\n<li>Revoke notification / Focus permissions</li>\n<li>Delete the App</li>\n<li>Manage purchases in Apple ID settings</li>\n</ul>\n"
+    },
+    {
+      "id": "eea-and-uk-residents",
+      "title": "EEA and UK Residents",
+      "body": "<p>You may lodge a complaint with your local data protection authority. We aim to respond to privacy requests within <strong>30 days</strong>, subject to applicable law.</p>\n<p>Where the age of digital consent in your country is up to <strong>16</strong>, please use the App with a parent or guardian if you are below that age, and do not contact us directly without their permission.</p>\n"
+    },
+    {
+      "id": "california-residents",
+      "title": "California Residents",
+      "body": "<p>We do <strong>not</strong> sell or share personal information for cross-context behavioral advertising.</p>\n<p>California residents may request information about categories of personal information we collect from voluntary correspondence, and may request deletion, by emailing <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>. We will not discriminate against you for exercising privacy rights under California law.</p>\n"
+    },
+    {
+      "id": "childrens-privacy",
+      "title": "Children’s Privacy",
+      "body": "<p>The App is not directed primarily at children. We do not knowingly collect personal information from children through the App’s normal on-device use.</p>\n<p><strong>Please do not allow children to contact us by email or GitHub Issues without a parent or guardian’s permission.</strong> If you believe a child provided us personal information without appropriate consent, contact us and we will take reasonable steps to delete it.</p>\n<p>For U.S. users, we do not knowingly collect personal information from children under <strong>13</strong> consistent with COPPA.</p>\n"
+    },
+    {
+      "id": "health-related-notes",
+      "title": "Health-related notes",
+      "body": "<p>Strain scores and notes are <strong>subjective habit records you enter</strong>, not clinical records we create. Treat them accordingly. See also the Terms of Use health disclaimer.</p>\n"
+    },
+    {
+      "id": "changes-to-this-policy",
+      "title": "Changes to This Policy",
+      "body": "<p>We may update this Privacy Policy from time to time. The latest version will be published at this URL with an updated effective date and version number. Continued use of the App after changes constitutes acceptance of the updated policy, except where applicable law requires otherwise.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Initial global publication: on-device defaults, optional iCloud sync, purchases, regional rights.</td>\n</tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us",
+      "body": "<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n<p>(Contacting us requires an internet connection. GitHub Issues are publicly visible.)</p>\n"
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "body": "<p>This policy is published in English and Simplified Chinese. If translations conflict, the <strong>English</strong> version prevails, except where mandatory local law requires otherwise.</p>\n"
+    }
+  ]
+}

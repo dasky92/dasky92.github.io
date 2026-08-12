@@ -18,6 +18,8 @@
   "price": "Paid",
   "operatingSystem": "iOS",
   "applicationCategory": "MusicApplication",
+  "siteStylesheet": "site.css",
+  "themeStorageKey": "verde-theme",
   "locales": [
   {
     "id": "en",

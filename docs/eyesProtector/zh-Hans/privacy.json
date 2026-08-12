@@ -1,0 +1,100 @@
+{
+  "app": "eyesProtector",
+  "locale": "zh-Hans",
+  "document": "privacy",
+  "title": "隐私政策",
+  "version": "1.0.0",
+  "effectiveDate": "2026-08-11",
+  "sections": [
+    {
+      "id": "概述",
+      "title": "概述",
+      "body": "<p>EyesProtector（以下简称「本应用」）是面向 Mac、iPhone 与 iPad 的视疲劳<strong>习惯教练</strong>与近用镜<strong>工作流伴侣</strong>。本应用帮助您在工作时段保持远眺节奏，可选支持双镜通勤换镜提醒，并允许记录主观酸胀评分。</p>\n<p>本应用<strong>不是</strong>医疗器械，<strong>不</strong>提供诊断、治疗，也不替代专业验光或眼科服务。</p>\n<p>本隐私政策说明我们是谁、处理哪些信息、可选的 <strong>iCloud</strong> 同步与<strong>付费</strong>能力如何涉及隐私，以及您有哪些选择。我们以「尽量少收集」为原则：核心习惯循环可在本机完成，无需向我们注册账号。</p>\n"
+    },
+    {
+      "id": "我们是谁",
+      "title": "我们是谁",
+      "body": "<p>本应用的数据控制者为个人开发者 <strong>dasky92</strong>，常住于中华人民共和国。</p>\n<p>隐私相关问题或权利请求，请通过下文「联系我们」与我们取得联系。</p>\n"
+    },
+    {
+      "id": "适用范围",
+      "title": "适用范围",
+      "body": "<p>本政策适用于本应用的全球用户（当地法律另有要求的除外）。</p>\n<p>本应用拟通过 Apple App Store 以健康与健身 / 习惯类定位分发。年龄分级以 Apple 审核结果为准（预期为一般受众，例如 4+；并非以儿童为主要服务对象）。</p>\n"
+    },
+    {
+      "id": "我们处理的信息",
+      "title": "我们处理的信息",
+      "body": "<p>我们尽可能减少收集。视您如何使用本应用，可能涉及以下情形。</p>\n<h3>1. 本地使用（默认；无需向我们注册）</h3>\n<p>在未开启同步时，下列信息通常仅保存在您的设备上，<strong>不会</strong>上传到我们自建的服务器（我们也不运营自建账号后端）：</p>\n<ul>\n<li>远眺安排、工作时段、休息暂停 / 下班模式 / 当日关闭等状态</li>\n<li>配镜方案（单镜 / 双镜）及相关提醒偏好</li>\n<li>智能暂停偏好（例如专注模式开关、Mac 前台 App 列表）</li>\n<li>症状 / 酸胀日记（评分与可选备注）与远眺依从记录</li>\n<li>外观及其他本地设置</li>\n</ul>\n<p>卸载本应用后，本机应用数据通常会一并清除（具体以操作系统为准）。</p>\n<h3>2. 可选的 iCloud 同步（默认关闭，需您主动开启）</h3>\n<p>若您在本应用中开启 <strong>iCloud 同步</strong>：</p>\n<ul>\n<li>相关设置、提醒相关状态、症状日记等习惯数据，可能经 <strong>Apple iCloud</strong> 在登录<strong>同一 Apple ID</strong> 的设备之间同步（例如本应用使用的 iCloud 键值 / Apple 提供的同步机制）。</li>\n<li>同步由 <strong>Apple</strong> 提供与托管。我们<strong>不</strong>在自有服务器上另建一份您的日记库，也<strong>无法</strong>登录您的 iCloud 账号读取同步内容。</li>\n<li>在本应用中<strong>关闭</strong>同步后，本应用侧将停止新的同步；本机通常仍保留本地副本。已存在于 iCloud 中的副本，其保留与删除受 <strong>Apple</strong> 的 iCloud 机制约束（系统设置 / 设置 → [您的姓名] → iCloud，以及 Apple 帮助文档）。</li>\n<li>iCloud 是否可用、容量与地区能力由 Apple 及您的 Apple ID / 店面决定。</li>\n</ul>\n<p>请同时参阅 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a> 与 iCloud 相关条款。</p>\n<h3>3. 您授予的系统权限与能力</h3>\n<p>在您授权（或系统向本应用开放）的前提下，本应用可能使用：</p>\n<ul>\n<li><strong>通知</strong> — 用于远眺或其他习惯提醒</li>\n<li><strong>专注状态</strong>（如系统提供）— 以便智能暂停在专注开启时搁置提醒</li>\n<li><strong>Mac 前台应用信息</strong> — 仅用于匹配您加入智能暂停列表的 App（例如会议类 App）</li>\n</ul>\n<p>您可在系统设置中撤销授权。拒绝授权可能影响对应功能，其余功能仍可使用。</p>\n<h3>4. 技术性网络连接</h3>\n<p>本应用或您的设备可能在您未向我们托管的表单填写个人信息的情况下联网，例如：</p>\n<ul>\n<li>通过 <strong>Apple App Store</strong> 检查或下载更新</li>\n<li>通过 Apple 完成<strong>内购 / 订阅</strong>（如已提供）</li>\n<li>从 <strong>GitHub Pages</strong> 获取公开托管的法律文档（如本政策）</li>\n<li>在开启同步时与 <strong>Apple iCloud</strong> 通信</li>\n</ul>\n<p>我们不会利用上述连接为您建立广告画像。</p>\n<h3>5. 您主动提供的信息</h3>\n<p>若您发送邮件或提交 GitHub Issue，我们仅收到您选择提供的内容（例如邮箱、正文、设备信息、截图）。<strong>GitHub Issue 为公开内容</strong>，请勿提交敏感个人或健康细节。</p>\n<h3>6. 我们不会做的事</h3>\n<ul>\n<li>核心循环不要求手机号 / 微信 / 社交账号登录</li>\n<li>不使用摄像头做人脸或注意力检测</li>\n<li>本版本未集成用于跨 App 追踪的第三方广告或分析 SDK</li>\n<li>我们<strong>不出售</strong>您的个人信息</li>\n</ul>\n"
+    },
+    {
+      "id": "购买订阅与-apple-计费",
+      "title": "购买、订阅与 Apple 计费",
+      "body": "<p>若 App Store 页面提供<strong>付费</strong>能力（例如将多设备 <strong>iCloud 同步</strong>作为订阅或一次性内购）：</p>\n<ul>\n<li><strong>Apple</strong> 按 Apple 条款处理支付、收据与退款。我们不会收到您的完整银行卡号。</li>\n<li>Apple 可能向本应用提供有限的购买 / 权益状态（例如订阅是否有效），以便解锁付费功能。</li>\n<li>请在 Apple ID 的订阅管理中取消或变更订阅；退款遵循 Apple 流程及适用法律。</li>\n</ul>\n<p>免费核心能力（远眺节奏与搁置、配镜方案、本地日记）拟在<strong>无需</strong>购买同步的情况下可用。具体商品与价格以 App Store 产品页为准，可能因国家或地区而异。</p>\n"
+    },
+    {
+      "id": "我们如何使用信息",
+      "title": "我们如何使用信息",
+      "body": "<ul>\n<li><strong>本机数据</strong> — 提供提醒、习惯回顾、智能暂停与您配置的设置</li>\n<li><strong>iCloud 同步（若开启）</strong> — 在您的设备间保持您选择同步的数据一致</li>\n<li><strong>购买权益</strong> — 解锁您已购买的付费功能</li>\n<li><strong>自愿往来通讯</strong> — 用于回复、排查问题与改进产品</li>\n</ul>\n<p>我们不会将您的数据用于第三方广告，也不会出售。</p>\n"
+    },
+    {
+      "id": "处理的法律基础欧洲经济区与英国",
+      "title": "处理的法律基础（欧洲经济区与英国）",
+      "body": "<p>若您位于欧洲经济区或英国，我们可能基于以下基础处理个人信息：</p>\n<ul>\n<li><strong>履行合同 / 合法利益</strong> — 提供您请求的本机功能</li>\n<li><strong>同意</strong> — 您开启可选同步、通知等系统权限，或主动联系我们</li>\n<li><strong>法定义务</strong> — 法律要求保留或披露时</li>\n</ul>\n<p>基于同意的处理，您可撤回同意，不影响撤回前处理的合法性。</p>\n"
+    },
+    {
+      "id": "存储与保留",
+      "title": "存储与保留",
+      "body": "<ul>\n<li>本地应用数据保存在您的设备，直至您删除或卸载</li>\n<li>iCloud 副本（如有）按 Apple iCloud 规则保留，直至您通过 Apple 控件删除或账号生命周期结束</li>\n<li>您发来的通讯仅在处理请求与合理客服记录所需期间保留，法律要求更长期限的除外</li>\n</ul>\n"
+    },
+    {
+      "id": "第三方服务",
+      "title": "第三方服务",
+      "body": "<ul>\n<li><strong>Apple App Store / Apple ID / 内购</strong> — <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a></li>\n<li><strong>Apple iCloud</strong> — 开启同步时适用 Apple 的 iCloud 条款与隐私说明</li>\n<li><strong>GitHub Pages</strong> — 托管公开法律 / 营销页面；下载这些页面不会向我们发送您的日记内容</li>\n<li><strong>GitHub</strong> — 若使用 Issue：<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\">GitHub 隐私声明</a></li>\n</ul>\n"
+    },
+    {
+      "id": "国际传输",
+      "title": "国际传输",
+      "body": "<p>我们位于中华人民共和国。若您从中国境外联系我们，您提供的信息可能在中国以及我们的邮件或 GitHub 服务商所在国家/地区处理。App Store、内购与 iCloud 数据可能由 Apple 按其规则在相关地区处理。对我们可控的传输，我们将在法律要求时采取合理适当措施。</p>\n"
+    },
+    {
+      "id": "您的权利与选择",
+      "title": "您的权利与选择",
+      "body": "<p>视您所在地，您可能享有访问、更正、删除、限制或反对特定处理，以及数据可携带或向监管机构投诉等权利。</p>\n<p>就我们因自愿通讯而持有的信息行使权利，请发送邮件至 <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>。我们可能需要验证您的身份。</p>\n<p>产品中的实际选择包括：</p>\n<ul>\n<li>保持关闭同步，仅使用本机流程</li>\n<li>稍后关闭同步，并在系统设置中管理 iCloud 数据</li>\n<li>撤销通知 / 专注状态等授权</li>\n<li>删除本应用</li>\n<li>在 Apple ID 设置中管理购买与订阅</li>\n</ul>\n"
+    },
+    {
+      "id": "欧洲经济区与英国用户",
+      "title": "欧洲经济区与英国用户",
+      "body": "<p>您可向当地数据保护机构投诉。我们力争在适用法律允许下于 <strong>30 日内</strong>答复隐私请求。</p>\n<p>若您所在国数字同意年龄最高至 <strong>16</strong> 岁，未达该年龄请在监护人陪同下使用，且未经监护人允许请勿直接联系我们。</p>\n"
+    },
+    {
+      "id": "加利福尼亚州用户",
+      "title": "加利福尼亚州用户",
+      "body": "<p>我们<strong>不</strong>出售或共享个人信息用于跨情境行为广告。</p>\n<p>加州居民可就自愿通讯所涉个人信息类别提出查询或删除请求，请发送邮件至 <strong><a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></strong>。我们不会因您行使加州隐私权利而歧视您。</p>\n"
+    },
+    {
+      "id": "儿童隐私",
+      "title": "儿童隐私",
+      "body": "<p>本应用不以儿童为主要服务对象。正常本机使用中，我们不会故意收集儿童的个人信息。</p>\n<p><strong>请勿在未经监护人允许的情况下让儿童通过邮件或 GitHub Issue 联系我们。</strong> 若您认为儿童在未获适当同意的情况下向我们提供了个人信息，请联系我们，我们将采取合理步骤删除。</p>\n<p>对美国用户，我们不会故意收集 <strong>13</strong> 岁以下儿童的个人信息（与 COPPA 一致）。</p>\n"
+    },
+    {
+      "id": "健康相关说明",
+      "title": "健康相关说明",
+      "body": "<p>酸胀评分与备注是<strong>您自行输入的主观习惯记录</strong>，并非我们创建的病历。请据此理解。另见用户协议中的健康免责声明。</p>\n"
+    },
+    {
+      "id": "政策变更",
+      "title": "政策变更",
+      "body": "<p>我们可能不时更新本政策。最新版本将发布于本网址，并更新生效日期与版本号。更新后继续使用本应用，即表示您知悉更新后的政策（适用法律另有要求的除外）。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>变更摘要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>全球首发：本机默认、可选 iCloud 同步、购买说明、地区权利。</td>\n</tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "id": "联系我们",
+      "title": "联系我们",
+      "body": "<p><strong>邮箱：</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p><strong>GitHub Issues：</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n<p>（联系我们需要设备联网。GitHub Issue 公开可见。）</p>\n"
+    },
+    {
+      "id": "语言",
+      "title": "语言",
+      "body": "<p>本政策提供英文与简体中文版本。若译本冲突，以<strong>英文</strong>版本为准（当地法律另有强制规定的除外）。</p>\n"
+    }
+  ]
+}

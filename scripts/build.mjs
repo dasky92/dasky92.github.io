@@ -102,12 +102,12 @@ function stripLeadingH1(markdownBody) {
 }
 
 function assetPrefixFor(app, locale) {
-  const depth = 2;
-  return "../".repeat(depth);
+  // Root-absolute so links work with or without trailing slashes / cleanUrls.
+  return "/";
 }
 
 function localePrefixFor(app, locale) {
-  return "./";
+  return `/${app}/${locale}/`;
 }
 
 function writeFileEnsuringDir(filePath, content) {
@@ -162,6 +162,8 @@ function buildDocumentHtml({
     supportLabel: labels.support,
     contactLabel: labels.contact,
     supportEmail: appMeta.supportEmail,
+    siteStylesheet: appMeta.siteStylesheet ?? "site.css",
+    themeStorageKey: appMeta.themeStorageKey ?? "site-theme",
   });
 }
 
@@ -170,18 +172,19 @@ function buildLangIndexHtml({ appMeta, labels }) {
   const localeLinks = appMeta.locales
     .map(
       (loc) =>
-        `      <li><a href="${loc.id}/">${escapeHtml(loc.label)}</a></li>`,
+        `      <li><a href="/${appMeta.slug}/${loc.id}/">${escapeHtml(loc.label)}</a></li>`,
     )
     .join("\n");
 
-  const depth = 1;
-  const assetPrefix = "../".repeat(depth);
+  const assetPrefix = "/";
 
   return renderTemplate(template, {
     appDisplayName: appMeta.displayName,
     chooseLanguageLabel: labels.chooseLanguage,
     localeLinks,
     assetPrefix,
+    siteStylesheet: appMeta.siteStylesheet ?? "site.css",
+    themeStorageKey: appMeta.themeStorageKey ?? "site-theme",
   });
 }
 
@@ -385,6 +388,11 @@ function main() {
 
   copyDir(ASSETS_DIR, path.join(DOCS_DIR, "assets"));
   writeFileEnsuringDir(path.join(DOCS_DIR, ".nojekyll"), "");
+  // Local preview helper (npx serve -c); harmless on GitHub Pages.
+  const serveConfig = path.join(ROOT, "serve.json");
+  if (fs.existsSync(serveConfig)) {
+    fs.copyFileSync(serveConfig, path.join(DOCS_DIR, "serve.json"));
+  }
 
   const apps = fs
     .readdirSync(CONTENT_DIR, { withFileTypes: true })

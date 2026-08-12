@@ -1,0 +1,53 @@
+{
+  "app": "eyesProtector",
+  "locale": "zh-Hans",
+  "document": "support",
+  "title": "技术支持",
+  "version": "1.0.0",
+  "effectiveDate": "2026-08-11",
+  "sections": [
+    {
+      "id": "联系我们",
+      "title": "联系我们",
+      "body": "<p><strong>邮箱：</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>反馈时请尽量说明：设备型号、系统版本、本应用版本、复现步骤。请勿发送密码或完整支付卡号。</p>\n<p><strong>GitHub Issues（公开）：</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "上架说明",
+      "title": "上架说明",
+      "body": "<p>EyesProtector 计划<strong>全球</strong> App Store 分发。各店面上线时间可能不同；中国区可能晚于其他地区。功能与价格可能因国家或地区而异。</p>\n"
+    },
+    {
+      "id": "常见问题",
+      "title": "常见问题",
+      "body": "<h3>本应用能治疗近视或恢复调节力吗？</h3>\n<p>不能。EyesProtector 是习惯提醒与近用镜工作流伴侣，不是医疗器械，也不替代验光或临床诊疗。</p>\n<h3>为什么没有「关闭所有远眺」的总开关？</h3>\n<p>产品约定远眺在工作时段内进行；可用休息暂停、下班模式或当日关闭来搁置。</p>\n<h3>哪些免费、哪些付费？</h3>\n<p><strong>核心循环</strong>（远眺节奏与搁置、配镜方案、本地日记 / 依从、智能暂停）拟在无需付费购买的情况下可用。<strong>多设备 iCloud 同步</strong>可能作为付费能力——请以您所在地区 App Store 产品页的商品、价格与试用为准。</p>\n<h3>购买与退款怎么处理？</h3>\n<p>购买经 <strong>Apple</strong> 完成。请在 Apple ID → 订阅 中管理或取消订阅。退款遵循 Apple 流程及当地法律。</p>\n<h3>iCloud 同步失败或开关被回滚？</h3>\n<ol>\n<li>确认「系统设置 / 设置 → Apple ID → <strong>iCloud</strong>」已登录（不只是 App Store）。</li>\n<li>确认当前账号与地区可使用 iCloud。</li>\n<li>打开本应用「同步」页，关闭后再重新开启。</li>\n<li>开启失败时，本应用会回滚开关，避免半开状态。</li>\n</ol>\n<p>我们无法在自有服务器上读取您的 iCloud 内容。详见<a href=\"privacy.html\">隐私政策</a>。</p>\n<h3>智能暂停不生效？</h3>\n<ul>\n<li>基于专注模式的暂停，需按系统要求授权读取专注状态。</li>\n<li>前台 App 暂停主要适用于 <strong>Mac</strong>；请在设置中检查列表与开关。</li>\n<li>会议类 App 预设只是起点，可按需增删。</li>\n</ul>\n<h3>收不到通知？</h3>\n<p>请在系统设置中允许 EyesProtector 通知。搁置模式（暂停 / 下班 / 当日关闭）会有意抑制提醒。</p>\n<h3>严格遮罩 / 覆盖层难以退出？</h3>\n<p>请使用界面上的解锁 / 关闭流程。强制退出会结束进程；可从启动台、聚焦搜索或主屏幕重新打开。</p>\n"
+    },
+    {
+      "id": "隐私与协议",
+      "title": "隐私与协议",
+      "body": "<ul>\n<li><a href=\"privacy.html\">隐私政策</a></li>\n<li><a href=\"terms.html\">用户协议</a></li>\n</ul>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>变更摘要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>全球 FAQ：免费与付费、iCloud、购买、智能暂停。</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "联系我们",
+      "title": "联系我们",
+      "body": "<p><strong>邮箱：</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>反馈时请尽量说明：设备型号、系统版本、本应用版本、复现步骤。请勿发送密码或完整支付卡号。</p>\n<p><strong>GitHub Issues（公开）：</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "上架说明",
+      "title": "上架说明",
+      "body": "<p>EyesProtector 计划<strong>全球</strong> App Store 分发。各店面上线时间可能不同；中国区可能晚于其他地区。功能与价格可能因国家或地区而异。</p>\n"
+    },
+    {
+      "id": "常见问题",
+      "title": "常见问题",
+      "body": "<h3>本应用能治疗近视或恢复调节力吗？</h3>\n<p>不能。EyesProtector 是习惯提醒与近用镜工作流伴侣，不是医疗器械，也不替代验光或临床诊疗。</p>\n<h3>为什么没有「关闭所有远眺」的总开关？</h3>\n<p>产品约定远眺在工作时段内进行；可用休息暂停、下班模式或当日关闭来搁置。</p>\n<h3>哪些免费、哪些付费？</h3>\n<p><strong>核心循环</strong>（远眺节奏与搁置、配镜方案、本地日记 / 依从、智能暂停）拟在无需付费购买的情况下可用。<strong>多设备 iCloud 同步</strong>可能作为付费能力——请以您所在地区 App Store 产品页的商品、价格与试用为准。</p>\n<h3>购买与退款怎么处理？</h3>\n<p>购买经 <strong>Apple</strong> 完成。请在 Apple ID → 订阅 中管理或取消订阅。退款遵循 Apple 流程及当地法律。</p>\n<h3>iCloud 同步失败或开关被回滚？</h3>\n<ol>\n<li>确认「系统设置 / 设置 → Apple ID → <strong>iCloud</strong>」已登录（不只是 App Store）。</li>\n<li>确认当前账号与地区可使用 iCloud。</li>\n<li>打开本应用「同步」页，关闭后再重新开启。</li>\n<li>开启失败时，本应用会回滚开关，避免半开状态。</li>\n</ol>\n<p>我们无法在自有服务器上读取您的 iCloud 内容。详见<a href=\"privacy.html\">隐私政策</a>。</p>\n<h3>智能暂停不生效？</h3>\n<ul>\n<li>基于专注模式的暂停，需按系统要求授权读取专注状态。</li>\n<li>前台 App 暂停主要适用于 <strong>Mac</strong>；请在设置中检查列表与开关。</li>\n<li>会议类 App 预设只是起点，可按需增删。</li>\n</ul>\n<h3>收不到通知？</h3>\n<p>请在系统设置中允许 EyesProtector 通知。搁置模式（暂停 / 下班 / 当日关闭）会有意抑制提醒。</p>\n<h3>严格遮罩 / 覆盖层难以退出？</h3>\n<p>请使用界面上的解锁 / 关闭流程。强制退出会结束进程；可从启动台、聚焦搜索或主屏幕重新打开。</p>\n"
+    },
+    {
+      "id": "隐私与协议",
+      "title": "隐私与协议",
+      "body": "<ul>\n<li><a href=\"privacy.html\">隐私政策</a></li>\n<li><a href=\"terms.html\">用户协议</a></li>\n</ul>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>变更摘要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>全球 FAQ：免费与付费、iCloud、购买、智能暂停。</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ]
+}

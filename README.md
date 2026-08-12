@@ -6,6 +6,21 @@ Published at: **https://dasky92.github.io**
 
 ## Structure
 
+Each app under `content/` is **visually independent**. Shared build pipeline only — do not reuse another app's CSS.
+
+| App | Marketing CSS | Docs / lang CSS | Theme storage key |
+|-----|---------------|-----------------|-------------------|
+| Verde | `assets/marketing.css` (linked in marketing.html) | `site.css` via `meta.siteStylesheet` | `verde-theme` |
+| EyesProtector | `assets/eyesprotector.css` | `eyesprotector-site.css` | `eyesprotector-theme` |
+
+Configure docs chrome in `content/{app}/meta.json`:
+
+```json
+"siteStylesheet": "eyesprotector-site.css",
+"themeStorageKey": "eyesprotector-theme"
+```
+
+
 ```
 content/{app}/{locale}/*.md   # Source (edit these)
 docs/                         # Build output (committed for review)
@@ -33,6 +48,18 @@ Base: `https://dasky92.github.io/verde`
 | Terms (human) | [/verde/en/terms.html](https://dasky92.github.io/verde/en/terms.html) | [/verde/zh-Hans/terms.html](https://dasky92.github.io/verde/zh-Hans/terms.html) |
 | Support (App Store / human) | [/verde/en/support.html](https://dasky92.github.io/verde/en/support.html) | [/verde/zh-Hans/support.html](https://dasky92.github.io/verde/zh-Hans/support.html) |
 
+## EyesProtector URL reference
+
+Base: `https://dasky92.github.io/eyesProtector`
+
+| Purpose | English | 简体中文 |
+|---------|---------|----------|
+| Language picker | [/eyesProtector/](https://dasky92.github.io/eyesProtector/) | same |
+| Marketing | [/eyesProtector/en/](https://dasky92.github.io/eyesProtector/en/) | [/eyesProtector/zh-Hans/](https://dasky92.github.io/eyesProtector/zh-Hans/) |
+| Privacy | [/eyesProtector/en/privacy.html](https://dasky92.github.io/eyesProtector/en/privacy.html) | [/eyesProtector/zh-Hans/privacy.html](https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html) |
+| Terms | [/eyesProtector/en/terms.html](https://dasky92.github.io/eyesProtector/en/terms.html) | [/eyesProtector/zh-Hans/terms.html](https://dasky92.github.io/eyesProtector/zh-Hans/terms.html) |
+| Support | [/eyesProtector/en/support.html](https://dasky92.github.io/eyesProtector/en/support.html) | [/eyesProtector/zh-Hans/support.html](https://dasky92.github.io/eyesProtector/zh-Hans/support.html) |
+
 ### App in-app JSON (remote fetch)
 
 | Document | English | 简体中文 |
@@ -41,6 +68,8 @@ Base: `https://dasky92.github.io/verde`
 | Terms | `.../verde/en/terms.json` | `.../verde/zh-Hans/terms.json` |
 | Support | `.../verde/en/support.json` | `.../verde/zh-Hans/support.json` |
 | Marketing | **No JSON** — human-only landing page | same |
+
+EyesProtector JSON follows the same pattern under `/eyesProtector/{locale}/`.
 
 ## Document types
 
