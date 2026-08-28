@@ -2,7 +2,7 @@
 > A collection of app marketing, support, and legal documents.
 
 # EyesProtector
-> A wellness habit app for Mac, iPhone and iPad that nudges look-away breaks during work hours and supports dual-pair glasses routines. Not a medical device.
+> Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, Smart Pause. Not a medical device.
 - [English Landing](eyesProtector/en/): Marketing homepage
 - [English privacy](eyesProtector/en/privacy.html): privacy document
 - [English terms](eyesProtector/en/terms.html): terms document

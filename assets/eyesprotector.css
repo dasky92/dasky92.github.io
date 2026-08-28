@@ -1,32 +1,35 @@
 /**
- * EyesProtector marketing — Soft UI Evolution
- * Independent of Verde / offlinePlayer (do not import marketing.css).
- *
- * Direction: calm “look farther” horizon — cool mist sky, deep ink type,
- * soft seafoam CTA. Spacious single-column. WCAG AA contrast.
+ * EyesProtector marketing — Soft UI Evolution + Bento Showcase
+ * Calm cyan / seafoam (Healthcare App palette), SoftCard-like depth.
+ * Independent of Verde. Avoid pink/purple “AI default” themes.
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap");
 
 :root {
   color-scheme: light;
-  --ep-bg: #e8f0f4;
-  --ep-bg-deep: #d5e4ec;
+  --ep-bg: #ecf5f8;
+  --ep-bg-deep: #d8e8ef;
   --ep-surface: #ffffff;
   --ep-ink: #122433;
   --ep-ink-muted: #4a6070;
-  --ep-primary: #1a6f8c;
-  --ep-primary-press: #145a72;
-  --ep-seafoam: #2a8f7a;
-  --ep-seafoam-soft: rgba(42, 143, 122, 0.14);
+  --ep-ink-soft: #6b8294;
+  --ep-primary: #0e7490;
+  --ep-primary-press: #0c5f75;
+  --ep-seafoam: #0d9488;
+  --ep-seafoam-soft: rgba(13, 148, 136, 0.12);
+  --ep-cyan-soft: rgba(14, 116, 144, 0.1);
+  --ep-amber: #d97706;
+  --ep-amber-soft: rgba(217, 119, 6, 0.12);
   --ep-horizon: #7eb8c9;
   --ep-border: rgba(18, 36, 51, 0.1);
-  --ep-shadow: 0 2px 4px rgba(18, 36, 51, 0.04), 0 12px 28px rgba(26, 111, 140, 0.08);
-  --ep-radius: 12px;
-  --ep-radius-lg: 20px;
+  --ep-shadow: 0 2px 4px rgba(18, 36, 51, 0.04), 0 14px 32px rgba(14, 116, 144, 0.09);
+  --ep-shadow-hover: 0 4px 8px rgba(18, 36, 51, 0.06), 0 18px 40px rgba(14, 116, 144, 0.14);
+  --ep-radius: 14px;
+  --ep-radius-lg: 22px;
   --ep-font-display: "Outfit", system-ui, sans-serif;
   --ep-font-body: "Work Sans", system-ui, sans-serif;
-  --ep-max: 720px;
+  --ep-max: 1040px;
   --ep-ease: cubic-bezier(0.22, 1, 0.36, 1);
   --ep-dur: 220ms;
 }
@@ -90,25 +93,9 @@ button:focus-visible {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(120% 70% at 50% -10%, #f7fbff 0%, transparent 55%),
-    linear-gradient(180deg, #dceaf1 0%, var(--ep-bg) 42%, var(--ep-bg-deep) 100%);
-}
-
-.ep-sky::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 18%;
-  height: 42%;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    color-mix(in srgb, var(--ep-horizon) 22%, transparent) 45%,
-    color-mix(in srgb, var(--ep-seafoam) 12%, transparent) 100%
-  );
-  opacity: 0.9;
-  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+    radial-gradient(90% 55% at 85% 8%, color-mix(in srgb, var(--ep-seafoam) 18%, transparent), transparent 55%),
+    radial-gradient(70% 50% at 10% 20%, color-mix(in srgb, var(--ep-horizon) 35%, transparent), transparent 50%),
+    linear-gradient(180deg, #e4f1f6 0%, var(--ep-bg) 38%, var(--ep-bg-deep) 100%);
 }
 
 /* ——— Nav ——— */
@@ -117,15 +104,14 @@ button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 20;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  background: color-mix(in srgb, var(--ep-bg) 78%, transparent);
-  border-bottom: 1px solid transparent;
-  transition: border-color var(--ep-dur) var(--ep-ease);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: color-mix(in srgb, var(--ep-bg) 82%, transparent);
+  border-bottom: 1px solid var(--ep-border);
 }
 
 .ep-nav-inner {
-  max-width: 1080px;
+  max-width: var(--ep-max);
   margin: 0 auto;
   padding: 0.9rem 1.25rem;
   display: flex;
@@ -161,6 +147,7 @@ button:focus-visible {
   font-weight: 500;
   color: var(--ep-ink-muted);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .ep-nav-links a:hover {
@@ -193,37 +180,83 @@ button:focus-visible {
   padding: 0 1.25rem 4.5rem;
 }
 
-/* ——— Hero ——— */
-
-.ep-hero {
-  padding: 3.5rem 0 3rem;
-  text-align: left;
+.ep-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--ep-font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ep-seafoam);
+  margin: 0 0 0.75rem;
 }
 
-.ep-hero-brand {
+.ep-section {
+  padding: 2.75rem 0;
+}
+
+.ep-section-head {
+  margin: 0 0 1.5rem;
+  max-width: 40rem;
+}
+
+.ep-section-head h2 {
   font-family: var(--ep-font-display);
-  font-size: clamp(2.4rem, 7vw, 3.75rem);
+  font-size: clamp(1.45rem, 3vw, 1.85rem);
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.55rem;
+  color: var(--ep-ink);
+}
+
+.ep-section-head p {
+  margin: 0;
+  color: var(--ep-ink-muted);
+}
+
+/* ——— Hero (no cards) ——— */
+
+.ep-hero {
+  padding: 3.25rem 0 2.5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 900px) {
+  .ep-hero {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: end;
+    padding-top: 4.25rem;
+    gap: 2.5rem;
+  }
+}
+
+.ep-hero-copy .ep-hero-brand {
+  font-family: var(--ep-font-display);
+  font-size: clamp(2.5rem, 7vw, 3.85rem);
   font-weight: 700;
   letter-spacing: -0.045em;
-  line-height: 1.05;
-  margin: 0 0 1.25rem;
+  line-height: 1.02;
+  margin: 0 0 1rem;
   color: var(--ep-ink);
 }
 
 .ep-hero-title {
   font-family: var(--ep-font-display);
-  font-size: clamp(1.35rem, 3.6vw, 1.85rem);
+  font-size: clamp(1.25rem, 3.2vw, 1.65rem);
   font-weight: 600;
   letter-spacing: -0.03em;
-  line-height: 1.25;
+  line-height: 1.3;
   margin: 0 0 1rem;
   color: var(--ep-primary);
-  max-width: 18ch;
+  max-width: 22ch;
 }
 
 .ep-hero-lead {
   margin: 0 0 1.75rem;
-  max-width: 38rem;
+  max-width: 36rem;
   color: var(--ep-ink-muted);
   font-size: 1.0625rem;
 }
@@ -266,7 +299,7 @@ button:focus-visible {
 .ep-btn-primary {
   background: var(--ep-seafoam);
   color: #ffffff !important;
-  box-shadow: 0 8px 20px rgba(42, 143, 122, 0.28);
+  box-shadow: 0 8px 22px rgba(13, 148, 136, 0.3);
 }
 
 .ep-btn-primary:hover {
@@ -288,33 +321,30 @@ button:focus-visible {
 }
 
 .ep-cta-note {
-  margin: 0.85rem 0 0;
+  margin: 0.9rem 0 0;
   font-size: 0.8125rem;
-  color: var(--ep-ink-muted);
+  color: var(--ep-ink-soft);
 }
 
-/* ——— Horizon mark (visual anchor, not a card) ——— */
-
 .ep-horizon-art {
-  margin: 2.5rem 0 0;
-  height: clamp(120px, 22vw, 180px);
+  height: clamp(160px, 28vw, 260px);
   border-radius: var(--ep-radius-lg);
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, #9ec9d8 0%, #c5dde8 38%, #e4eef3 62%, #cfd9c8 100%);
+  background: linear-gradient(165deg, #8fc4d4 0%, #b9d9e4 36%, #e8f2f5 58%, #c5d6c8 100%);
   box-shadow: var(--ep-shadow);
 }
 
 .ep-horizon-art::before {
   content: "";
   position: absolute;
-  width: 72px;
-  height: 72px;
-  right: 14%;
-  top: 18%;
+  width: 88px;
+  height: 88px;
+  right: 16%;
+  top: 16%;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, #fff8e8, #f0c878 55%, transparent 70%);
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .ep-horizon-art::after {
@@ -323,58 +353,128 @@ button:focus-visible {
   left: -5%;
   right: -5%;
   bottom: 0;
-  height: 38%;
-  background: linear-gradient(180deg, transparent, rgba(18, 36, 51, 0.06));
+  height: 42%;
   clip-path: polygon(0 45%, 18% 28%, 36% 42%, 55% 22%, 72% 38%, 88% 18%, 100% 32%, 100% 100%, 0 100%);
-  background-color: color-mix(in srgb, var(--ep-seafoam) 18%, #d8e0d0);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--ep-seafoam) 28%, #d8e0d0), #b7c6b0);
 }
 
-/* ——— Sections ——— */
+/* ——— Access strip ——— */
 
-.ep-section {
-  padding: 2.25rem 0;
-  border-top: 1px solid var(--ep-border);
-}
-
-.ep-section h2 {
-  font-family: var(--ep-font-display);
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  margin: 0 0 0.65rem;
-  color: var(--ep-ink);
-}
-
-.ep-section > p {
-  margin: 0 0 1.25rem;
-  color: var(--ep-ink-muted);
-  max-width: 40rem;
-}
-
-.ep-benefits {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.ep-access {
   display: grid;
-  gap: 1rem;
-}
-
-.ep-benefits li {
-  display: grid;
-  grid-template-columns: auto 1fr;
   gap: 0.85rem;
-  align-items: start;
-  padding: 1rem 1.1rem;
-  background: var(--ep-surface);
+  margin: 0.5rem 0 0.5rem;
+}
+
+@media (min-width: 720px) {
+  .ep-access {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.ep-access-card {
+  padding: 1.15rem 1.2rem;
   border-radius: var(--ep-radius);
+  background: var(--ep-surface);
   border: 1px solid var(--ep-border);
   box-shadow: var(--ep-shadow);
 }
 
-.ep-benefits .ep-ico {
+.ep-access-card .ep-tag {
+  display: inline-block;
+  font-family: var(--ep-font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 0.55rem;
+}
+
+.ep-tag-free {
+  background: var(--ep-seafoam-soft);
+  color: var(--ep-seafoam);
+}
+
+.ep-tag-paid {
+  background: var(--ep-cyan-soft);
+  color: var(--ep-primary);
+}
+
+.ep-tag-bonus {
+  background: color-mix(in srgb, var(--ep-primary) 8%, white);
+  color: var(--ep-primary);
+}
+
+.ep-access-card h3 {
+  font-family: var(--ep-font-display);
+  font-size: 1.05rem;
+  font-weight: 650;
+  margin: 0 0 0.35rem;
+  letter-spacing: -0.02em;
+}
+
+.ep-access-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ep-ink-muted);
+}
+
+/* ——— Bento ——— */
+
+.ep-bento {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .ep-bento {
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(140px, auto);
+  }
+  .ep-bento .ep-tile-lg {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+  .ep-bento .ep-tile-md {
+    grid-column: span 2;
+  }
+  .ep-bento .ep-tile-wide {
+    grid-column: span 3;
+  }
+  .ep-bento .ep-tile-sm {
+    grid-column: span 2;
+  }
+}
+
+.ep-tile {
+  padding: 1.25rem 1.3rem;
+  border-radius: var(--ep-radius-lg);
+  background: var(--ep-surface);
+  border: 1px solid var(--ep-border);
+  box-shadow: var(--ep-shadow);
+  transition:
+    transform var(--ep-dur) var(--ep-ease),
+    box-shadow var(--ep-dur) var(--ep-ease);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ep-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--ep-shadow-hover);
+  }
+}
+
+.ep-tile .ep-ico {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 11px;
   display: grid;
   place-items: center;
   background: var(--ep-seafoam-soft);
@@ -382,24 +482,155 @@ button:focus-visible {
   flex-shrink: 0;
 }
 
-.ep-benefits .ep-ico svg {
+.ep-tile .ep-ico svg {
   width: 20px;
   height: 20px;
 }
 
-.ep-benefits h3 {
+.ep-tile h3 {
   font-family: var(--ep-font-display);
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.ep-tile p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--ep-ink-muted);
+  flex: 1;
+}
+
+.ep-tile-lg {
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--ep-seafoam) 8%, white), var(--ep-surface) 45%),
+    var(--ep-surface);
+}
+
+.ep-tile-lg h3 {
+  font-size: 1.35rem;
+}
+
+.ep-badge-new {
+  align-self: flex-start;
+  font-family: var(--ep-font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ep-seafoam);
+  background: var(--ep-seafoam-soft);
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+}
+
+/* ——— Feature list ——— */
+
+.ep-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+@media (min-width: 720px) {
+  .ep-features {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ep-features li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.85rem;
+  align-items: start;
+  padding: 1.05rem 1.15rem;
+  background: var(--ep-surface);
+  border-radius: var(--ep-radius);
+  border: 1px solid var(--ep-border);
+  box-shadow: var(--ep-shadow);
+}
+
+.ep-features .ep-ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: var(--ep-cyan-soft);
+  color: var(--ep-primary);
+}
+
+.ep-features .ep-ico svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ep-features h3 {
+  font-family: var(--ep-font-display);
+  font-size: 1.02rem;
+  font-weight: 650;
   letter-spacing: -0.02em;
   margin: 0 0 0.25rem;
 }
 
-.ep-benefits p {
+.ep-features p {
   margin: 0;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: var(--ep-ink-muted);
 }
+
+/* ——— Coming soon ——— */
+
+.ep-roadmap {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+@media (min-width: 720px) {
+  .ep-roadmap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ep-roadmap li {
+  padding: 1.2rem 1.25rem;
+  border-radius: var(--ep-radius-lg);
+  border: 1px dashed color-mix(in srgb, var(--ep-amber) 45%, var(--ep-border));
+  background: color-mix(in srgb, var(--ep-amber-soft) 55%, var(--ep-surface));
+}
+
+.ep-roadmap .ep-soon {
+  display: inline-block;
+  font-family: var(--ep-font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ep-amber);
+  margin-bottom: 0.45rem;
+}
+
+.ep-roadmap h3 {
+  font-family: var(--ep-font-display);
+  font-size: 1.08rem;
+  font-weight: 650;
+  margin: 0 0 0.35rem;
+  letter-spacing: -0.02em;
+}
+
+.ep-roadmap p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ep-ink-muted);
+}
+
+/* ——— Platforms ——— */
 
 .ep-platforms {
   display: flex;
@@ -414,20 +645,28 @@ button:focus-visible {
   font-family: var(--ep-font-display);
   font-size: 0.875rem;
   font-weight: 600;
-  padding: 0.45rem 0.85rem;
+  padding: 0.5rem 0.95rem;
   border-radius: 999px;
   background: color-mix(in srgb, var(--ep-primary) 10%, var(--ep-surface));
   color: var(--ep-primary);
   border: 1px solid color-mix(in srgb, var(--ep-primary) 18%, transparent);
 }
 
+.ep-platforms li em {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--ep-ink-muted);
+  margin-left: 0.35rem;
+}
+
 .ep-disclaimer {
-  padding: 1.15rem 1.25rem;
+  padding: 1.2rem 1.3rem;
   border-radius: var(--ep-radius);
   background: color-mix(in srgb, var(--ep-ink) 4%, var(--ep-surface));
   border-left: 3px solid var(--ep-primary);
   color: var(--ep-ink-muted);
   font-size: 0.9375rem;
+  margin: 0;
 }
 
 .ep-disclaimer strong {
@@ -437,7 +676,7 @@ button:focus-visible {
 /* ——— Footer ——— */
 
 .ep-footer {
-  max-width: 1080px;
+  max-width: var(--ep-max);
   margin: 0 auto;
   padding: 2rem 1.25rem 3rem;
   border-top: 1px solid var(--ep-border);
@@ -460,13 +699,14 @@ button:focus-visible {
   color: var(--ep-ink-muted);
   text-decoration: none;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .ep-footer a:hover {
   color: var(--ep-primary);
 }
 
-/* ——— Entrance (subtle) ——— */
+/* ——— Motion ——— */
 
 @media (prefers-reduced-motion: no-preference) {
   .ep-hero-brand,
@@ -477,33 +717,26 @@ button:focus-visible {
     animation: ep-rise 0.55s var(--ep-ease) both;
   }
   .ep-hero-title {
-    animation-delay: 0.04s;
+    animation-delay: 0.05s;
   }
   .ep-hero-lead {
-    animation-delay: 0.08s;
+    animation-delay: 0.09s;
   }
   .ep-cta-row {
-    animation-delay: 0.12s;
+    animation-delay: 0.13s;
   }
   .ep-horizon-art {
-    animation-delay: 0.16s;
+    animation-delay: 0.1s;
   }
 }
 
 @keyframes ep-rise {
   from {
-    transform: translateY(10px);
+    opacity: 0;
+    transform: translateY(12px);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@media (min-width: 768px) {
-  .ep-hero {
-    padding-top: 4.5rem;
-  }
-  .ep-benefits {
-    gap: 1.1rem;
   }
 }
