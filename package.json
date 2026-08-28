@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "node scripts/build.mjs && npx serve docs"
+    "dev": "node scripts/build.mjs && node scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",

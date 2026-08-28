@@ -1,0 +1,32 @@
+{
+  "slug": "eyesProtector",
+  "displayName": "EyesProtector",
+  "tagline": {
+    "en": "Eye-strain habit coach & near-work glasses companion",
+    "zh-Hans": "视疲劳习惯教练与近用镜工作流伴侣"
+  },
+  "shortDescription": {
+    "en": "Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, Smart Pause. Not a medical device.",
+    "zh-Hans": "Mac 免费；iPhone / iPad 一次解锁。工作时段远眺、双镜换镜、够用版智能暂停。不是医疗器械。"
+  },
+  "keywords": {
+    "en": ["eye strain", "20-20-20", "look away reminder", "Mac menu bar", "near work glasses", "digital wellness", "habit coach"],
+    "zh-Hans": ["视疲劳", "20-20-20", "远眺提醒", "Mac 菜单栏", "近用镜", "数字健康", "习惯教练"]
+  },
+  "supportEmail": "1621829808@qq.com",
+  "appStoreId": "",
+  "price": "Free",
+  "operatingSystem": "iOS, macOS",
+  "applicationCategory": "HealthApplication",
+  "siteStylesheet": "eyesprotector-site.css",
+  "themeStorageKey": "eyesprotector-theme",
+  "locales": [
+    { "id": "en", "label": "English" },
+    { "id": "zh-Hans", "label": "简体中文" }
+  ],
+  "documents": {
+    "legal": ["privacy", "terms"],
+    "support": ["support"],
+    "marketing": ["marketing.html"]
+  }
+}

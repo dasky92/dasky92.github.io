@@ -1,0 +1,53 @@
+{
+  "app": "eyesProtector",
+  "locale": "en",
+  "document": "support",
+  "title": "Support",
+  "version": "1.0.0",
+  "effectiveDate": "2026-08-11",
+  "sections": [
+    {
+      "id": "contact",
+      "title": "Contact",
+      "body": "<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>Please include: device model, OS version, App version, and steps to reproduce. Do not send passwords or full payment card numbers.</p>\n<p><strong>GitHub Issues (public):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "availability",
+      "title": "Availability",
+      "body": "<p>EyesProtector is planned for <strong>global</strong> App Store distribution. Storefront timing may differ; the China App Store may launch later than other regions. Features and pricing can vary by country.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>Can the App treat myopia or restore accommodation?</h3>\n<p>No. EyesProtector is a habit reminder and glasses workflow companion—not a medical device and not a substitute for refraction or clinical care.</p>\n<h3>Why is there no master off switch for look-away?</h3>\n<p>Look-away runs during work hours by design. Use rest pause, off-work mode, or mute-for-today to shelve reminders.</p>\n<h3>What is free vs paid?</h3>\n<p>The <strong>core loop</strong> (look-away rhythm and shelving, pairing plan, local diary / adherence, Smart Pause) is intended to work without a paid purchase. <strong>Multi-device iCloud sync</strong> may be a paid capability—see the App Store product page for SKUs, price, and trials in your region.</p>\n<h3>How do purchases and refunds work?</h3>\n<p>Purchases go through <strong>Apple</strong>. Manage or cancel subscriptions under your Apple ID → Subscriptions. Refunds follow Apple’s process and local law.</p>\n<h3>iCloud sync failed or the switch rolled back?</h3>\n<ol>\n<li>Sign in under System Settings / Settings → Apple ID → <strong>iCloud</strong> (not only the App Store).</li>\n<li>Confirm iCloud is available for your account and region.</li>\n<li>Open the App’s Sync page, turn sync off, then on again.</li>\n<li>If enable fails, the App rolls the switch back so you are not left in a half-on state.</li>\n</ol>\n<p>We cannot read your iCloud contents on our servers. See the <a href=\"privacy.html\">Privacy Policy</a>.</p>\n<h3>Smart Pause not working?</h3>\n<ul>\n<li>Focus-based pause needs Focus Status permission where the OS requires it.</li>\n<li>Frontmost-app pause is primarily a <strong>Mac</strong> feature; check the app list and toggles in Settings.</li>\n<li>Meeting-app presets are a starting point—add or remove apps as needed.</li>\n</ul>\n<h3>Notifications missing?</h3>\n<p>Allow notifications for EyesProtector in system settings. Shelving modes (pause / off-work / mute today) intentionally suppress prompts.</p>\n<h3>Strict / overlay mode hard to exit?</h3>\n<p>Use the on-screen unlock / dismiss flow. Force-quitting the App ends the process; reopen from Launchpad, Spotlight, or the Home Screen.</p>\n"
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "body": "<ul>\n<li><a href=\"privacy.html\">Privacy Policy</a></li>\n<li><a href=\"terms.html\">Terms of Use</a></li>\n</ul>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Global FAQ: free vs paid, iCloud, purchases, Smart Pause.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "contact",
+      "title": "Contact",
+      "body": "<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>Please include: device model, OS version, App version, and steps to reproduce. Do not send passwords or full payment card numbers.</p>\n<p><strong>GitHub Issues (public):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "availability",
+      "title": "Availability",
+      "body": "<p>EyesProtector is planned for <strong>global</strong> App Store distribution. Storefront timing may differ; the China App Store may launch later than other regions. Features and pricing can vary by country.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>Can the App treat myopia or restore accommodation?</h3>\n<p>No. EyesProtector is a habit reminder and glasses workflow companion—not a medical device and not a substitute for refraction or clinical care.</p>\n<h3>Why is there no master off switch for look-away?</h3>\n<p>Look-away runs during work hours by design. Use rest pause, off-work mode, or mute-for-today to shelve reminders.</p>\n<h3>What is free vs paid?</h3>\n<p>The <strong>core loop</strong> (look-away rhythm and shelving, pairing plan, local diary / adherence, Smart Pause) is intended to work without a paid purchase. <strong>Multi-device iCloud sync</strong> may be a paid capability—see the App Store product page for SKUs, price, and trials in your region.</p>\n<h3>How do purchases and refunds work?</h3>\n<p>Purchases go through <strong>Apple</strong>. Manage or cancel subscriptions under your Apple ID → Subscriptions. Refunds follow Apple’s process and local law.</p>\n<h3>iCloud sync failed or the switch rolled back?</h3>\n<ol>\n<li>Sign in under System Settings / Settings → Apple ID → <strong>iCloud</strong> (not only the App Store).</li>\n<li>Confirm iCloud is available for your account and region.</li>\n<li>Open the App’s Sync page, turn sync off, then on again.</li>\n<li>If enable fails, the App rolls the switch back so you are not left in a half-on state.</li>\n</ol>\n<p>We cannot read your iCloud contents on our servers. See the <a href=\"privacy.html\">Privacy Policy</a>.</p>\n<h3>Smart Pause not working?</h3>\n<ul>\n<li>Focus-based pause needs Focus Status permission where the OS requires it.</li>\n<li>Frontmost-app pause is primarily a <strong>Mac</strong> feature; check the app list and toggles in Settings.</li>\n<li>Meeting-app presets are a starting point—add or remove apps as needed.</li>\n</ul>\n<h3>Notifications missing?</h3>\n<p>Allow notifications for EyesProtector in system settings. Shelving modes (pause / off-work / mute today) intentionally suppress prompts.</p>\n<h3>Strict / overlay mode hard to exit?</h3>\n<p>Use the on-screen unlock / dismiss flow. Force-quitting the App ends the process; reopen from Launchpad, Spotlight, or the Home Screen.</p>\n"
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "body": "<ul>\n<li><a href=\"privacy.html\">Privacy Policy</a></li>\n<li><a href=\"terms.html\">Terms of Use</a></li>\n</ul>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Global FAQ: free vs paid, iCloud, purchases, Smart Pause.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ]
+}

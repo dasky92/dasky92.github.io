@@ -1,0 +1,85 @@
+{
+  "app": "eyesProtector",
+  "locale": "en",
+  "document": "terms",
+  "title": "Terms of Use",
+  "version": "1.0.0",
+  "effectiveDate": "2026-08-11",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance",
+      "body": "<p>Welcome to EyesProtector (the “App”). By downloading, installing, or using the App, you agree to these Terms of Use (the “Terms”). If you do not agree, do not use the App.</p>\n"
+    },
+    {
+      "id": "what-the-app-is",
+      "title": "What the App Is",
+      "body": "<p>The App is an eye-strain <strong>habit coach</strong> and near-work glasses <strong>workflow companion</strong> for Mac, iPhone, and iPad. It may:</p>\n<ul>\n<li>remind you to look away during configured work hours;</li>\n<li>support single-pair vs dual-pair pairing plans and dual-pair commute prompts;</li>\n<li>provide shelving controls (pause, off-work mode, mute for today) and a good-enough Smart Pause;</li>\n<li>let you log subjective strain scores and review adherence.</li>\n</ul>\n<p>The App:</p>\n<ul>\n<li>is <strong>not</strong> a medical device;</li>\n<li>does <strong>not</strong> diagnose, treat, cure, or prevent disease;</li>\n<li>does <strong>not</strong> replace professional refraction or clinical advice;</li>\n<li>does <strong>not</strong> claim to restore accommodation or prevent myopia progression.</li>\n</ul>\n<p>Seek licensed eye-care professionals for optical correction and medical concerns.</p>\n"
+    },
+    {
+      "id": "license-and-restrictions",
+      "title": "License and Restrictions",
+      "body": "<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes. You may not:</p>\n<ul>\n<li>copy, modify, reverse engineer, decompile, or create derivative works of the App, except as permitted by applicable law;</li>\n<li>rent, lease, sublicense, or distribute the App;</li>\n<li>use the App unlawfully or in a way that infringes others’ rights.</li>\n</ul>\n"
+    },
+    {
+      "id": "health-disclaimer",
+      "title": "Health Disclaimer",
+      "body": "<p>Strain scores and notes are <strong>subjective habit records</strong>, not medical records or diagnoses. You assume risk for health or lifestyle decisions you make based on the App. Seek professional care for persistent discomfort or vision changes.</p>\n"
+    },
+    {
+      "id": "local-use-network-and-icloud-sync",
+      "title": "Local Use, Network, and iCloud Sync",
+      "body": "<p>The core habit loop is designed to work <strong>on-device</strong> without sync and without an account you create with us.</p>\n<p>Internet access may still be used for App Store updates, fetching public legal pages, optional notifications / Focus-related system features, and—<strong>only if you enable it</strong>—<strong>Apple iCloud</strong> sync of settings and diary-related data across your devices. iCloud is Apple’s service and is governed by Apple’s terms and privacy policy. Details are in our <a href=\"privacy.html\">Privacy Policy</a>.</p>\n"
+    },
+    {
+      "id": "free-features-and-paid-capabilities",
+      "title": "Free Features and Paid Capabilities",
+      "body": "<p>We intend the <strong>core loop</strong> (work-hour look-away rhythm and shelving, pairing plan, local strain diary and adherence review, good-enough Smart Pause) to remain usable <strong>without</strong> a paid sync purchase.</p>\n<p><strong>Multi-device sync via iCloud</strong> may be offered as a <strong>paid</strong> capability (subscription and/or In-App Purchase), as shown on the App Store product page. Availability, price, and trial terms (if any) may vary by country or region. China App Store availability may follow other regions.</p>\n<p>If you purchase through the Apple App Store:</p>\n<ul>\n<li>billing, taxes, renewals, cancellation, and refunds are handled under <strong>Apple’s</strong> applicable terms and policies;</li>\n<li>you can manage subscriptions in your Apple ID settings;</li>\n<li>we do not receive your full payment card details.</li>\n</ul>\n<p>Unauthorized chargebacks or abuse of refund processes may lead to loss of paid entitlements where permitted by law.</p>\n"
+    },
+    {
+      "id": "app-store",
+      "title": "App Store",
+      "body": "<p>If you obtain the App through the Apple App Store, Apple’s Licensed Application End User License Agreement and related store terms also apply. In case of conflict regarding purchase mechanics, Apple’s terms typically control the transaction.</p>\n<p>Consumers in the EEA or UK may have statutory digital-content rights handled through Apple’s purchase flow where applicable.</p>\n"
+    },
+    {
+      "id": "updates-and-support",
+      "title": "Updates and Support",
+      "body": "<p>We may ship updates via the App Store to improve performance, fix bugs, or change features. Support is best-effort; see Support. We welcome feedback but do not guarantee every request will be implemented.</p>\n"
+    },
+    {
+      "id": "disclaimer-of-warranties",
+      "title": "Disclaimer of Warranties",
+      "body": "<p>THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR FREE FROM HARMFUL COMPONENTS. YOU USE THE APP AT YOUR OWN RISK.</p>\n<p>Some jurisdictions do not allow certain warranty exclusions; those exclusions may not apply to you.</p>\n"
+    },
+    {
+      "id": "limitation-of-liability",
+      "title": "Limitation of Liability",
+      "body": "<p>TO THE FULLEST EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR USE, ARISING FROM YOUR USE OR INABILITY TO USE THE APP. OUR TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID US FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS BEFORE THE CLAIM AROSE (EXCLUDING AMOUNTS PAID TO APPLE AS STORE COMMISSION WHERE NOT RECEIVED BY US).</p>\n<p>Nothing in these Terms limits liability that cannot be limited under applicable consumer protection law.</p>\n"
+    },
+    {
+      "id": "termination",
+      "title": "Termination",
+      "body": "<p>We may suspend or terminate access if you materially breach these Terms. Upon termination, stop using the App and delete copies from your devices. Provisions that by nature should survive (including disclaimers and liability limits) will survive.</p>\n"
+    },
+    {
+      "id": "governing-law-and-disputes",
+      "title": "Governing Law and Disputes",
+      "body": "<p>These Terms are governed by the laws of the People’s Republic of China (excluding conflict-of-law rules), <strong>subject to mandatory consumer protections</strong> in your country of residence. Nothing here deprives you of non-waivable rights under local law.</p>\n"
+    },
+    {
+      "id": "changes",
+      "title": "Changes",
+      "body": "<p>We may update these Terms by publishing a new version with a revised effective date. Continued use after the effective date constitutes acceptance, except where law requires additional notice or consent.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Initial global publication: health disclaimer, free vs paid sync, iCloud, App Store billing.</td>\n</tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us",
+      "body": "<p><strong>Email:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n"
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "body": "<p>These Terms are published in English and Simplified Chinese. If translations conflict, the <strong>English</strong> version prevails, except where mandatory local law requires otherwise.</p>\n"
+    }
+  ]
+}
