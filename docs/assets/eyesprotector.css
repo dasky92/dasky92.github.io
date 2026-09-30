@@ -172,6 +172,18 @@ button:focus-visible {
   border-color: color-mix(in srgb, var(--ep-primary) 35%, var(--ep-border));
 }
 
+.ep-langs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.ep-langs a[aria-current="page"] {
+  border-color: color-mix(in srgb, var(--ep-primary) 45%, var(--ep-border));
+  color: var(--ep-primary) !important;
+}
+
 /* ——— Layout ——— */
 
 .ep-main {

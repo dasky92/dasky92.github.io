@@ -3,8 +3,8 @@ app: eyesProtector
 locale: en
 document: support
 title: Support
-version: "1.0.0"
-effectiveDate: 2026-08-11
+version: "1.1.0"
+effectiveDate: 2026-09-30
 ---
 
 # Support
@@ -19,7 +19,7 @@ Please include: device model, OS version, App version, and steps to reproduce. D
 
 ## Availability
 
-EyesProtector is planned for **global** App Store distribution. Storefront timing may differ; the China App Store may launch later than other regions. Features and pricing can vary by country.
+EyesProtector is planned for **global** App Store distribution. Storefront timing may differ; the China App Store may launch first or later than other regions. Features and pricing can vary by country.
 
 ## FAQ
 
@@ -33,11 +33,16 @@ Look-away runs during work hours by design. Use rest pause, off-work mode, or mu
 
 ### What is free vs paid?
 
-The **core loop** (look-away rhythm and shelving, pairing plan, local diary / adherence, Smart Pause) is intended to work without a paid purchase. **Multi-device iCloud sync** may be a paid capability—see the App Store product page for SKUs, price, and trials in your region.
+- **Mac:** the core loop is free (look-away rhythm and shelving, pairing plan, Smart Pause, local comfort diary / adherence).
+- **iPhone / iPad:** one unlock purchase opens the core loop on phone and tablet.
+- **iCloud sync:** free when you have iCloud—no separate charge.
+- **Look-away clock:** available after device unlock. The first theme, Eyes, is free; additional themes are separate one-time purchases. Mac has no look-away clock.
+
+Exact product IDs and prices appear on the App Store product page in your region.
 
 ### How do purchases and refunds work?
 
-Purchases go through **Apple**. Manage or cancel subscriptions under your Apple ID → Subscriptions. Refunds follow Apple’s process and local law.
+Purchases go through **Apple**. Manage non-consumable purchases with Restore Purchases in the App, and refunds through Apple’s process and local law.
 
 ### iCloud sync failed or the switch rolled back?
 
@@ -50,9 +55,13 @@ We cannot read your iCloud contents on our servers. See the [Privacy Policy](pri
 
 ### Smart Pause not working?
 
-- Focus-based pause needs Focus Status permission where the OS requires it.
-- Frontmost-app pause is primarily a **Mac** feature; check the app list and toggles in Settings.
-- Meeting-app presets are a starting point—add or remove apps as needed.
+- Focus-based pause is **Mac only** and needs Focus Status permission where the OS requires it. Settings list Focus modes this Mac actually has; Work is off by default.
+- Frontmost-app pause is **Mac only**. The list starts empty—add the apps you want.
+- iPhone and iPad do not pause for Focus.
+
+### Look-away clock missing?
+
+You need an unlocked iPhone or iPad. The Eyes theme is free and opens the clock; other themes are optional purchases. Mac does not offer the clock.
 
 ### Notifications missing?
 
@@ -60,7 +69,7 @@ Allow notifications for EyesProtector in system settings. Shelving modes (pause 
 
 ### Strict / overlay mode hard to exit?
 
-Use the on-screen unlock / dismiss flow. Force-quitting the App ends the process; reopen from Launchpad, Spotlight, or the Home Screen.
+Use the on-screen controls or the Mac menu bar. Force-quitting the App ends the process; reopen from Launchpad, Spotlight, or the Home Screen.
 
 ## Legal
 
@@ -71,4 +80,5 @@ Use the on-screen unlock / dismiss flow. Force-quitting the App ends the process
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
-| 1.0.0 | 2026-08-11 | Global FAQ: free vs paid, iCloud, purchases, Smart Pause. |
+| 1.1.0 | 2026-09-30 | Mac free / iOS unlock / free iCloud; look-away clock; Smart Pause without meeting presets; six languages. |
+| 1.0.0 | 2026-08-11 | Initial global FAQ. |

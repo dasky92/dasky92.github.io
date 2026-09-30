@@ -3,65 +3,273 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dasky92.github.io/eyesProtector/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.8</priority>
 
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/en/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/zh-Hans/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ja/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ko/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ru/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/es/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/en/privacy.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ja/privacy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ko/privacy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ru/privacy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/es/privacy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/privacy.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/en/terms.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/zh-Hans/terms.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ja/terms.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ko/terms.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ru/terms.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/es/terms.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/terms.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/en/support.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/eyesProtector/zh-Hans/support.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ja/support.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ko/support.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/ru/support.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
+  </url>
+  <url>
+    <loc>https://dasky92.github.io/eyesProtector/es/support.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasky92.github.io/eyesProtector/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dasky92.github.io/eyesProtector/zh-Hans/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasky92.github.io/eyesProtector/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://dasky92.github.io/eyesProtector/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dasky92.github.io/eyesProtector/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasky92.github.io/eyesProtector/es/support.html"/>
   </url>
   <url>
     <loc>https://dasky92.github.io/verde/</loc>

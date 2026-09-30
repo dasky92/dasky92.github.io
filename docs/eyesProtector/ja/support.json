@@ -1,0 +1,53 @@
+{
+  "app": "eyesProtector",
+  "locale": "ja",
+  "document": "support",
+  "title": "サポート",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
+  "sections": [
+    {
+      "id": "問合",
+      "title": "お問い合わせ",
+      "body": "<p><strong>メール:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>端末モデル、OS バージョン、アプリバージョン、再現手順を書いてください。パスワードやカード番号全文は送らないでください。</p>\n<p><strong>GitHub Issues（公開）:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "配信",
+      "title": "配信について",
+      "body": "<p>EyesProtector は <strong>グローバル</strong> な App Store 配信を想定しています。店面の時期は地域で異なり、中国の App Store が先になる場合もあります。機能と価格は国・地域で異なることがあります。</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>近視の治療や調節力の回復はできますか？</h3>\n<p>いいえ。EyesProtector は習慣のリマインダーと近用眼鏡の流れの相棒であり、医療機器でも検眼の代わりでもありません。</p>\n<h3>遠望の総スイッチがないのはなぜ？</h3>\n<p>遠望は作業時間に行う設計です。休憩の一時停止、退勤モード、当日オフで保留してください。</p>\n<h3>無料と有料は？</h3>\n<ul>\n<li><strong>Mac:</strong> 中核循環は無料。</li>\n<li><strong>iPhone / iPad:</strong> 一度の購入でスマホとタブレットの中核循環を開けます。</li>\n<li><strong>iCloud 同期:</strong> iCloud があれば無料でオンにできます。</li>\n<li><strong>遠望クロック:</strong> 端末解除後。テーマ「双眼」は無料、ほかは別購入。Mac にクロックはありません。</li>\n</ul>\n<p>商品と価格は地域の App Store 製品ページを見てください。</p>\n<h3>購入と返金は？</h3>\n<p>購入は <strong>Apple</strong> 経由です。アプリ内の購入の復元と、Apple の返金手続きに従ってください。</p>\n<h3>iCloud 同期が失敗する／スイッチが戻る？</h3>\n<ol>\n<li>システム設定 → Apple ID → <strong>iCloud</strong> にサインイン（App Store だけではない）。</li>\n<li>アカウントと地域で iCloud が使えるか確認。</li>\n<li>アプリの同期をオフ→オン。</li>\n<li>失敗時は半開を避けるためスイッチを戻します。</li>\n</ol>\n<p>自前サーバでは iCloud の中身を読めません。<a href=\"privacy.html\">プライバシーポリシー</a> を参照。</p>\n<h3>スマート一時停止が効かない？</h3>\n<ul>\n<li>集中モードによる一時停止は <strong>Mac のみ</strong>。本機にある集中だけが出ます。「仕事」は初期オフ。</li>\n<li>前面アプリの一時停止も <strong>Mac のみ</strong>。リストは空から自分で追加。</li>\n<li>iPhone / iPad は集中では一時停止しません。</li>\n</ul>\n<h3>遠望クロックがない？</h3>\n<p>解除済みの iPhone / iPad が必要です。「双眼」は無料で入れます。Mac にはありません。</p>\n<h3>通知が来ない？</h3>\n<p>システム設定で通知を許可。保留モードは意図的に知らせを止めます。</p>\n<h3>厳格モードをやめられない？</h3>\n<p>画面上の操作、または Mac のメニューバーを使ってください。強制終了後は再起動してください。</p>\n"
+    },
+    {
+      "id": "法務",
+      "title": "法務",
+      "body": "<ul>\n<li><a href=\"privacy.html\">プライバシーポリシー</a></li>\n<li><a href=\"terms.html\">利用規約</a></li>\n</ul>\n<h3>版履歴</h3>\n<table>\n<thead>\n<tr>\n<th>版</th>\n<th>発効日</th>\n<th>概要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac 無料 / iOS 解除 / iCloud 無料；遠望クロック；6 言語。</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>初版 FAQ。</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "問合",
+      "title": "お問い合わせ",
+      "body": "<p><strong>メール:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>端末モデル、OS バージョン、アプリバージョン、再現手順を書いてください。パスワードやカード番号全文は送らないでください。</p>\n<p><strong>GitHub Issues（公開）:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "配信",
+      "title": "配信について",
+      "body": "<p>EyesProtector は <strong>グローバル</strong> な App Store 配信を想定しています。店面の時期は地域で異なり、中国の App Store が先になる場合もあります。機能と価格は国・地域で異なることがあります。</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>近視の治療や調節力の回復はできますか？</h3>\n<p>いいえ。EyesProtector は習慣のリマインダーと近用眼鏡の流れの相棒であり、医療機器でも検眼の代わりでもありません。</p>\n<h3>遠望の総スイッチがないのはなぜ？</h3>\n<p>遠望は作業時間に行う設計です。休憩の一時停止、退勤モード、当日オフで保留してください。</p>\n<h3>無料と有料は？</h3>\n<ul>\n<li><strong>Mac:</strong> 中核循環は無料。</li>\n<li><strong>iPhone / iPad:</strong> 一度の購入でスマホとタブレットの中核循環を開けます。</li>\n<li><strong>iCloud 同期:</strong> iCloud があれば無料でオンにできます。</li>\n<li><strong>遠望クロック:</strong> 端末解除後。テーマ「双眼」は無料、ほかは別購入。Mac にクロックはありません。</li>\n</ul>\n<p>商品と価格は地域の App Store 製品ページを見てください。</p>\n<h3>購入と返金は？</h3>\n<p>購入は <strong>Apple</strong> 経由です。アプリ内の購入の復元と、Apple の返金手続きに従ってください。</p>\n<h3>iCloud 同期が失敗する／スイッチが戻る？</h3>\n<ol>\n<li>システム設定 → Apple ID → <strong>iCloud</strong> にサインイン（App Store だけではない）。</li>\n<li>アカウントと地域で iCloud が使えるか確認。</li>\n<li>アプリの同期をオフ→オン。</li>\n<li>失敗時は半開を避けるためスイッチを戻します。</li>\n</ol>\n<p>自前サーバでは iCloud の中身を読めません。<a href=\"privacy.html\">プライバシーポリシー</a> を参照。</p>\n<h3>スマート一時停止が効かない？</h3>\n<ul>\n<li>集中モードによる一時停止は <strong>Mac のみ</strong>。本機にある集中だけが出ます。「仕事」は初期オフ。</li>\n<li>前面アプリの一時停止も <strong>Mac のみ</strong>。リストは空から自分で追加。</li>\n<li>iPhone / iPad は集中では一時停止しません。</li>\n</ul>\n<h3>遠望クロックがない？</h3>\n<p>解除済みの iPhone / iPad が必要です。「双眼」は無料で入れます。Mac にはありません。</p>\n<h3>通知が来ない？</h3>\n<p>システム設定で通知を許可。保留モードは意図的に知らせを止めます。</p>\n<h3>厳格モードをやめられない？</h3>\n<p>画面上の操作、または Mac のメニューバーを使ってください。強制終了後は再起動してください。</p>\n"
+    },
+    {
+      "id": "法務",
+      "title": "法務",
+      "body": "<ul>\n<li><a href=\"privacy.html\">プライバシーポリシー</a></li>\n<li><a href=\"terms.html\">利用規約</a></li>\n</ul>\n<h3>版履歴</h3>\n<table>\n<thead>\n<tr>\n<th>版</th>\n<th>発効日</th>\n<th>概要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac 無料 / iOS 解除 / iCloud 無料；遠望クロック；6 言語。</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>初版 FAQ。</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ]
+}

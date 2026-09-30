@@ -3,8 +3,8 @@
   "locale": "en",
   "document": "terms",
   "title": "Terms of Use",
-  "version": "1.0.0",
-  "effectiveDate": "2026-08-11",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
   "sections": [
     {
       "id": "acceptance",
@@ -14,7 +14,7 @@
     {
       "id": "what-the-app-is",
       "title": "What the App Is",
-      "body": "<p>The App is an eye-strain <strong>habit coach</strong> and near-work glasses <strong>workflow companion</strong> for Mac, iPhone, and iPad. It may:</p>\n<ul>\n<li>remind you to look away during configured work hours;</li>\n<li>support single-pair vs dual-pair pairing plans and dual-pair commute prompts;</li>\n<li>provide shelving controls (pause, off-work mode, mute for today) and a good-enough Smart Pause;</li>\n<li>let you log subjective strain scores and review adherence.</li>\n</ul>\n<p>The App:</p>\n<ul>\n<li>is <strong>not</strong> a medical device;</li>\n<li>does <strong>not</strong> diagnose, treat, cure, or prevent disease;</li>\n<li>does <strong>not</strong> replace professional refraction or clinical advice;</li>\n<li>does <strong>not</strong> claim to restore accommodation or prevent myopia progression.</li>\n</ul>\n<p>Seek licensed eye-care professionals for optical correction and medical concerns.</p>\n"
+      "body": "<p>The App is an eye-strain <strong>habit coach</strong> and near-work glasses <strong>workflow companion</strong> for Mac, iPhone, and iPad. It may:</p>\n<ul>\n<li>remind you to look away during configured work hours;</li>\n<li>support single-pair vs dual-pair pairing plans and dual-pair commute prompts;</li>\n<li>provide shelving controls (pause, off-work mode, mute for today) and a good-enough Smart Pause;</li>\n<li>let you log subjective strain scores and review adherence;</li>\n<li>on unlocked iPhone / iPad, offer a look-away clock with optional theme purchases.</li>\n</ul>\n<p>The App:</p>\n<ul>\n<li>is <strong>not</strong> a medical device;</li>\n<li>does <strong>not</strong> diagnose, treat, cure, or prevent disease;</li>\n<li>does <strong>not</strong> replace professional refraction or clinical advice;</li>\n<li>does <strong>not</strong> claim to restore accommodation or prevent myopia progression.</li>\n</ul>\n<p>Seek licensed eye-care professionals for optical correction and medical concerns.</p>\n"
     },
     {
       "id": "license-and-restrictions",
@@ -34,7 +34,7 @@
     {
       "id": "free-features-and-paid-capabilities",
       "title": "Free Features and Paid Capabilities",
-      "body": "<p>We intend the <strong>core loop</strong> (work-hour look-away rhythm and shelving, pairing plan, local strain diary and adherence review, good-enough Smart Pause) to remain usable <strong>without</strong> a paid sync purchase.</p>\n<p><strong>Multi-device sync via iCloud</strong> may be offered as a <strong>paid</strong> capability (subscription and/or In-App Purchase), as shown on the App Store product page. Availability, price, and trial terms (if any) may vary by country or region. China App Store availability may follow other regions.</p>\n<p>If you purchase through the Apple App Store:</p>\n<ul>\n<li>billing, taxes, renewals, cancellation, and refunds are handled under <strong>Apple’s</strong> applicable terms and policies;</li>\n<li>you can manage subscriptions in your Apple ID settings;</li>\n<li>we do not receive your full payment card details.</li>\n</ul>\n<p>Unauthorized chargebacks or abuse of refund processes may lead to loss of paid entitlements where permitted by law.</p>\n"
+      "body": "<p>We intend the following commercial model (exact products and prices appear on the App Store product page and may vary by country or region; China App Store timing may differ):</p>\n<ul>\n<li><strong>Mac:</strong> the <strong>core loop</strong> (work-hour look-away rhythm and shelving, pairing plan, local comfort diary and adherence review, good-enough Smart Pause) is free.</li>\n<li><strong>iPhone / iPad:</strong> a one-time unlock purchase opens the core loop on phone and tablet.</li>\n<li><strong>iCloud sync:</strong> optional and <strong>not</strong> charged separately when you have iCloud.</li>\n<li><strong>Look-away clock:</strong> available on unlocked iPhone / iPad. The first theme (Eyes) is free; additional themes may be separate one-time purchases. Mac has no look-away clock.</li>\n</ul>\n<p>If you purchase through the Apple App Store:</p>\n<ul>\n<li>billing, taxes, and refunds are handled under <strong>Apple’s</strong> applicable terms and policies;</li>\n<li>restore non-consumable purchases in the App;</li>\n<li>we do not receive your full payment card details.</li>\n</ul>\n<p>Unauthorized chargebacks or abuse of refund processes may lead to loss of paid entitlements where permitted by law.</p>\n"
     },
     {
       "id": "app-store",
@@ -69,7 +69,7 @@
     {
       "id": "changes",
       "title": "Changes",
-      "body": "<p>We may update these Terms by publishing a new version with a revised effective date. Continued use after the effective date constitutes acceptance, except where law requires additional notice or consent.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Initial global publication: health disclaimer, free vs paid sync, iCloud, App Store billing.</td>\n</tr>\n</tbody>\n</table>\n"
+      "body": "<p>We may update these Terms by publishing a new version with a revised effective date. Continued use after the effective date constitutes acceptance, except where law requires additional notice or consent.</p>\n<h3>Version History</h3>\n<table>\n<thead>\n<tr>\n<th>Version</th>\n<th>Effective Date</th>\n<th>Summary of Changes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Clarified Mac free / iOS unlock / free iCloud; look-away clock; six language editions.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Initial global publication: health disclaimer, free vs paid sync, iCloud, App Store billing.</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "contact-us",
@@ -79,7 +79,7 @@
     {
       "id": "language",
       "title": "Language",
-      "body": "<p>These Terms are published in English and Simplified Chinese. If translations conflict, the <strong>English</strong> version prevails, except where mandatory local law requires otherwise.</p>\n"
+      "body": "<p>These Terms are published in English, Simplified Chinese, Japanese, Korean, Russian, and Spanish. If translations conflict, the <strong>English</strong> version prevails, except where mandatory local law requires otherwise.</p>\n"
     }
   ]
 }

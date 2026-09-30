@@ -3,15 +3,27 @@
   "displayName": "EyesProtector",
   "tagline": {
     "en": "Eye-strain habit coach & near-work glasses companion",
-    "zh-Hans": "视疲劳习惯教练与近用镜工作流伴侣"
+    "zh-Hans": "视疲劳习惯教练与近用镜工作流伴侣",
+    "ja": "視疲労の習慣コーチと近用眼鏡の相棒",
+    "ko": "눈 피로 습관 코치와 근용 안경 동반자",
+    "ru": "Тренер привычек при зрительной усталости и спутник очков для близи",
+    "es": "Entrenador de hábitos ante la fatiga visual y compañero de gafas de cerca"
   },
   "shortDescription": {
-    "en": "Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, Smart Pause. Not a medical device.",
-    "zh-Hans": "Mac 免费；iPhone / iPad 一次解锁。工作时段远眺、双镜换镜、够用版智能暂停。不是医疗器械。"
+    "en": "Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, look-away clock, Smart Pause. Not a medical device.",
+    "zh-Hans": "Mac 免费；iPhone / iPad 一次解锁。工作时段远眺、双镜换镜、远眺钟、够用版智能暂停。不是医疗器械。",
+    "ja": "Mac は無料。iPhone / iPad は一度の購入。遠望、二重眼鏡の掛け替え、遠望クロック、スマート一時停止。医療機器ではありません。",
+    "ko": "Mac 무료. iPhone / iPad 한 번 잠금 해제. 원거리 보기, 이중 안경 교체, 원거리 시계, 스마트 일시정지. 의료기기가 아닙니다.",
+    "ru": "Mac бесплатно; iPhone / iPad — разовая разблокировка. Паузы вдаль, смена очков, часы паузы, умная пауза. Не медицинское изделие.",
+    "es": "Mac gratis; iPhone / iPad con un desbloqueo. Miradas a lo lejos, cambio de gafas, reloj de mirada, pausa inteligente. No es un dispositivo médico."
   },
   "keywords": {
-    "en": ["eye strain", "20-20-20", "look away reminder", "Mac menu bar", "near work glasses", "digital wellness", "habit coach"],
-    "zh-Hans": ["视疲劳", "20-20-20", "远眺提醒", "Mac 菜单栏", "近用镜", "数字健康", "习惯教练"]
+    "en": ["eye strain", "20-20-20", "look away reminder", "look-away clock", "Mac menu bar", "near work glasses", "digital wellness", "habit coach"],
+    "zh-Hans": ["视疲劳", "20-20-20", "远眺提醒", "远眺钟", "Mac 菜单栏", "近用镜", "数字健康", "习惯教练"],
+    "ja": ["眼精疲労", "20-20-20", "遠望", "遠望クロック", "メニューバー", "近用眼鏡", "習慣"],
+    "ko": ["눈 피로", "20-20-20", "원거리 보기", "원거리 시계", "메뉴 막대", "근용 안경", "습관"],
+    "ru": ["усталость глаз", "20-20-20", "взгляд вдаль", "часы паузы", "строка меню", "очки для близи", "привычка"],
+    "es": ["fatiga visual", "20-20-20", "mirar lejos", "reloj de mirada", "barra de menú", "gafas de cerca", "hábito"]
   },
   "supportEmail": "1621829808@qq.com",
   "appStoreId": "",
@@ -22,7 +34,11 @@
   "themeStorageKey": "eyesprotector-theme",
   "locales": [
     { "id": "en", "label": "English" },
-    { "id": "zh-Hans", "label": "简体中文" }
+    { "id": "zh-Hans", "label": "简体中文" },
+    { "id": "ja", "label": "日本語" },
+    { "id": "ko", "label": "한국어" },
+    { "id": "ru", "label": "Русский" },
+    { "id": "es", "label": "Español" }
   ],
   "documents": {
     "legal": ["privacy", "terms"],

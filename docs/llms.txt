@@ -2,7 +2,7 @@
 > A collection of app marketing, support, and legal documents.
 
 # EyesProtector
-> Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, Smart Pause. Not a medical device.
+> Mac free; unlock iPhone/iPad once. Look-away reminders, dual-pair commute prompts, look-away clock, Smart Pause. Not a medical device.
 - [English Landing](eyesProtector/en/): Marketing homepage
 - [English privacy](eyesProtector/en/privacy.html): privacy document
 - [English terms](eyesProtector/en/terms.html): terms document
@@ -11,6 +11,22 @@
 - [简体中文 privacy](eyesProtector/zh-Hans/privacy.html): privacy document
 - [简体中文 terms](eyesProtector/zh-Hans/terms.html): terms document
 - [简体中文 support](eyesProtector/zh-Hans/support.html): support document
+- [日本語 Landing](eyesProtector/ja/): Marketing homepage
+- [日本語 privacy](eyesProtector/ja/privacy.html): privacy document
+- [日本語 terms](eyesProtector/ja/terms.html): terms document
+- [日本語 support](eyesProtector/ja/support.html): support document
+- [한국어 Landing](eyesProtector/ko/): Marketing homepage
+- [한국어 privacy](eyesProtector/ko/privacy.html): privacy document
+- [한국어 terms](eyesProtector/ko/terms.html): terms document
+- [한국어 support](eyesProtector/ko/support.html): support document
+- [Русский Landing](eyesProtector/ru/): Marketing homepage
+- [Русский privacy](eyesProtector/ru/privacy.html): privacy document
+- [Русский terms](eyesProtector/ru/terms.html): terms document
+- [Русский support](eyesProtector/ru/support.html): support document
+- [Español Landing](eyesProtector/es/): Marketing homepage
+- [Español privacy](eyesProtector/es/privacy.html): privacy document
+- [Español terms](eyesProtector/es/terms.html): terms document
+- [Español support](eyesProtector/es/support.html): support document
 
 # Verde Player
 > A silky-smooth offline music player for iPhone and iPad. One of the most fluid experiences closest to Apple Music's native app. Tiny install size under 10 MB. Import FLAC, MP3, AAC and more. No ads, no account, no tracking.

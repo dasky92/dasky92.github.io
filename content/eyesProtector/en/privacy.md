@@ -3,8 +3,8 @@ app: eyesProtector
 locale: en
 document: privacy
 title: Privacy Policy
-version: "1.0.0"
-effectiveDate: 2026-08-11
+version: "1.1.0"
+effectiveDate: 2026-09-30
 ---
 
 # Privacy Policy
@@ -62,7 +62,7 @@ With your permission (or as exposed by the OS), the App may use:
 
 - **Notifications** — to deliver look-away or related habit prompts
 - **Focus Status** (where available) — so Smart Pause can shelve reminders while Focus is on
-- **Frontmost application information on Mac** — only to match apps you added to the Smart Pause list (for example meeting apps)
+- **Frontmost application information on Mac** — only to match apps you added to the Smart Pause list
 
 You can revoke these in system settings. Denying permission may limit related features; the rest of the App can still work.
 
@@ -88,15 +88,16 @@ If you email us or open a GitHub Issue, we receive only what you choose to inclu
 - No third-party advertising or analytics SDKs integrated by us for cross-app tracking (as of this version)
 - We do **not sell** your personal information
 
-## Purchases, subscriptions, and Apple billing
+## Purchases and Apple billing
 
-If the App Store listing offers a **paid** capability (for example multi-device **iCloud sync** as a subscription or one-time In-App Purchase):
+Current intended commercial model (exact SKUs and prices appear on the App Store product page and may vary by country or region):
 
-- **Apple** processes payment, receipts, and refunds under Apple’s terms. We do not receive your full payment card number.
-- Apple may share limited purchase/entitlement signals with the App (for example whether a subscription is active) so we can unlock the paid feature.
-- Manage or cancel subscriptions in your Apple ID subscription settings; refunds follow Apple’s process and applicable law.
+- **Mac:** the core habit loop is free.
+- **iPhone / iPad:** a one-time unlock In-App Purchase opens the core loop on phone and tablet.
+- **iCloud sync:** optional and **not** charged separately when you have iCloud.
+- **Look-away clock themes:** after device unlock, the first theme (Eyes) is free; additional themes may be separate one-time purchases. Mac has no look-away clock.
 
-Free core features (look-away rhythm and shelving, pairing plan, local diary) are intended to work **without** purchasing sync. Exact SKUs and pricing appear on the App Store product page and may vary by country or region.
+**Apple** processes payment, receipts, and refunds under Apple’s terms. We do not receive your full payment card number. Apple may share limited purchase/entitlement signals with the App so we can unlock what you bought. Use Restore Purchases in the App for non-consumable entitlements; refunds follow Apple’s process and applicable law.
 
 ## How We Use Information
 
@@ -180,6 +181,7 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.1.0 | 2026-09-30 | Clarified Mac free / iOS unlock / free iCloud; look-away clock themes; Smart Pause app list; six language editions. |
 | 1.0.0 | 2026-08-11 | Initial global publication: on-device defaults, optional iCloud sync, purchases, regional rights. |
 
 ## Contact Us
@@ -192,4 +194,4 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 ## Language
 
-This policy is published in English and Simplified Chinese. If translations conflict, the **English** version prevails, except where mandatory local law requires otherwise.
+This policy is published in English, Simplified Chinese, Japanese, Korean, Russian, and Spanish. If translations conflict, the **English** version prevails, except where mandatory local law requires otherwise.

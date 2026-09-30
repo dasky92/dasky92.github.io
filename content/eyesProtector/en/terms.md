@@ -3,8 +3,8 @@ app: eyesProtector
 locale: en
 document: terms
 title: Terms of Use
-version: "1.0.0"
-effectiveDate: 2026-08-11
+version: "1.1.0"
+effectiveDate: 2026-09-30
 ---
 
 # Terms of Use
@@ -20,7 +20,8 @@ The App is an eye-strain **habit coach** and near-work glasses **workflow compan
 - remind you to look away during configured work hours;
 - support single-pair vs dual-pair pairing plans and dual-pair commute prompts;
 - provide shelving controls (pause, off-work mode, mute for today) and a good-enough Smart Pause;
-- let you log subjective strain scores and review adherence.
+- let you log subjective strain scores and review adherence;
+- on unlocked iPhone / iPad, offer a look-away clock with optional theme purchases.
 
 The App:
 
@@ -51,14 +52,17 @@ Internet access may still be used for App Store updates, fetching public legal p
 
 ## Free Features and Paid Capabilities
 
-We intend the **core loop** (work-hour look-away rhythm and shelving, pairing plan, local strain diary and adherence review, good-enough Smart Pause) to remain usable **without** a paid sync purchase.
+We intend the following commercial model (exact products and prices appear on the App Store product page and may vary by country or region; China App Store timing may differ):
 
-**Multi-device sync via iCloud** may be offered as a **paid** capability (subscription and/or In-App Purchase), as shown on the App Store product page. Availability, price, and trial terms (if any) may vary by country or region. China App Store availability may follow other regions.
+- **Mac:** the **core loop** (work-hour look-away rhythm and shelving, pairing plan, local comfort diary and adherence review, good-enough Smart Pause) is free.
+- **iPhone / iPad:** a one-time unlock purchase opens the core loop on phone and tablet.
+- **iCloud sync:** optional and **not** charged separately when you have iCloud.
+- **Look-away clock:** available on unlocked iPhone / iPad. The first theme (Eyes) is free; additional themes may be separate one-time purchases. Mac has no look-away clock.
 
 If you purchase through the Apple App Store:
 
-- billing, taxes, renewals, cancellation, and refunds are handled under **Apple’s** applicable terms and policies;
-- you can manage subscriptions in your Apple ID settings;
+- billing, taxes, and refunds are handled under **Apple’s** applicable terms and policies;
+- restore non-consumable purchases in the App;
 - we do not receive your full payment card details.
 
 Unauthorized chargebacks or abuse of refund processes may lead to loss of paid entitlements where permitted by law.
@@ -101,6 +105,7 @@ We may update these Terms by publishing a new version with a revised effective d
 
 | Version | Effective Date | Summary of Changes |
 | --- | --- | --- |
+| 1.1.0 | 2026-09-30 | Clarified Mac free / iOS unlock / free iCloud; look-away clock; six language editions. |
 | 1.0.0 | 2026-08-11 | Initial global publication: health disclaimer, free vs paid sync, iCloud, App Store billing. |
 
 ## Contact Us
@@ -109,4 +114,4 @@ We may update these Terms by publishing a new version with a revised effective d
 
 ## Language
 
-These Terms are published in English and Simplified Chinese. If translations conflict, the **English** version prevails, except where mandatory local law requires otherwise.
+These Terms are published in English, Simplified Chinese, Japanese, Korean, Russian, and Spanish. If translations conflict, the **English** version prevails, except where mandatory local law requires otherwise.

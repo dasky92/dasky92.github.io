@@ -1,0 +1,53 @@
+{
+  "app": "eyesProtector",
+  "locale": "es",
+  "document": "support",
+  "title": "Soporte",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
+  "sections": [
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "body": "<p><strong>Correo:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>Incluye modelo del dispositivo, versión del SO, versión de la app y pasos para reproducir. No envíes contraseñas ni números completos de tarjeta.</p>\n<p><strong>GitHub Issues (público):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "disponibilidad",
+      "title": "Disponibilidad",
+      "body": "<p>EyesProtector está pensado para distribución <strong>global</strong> en App Store. Los plazos por tienda pueden diferir; la App Store de China puede ir primero. Funciones y precios varían por país.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>¿Puede tratar la miopía o restaurar la acomodación?</h3>\n<p>No. EyesProtector es un recordatorio de hábitos y compañero de gafas de cerca; no es un dispositivo médico ni sustituye la refracción.</p>\n<h3>¿Por qué no hay un interruptor maestro de miradas?</h3>\n<p>Las miradas van en horario laboral por diseño. Usa pausa de descanso, modo fuera de trabajo o silenciar hoy.</p>\n<h3>¿Qué es gratis y qué es de pago?</h3>\n<ul>\n<li><strong>Mac:</strong> el ciclo principal es gratis.</li>\n<li><strong>iPhone / iPad:</strong> un desbloqueo abre el ciclo en teléfono y tableta.</li>\n<li><strong>Sincronización iCloud:</strong> gratis si tienes iCloud.</li>\n<li><strong>Reloj de mirada:</strong> tras el desbloqueo. El tema Eyes es gratis; otros son compras aparte. Mac no tiene reloj.</li>\n</ul>\n<p>Los productos y precios están en la ficha de App Store de tu región.</p>\n<h3>¿Compras y reembolsos?</h3>\n<p>Pasan por <strong>Apple</strong>. Usa Restaurar compras en la app; los reembolsos siguen el proceso de Apple y la ley local.</p>\n<h3>¿Falla iCloud o se revierte el interruptor?</h3>\n<ol>\n<li>Inicia sesión en Ajustes → Apple ID → <strong>iCloud</strong>.</li>\n<li>Confirma que iCloud está disponible para tu cuenta y región.</li>\n<li>Apaga y vuelve a encender la sincronización en la app.</li>\n<li>Si falla, el interruptor se revierte para no quedar a medias.</li>\n</ol>\n<p>No leemos el contenido de tu iCloud en servidores propios. Ver <a href=\"privacy.html\">Política de privacidad</a>.</p>\n<h3>¿La pausa inteligente no funciona?</h3>\n<ul>\n<li>La pausa por Concentración es solo en <strong>Mac</strong>; lista los modos de este Mac; Trabajo está desactivado por defecto.</li>\n<li>La pausa por app en primer plano es solo en <strong>Mac</strong>; la lista empieza vacía.</li>\n<li>iPhone e iPad no pausan por Concentración.</li>\n</ul>\n<h3>¿No veo el reloj de mirada?</h3>\n<p>Necesitas un iPhone o iPad desbloqueado. El tema Eyes es gratis. Mac no ofrece el reloj.</p>\n<h3>¿Faltan notificaciones?</h3>\n<p>Permite notificaciones en el sistema. Los modos de aplazamiento las suprimen a propósito.</p>\n<h3>¿No puedo salir del modo estricto?</h3>\n<p>Usa los controles en pantalla o la barra de menú de Mac. Tras forzar el cierre, vuelve a abrir la app.</p>\n"
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "body": "<ul>\n<li><a href=\"privacy.html\">Política de privacidad</a></li>\n<li><a href=\"terms.html\">Términos de uso</a></li>\n</ul>\n<h3>Historial de versiones</h3>\n<table>\n<thead>\n<tr>\n<th>Versión</th>\n<th>Fecha</th>\n<th>Resumen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac gratis / desbloqueo iOS / iCloud gratis; reloj de mirada; seis idiomas.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>FAQ inicial.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "body": "<p><strong>Correo:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>Incluye modelo del dispositivo, versión del SO, versión de la app y pasos para reproducir. No envíes contraseñas ni números completos de tarjeta.</p>\n<p><strong>GitHub Issues (público):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "disponibilidad",
+      "title": "Disponibilidad",
+      "body": "<p>EyesProtector está pensado para distribución <strong>global</strong> en App Store. Los plazos por tienda pueden diferir; la App Store de China puede ir primero. Funciones y precios varían por país.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>¿Puede tratar la miopía o restaurar la acomodación?</h3>\n<p>No. EyesProtector es un recordatorio de hábitos y compañero de gafas de cerca; no es un dispositivo médico ni sustituye la refracción.</p>\n<h3>¿Por qué no hay un interruptor maestro de miradas?</h3>\n<p>Las miradas van en horario laboral por diseño. Usa pausa de descanso, modo fuera de trabajo o silenciar hoy.</p>\n<h3>¿Qué es gratis y qué es de pago?</h3>\n<ul>\n<li><strong>Mac:</strong> el ciclo principal es gratis.</li>\n<li><strong>iPhone / iPad:</strong> un desbloqueo abre el ciclo en teléfono y tableta.</li>\n<li><strong>Sincronización iCloud:</strong> gratis si tienes iCloud.</li>\n<li><strong>Reloj de mirada:</strong> tras el desbloqueo. El tema Eyes es gratis; otros son compras aparte. Mac no tiene reloj.</li>\n</ul>\n<p>Los productos y precios están en la ficha de App Store de tu región.</p>\n<h3>¿Compras y reembolsos?</h3>\n<p>Pasan por <strong>Apple</strong>. Usa Restaurar compras en la app; los reembolsos siguen el proceso de Apple y la ley local.</p>\n<h3>¿Falla iCloud o se revierte el interruptor?</h3>\n<ol>\n<li>Inicia sesión en Ajustes → Apple ID → <strong>iCloud</strong>.</li>\n<li>Confirma que iCloud está disponible para tu cuenta y región.</li>\n<li>Apaga y vuelve a encender la sincronización en la app.</li>\n<li>Si falla, el interruptor se revierte para no quedar a medias.</li>\n</ol>\n<p>No leemos el contenido de tu iCloud en servidores propios. Ver <a href=\"privacy.html\">Política de privacidad</a>.</p>\n<h3>¿La pausa inteligente no funciona?</h3>\n<ul>\n<li>La pausa por Concentración es solo en <strong>Mac</strong>; lista los modos de este Mac; Trabajo está desactivado por defecto.</li>\n<li>La pausa por app en primer plano es solo en <strong>Mac</strong>; la lista empieza vacía.</li>\n<li>iPhone e iPad no pausan por Concentración.</li>\n</ul>\n<h3>¿No veo el reloj de mirada?</h3>\n<p>Necesitas un iPhone o iPad desbloqueado. El tema Eyes es gratis. Mac no ofrece el reloj.</p>\n<h3>¿Faltan notificaciones?</h3>\n<p>Permite notificaciones en el sistema. Los modos de aplazamiento las suprimen a propósito.</p>\n<h3>¿No puedo salir del modo estricto?</h3>\n<p>Usa los controles en pantalla o la barra de menú de Mac. Tras forzar el cierre, vuelve a abrir la app.</p>\n"
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "body": "<ul>\n<li><a href=\"privacy.html\">Política de privacidad</a></li>\n<li><a href=\"terms.html\">Términos de uso</a></li>\n</ul>\n<h3>Historial de versiones</h3>\n<table>\n<thead>\n<tr>\n<th>Versión</th>\n<th>Fecha</th>\n<th>Resumen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac gratis / desbloqueo iOS / iCloud gratis; reloj de mirada; seis idiomas.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>FAQ inicial.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ]
+}

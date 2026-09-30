@@ -1,0 +1,53 @@
+{
+  "app": "eyesProtector",
+  "locale": "ko",
+  "document": "support",
+  "title": "지원",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
+  "sections": [
+    {
+      "id": "section",
+      "title": "연락",
+      "body": "<p><strong>이메일:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>기기 모델, OS 버전, 앱 버전, 재현 단계를 적어 주세요. 비밀번호나 카드 번호 전체를 보내지 마세요.</p>\n<p><strong>GitHub Issues(공개):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "section",
+      "title": "출시",
+      "body": "<p>EyesProtector는 <strong>전 세계</strong> App Store 배포를 계획합니다. 스토어 시점은 지역마다 다를 수 있으며 중국 App Store가 우선일 수 있습니다. 기능과 가격은 국가·지역에 따라 다를 수 있습니다.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>근시를 치료하거나 조절력을 회복하나요?</h3>\n<p>아니요. EyesProtector는 습관 알림과 근용 안경 워크플로 동반자이며 의료기기가 아니고 검안을 대체하지 않습니다.</p>\n<h3>원거리 보기 전체 끄기가 없는 이유는?</h3>\n<p>원거리 보기는 근무 시간에 돌아가도록 설계되었습니다. 휴식 일시정지, 퇴근 모드, 오늘 끄기로 보류하세요.</p>\n<h3>무료와 유료는?</h3>\n<ul>\n<li><strong>Mac:</strong> 핵심 순환 무료.</li>\n<li><strong>iPhone / iPad:</strong> 한 번 잠금 해제로 휴대폰·태블릿 핵심 순환.</li>\n<li><strong>iCloud 동기화:</strong> iCloud가 있으면 무료.</li>\n<li><strong>원거리 시계:</strong> 잠금 해제 후. 「双眼」 테마 무료, 추가 테마는 별도 구매. Mac에는 시계 없음.</li>\n</ul>\n<p>상품과 가격은 해당 지역 App Store 제품 페이지를 보세요.</p>\n<h3>구매와 환불은?</h3>\n<p>구매는 <strong>Apple</strong>을 통합니다. 앱의 구매 복원과 Apple 환불 절차를 따르세요.</p>\n<h3>iCloud 동기화가 실패하거나 스위치가 돌아가나요?</h3>\n<ol>\n<li>설정 → Apple ID → <strong>iCloud</strong> 로그인(App Store만이 아님).</li>\n<li>계정·지역에서 iCloud 사용 가능 여부 확인.</li>\n<li>앱 동기화를 끄고 다시 켜기.</li>\n<li>실패 시 반열림을 피하려고 스위치를 되돌립니다.</li>\n</ol>\n<p>자체 서버에서 iCloud 내용을 읽을 수 없습니다. <a href=\"privacy.html\">개인정보 처리방침</a> 참고.</p>\n<h3>스마트 일시정지가 안 되나요?</h3>\n<ul>\n<li>집중 모드 일시정지는 <strong>Mac만</strong>. 이 Mac에 있는 집중만 표시. 「업무」는 기본 끔.</li>\n<li>전면 앱 일시정지도 <strong>Mac만</strong>. 목록은 비어 있고 직접 추가.</li>\n<li>iPhone / iPad는 집중으로 일시정지하지 않음.</li>\n</ul>\n<h3>원거리 시계가 없나요?</h3>\n<p>잠금 해제된 iPhone / iPad가 필요합니다. 「双眼」은 무료로 열립니다. Mac에는 없습니다.</p>\n<h3>알림이 없나요?</h3>\n<p>시스템 설정에서 알림을 허용하세요. 보류 모드는 의도적으로 알림을 막습니다.</p>\n<h3>엄격 모드를 못 나가나요?</h3>\n<p>화면 조작 또는 Mac 메뉴 막대를 사용하세요. 강제 종료 후 다시 여세요.</p>\n"
+    },
+    {
+      "id": "section",
+      "title": "법률",
+      "body": "<ul>\n<li><a href=\"privacy.html\">개인정보 처리방침</a></li>\n<li><a href=\"terms.html\">이용 약관</a></li>\n</ul>\n<h3>버전 기록</h3>\n<table>\n<thead>\n<tr>\n<th>버전</th>\n<th>시행일</th>\n<th>요약</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac 무료 / iOS 잠금 해제 / iCloud 무료; 원거리 시계; 6개 언어.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>초기 FAQ.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ],
+  "contactEmail": "1621829808@qq.com",
+  "faq": [
+    {
+      "id": "section",
+      "title": "연락",
+      "body": "<p><strong>이메일:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p>기기 모델, OS 버전, 앱 버전, 재현 단계를 적어 주세요. 비밀번호나 카드 번호 전체를 보내지 마세요.</p>\n<p><strong>GitHub Issues(공개):</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "section",
+      "title": "출시",
+      "body": "<p>EyesProtector는 <strong>전 세계</strong> App Store 배포를 계획합니다. 스토어 시점은 지역마다 다를 수 있으며 중국 App Store가 우선일 수 있습니다. 기능과 가격은 국가·지역에 따라 다를 수 있습니다.</p>\n"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "body": "<h3>근시를 치료하거나 조절력을 회복하나요?</h3>\n<p>아니요. EyesProtector는 습관 알림과 근용 안경 워크플로 동반자이며 의료기기가 아니고 검안을 대체하지 않습니다.</p>\n<h3>원거리 보기 전체 끄기가 없는 이유는?</h3>\n<p>원거리 보기는 근무 시간에 돌아가도록 설계되었습니다. 휴식 일시정지, 퇴근 모드, 오늘 끄기로 보류하세요.</p>\n<h3>무료와 유료는?</h3>\n<ul>\n<li><strong>Mac:</strong> 핵심 순환 무료.</li>\n<li><strong>iPhone / iPad:</strong> 한 번 잠금 해제로 휴대폰·태블릿 핵심 순환.</li>\n<li><strong>iCloud 동기화:</strong> iCloud가 있으면 무료.</li>\n<li><strong>원거리 시계:</strong> 잠금 해제 후. 「双眼」 테마 무료, 추가 테마는 별도 구매. Mac에는 시계 없음.</li>\n</ul>\n<p>상품과 가격은 해당 지역 App Store 제품 페이지를 보세요.</p>\n<h3>구매와 환불은?</h3>\n<p>구매는 <strong>Apple</strong>을 통합니다. 앱의 구매 복원과 Apple 환불 절차를 따르세요.</p>\n<h3>iCloud 동기화가 실패하거나 스위치가 돌아가나요?</h3>\n<ol>\n<li>설정 → Apple ID → <strong>iCloud</strong> 로그인(App Store만이 아님).</li>\n<li>계정·지역에서 iCloud 사용 가능 여부 확인.</li>\n<li>앱 동기화를 끄고 다시 켜기.</li>\n<li>실패 시 반열림을 피하려고 스위치를 되돌립니다.</li>\n</ol>\n<p>자체 서버에서 iCloud 내용을 읽을 수 없습니다. <a href=\"privacy.html\">개인정보 처리방침</a> 참고.</p>\n<h3>스마트 일시정지가 안 되나요?</h3>\n<ul>\n<li>집중 모드 일시정지는 <strong>Mac만</strong>. 이 Mac에 있는 집중만 표시. 「업무」는 기본 끔.</li>\n<li>전면 앱 일시정지도 <strong>Mac만</strong>. 목록은 비어 있고 직접 추가.</li>\n<li>iPhone / iPad는 집중으로 일시정지하지 않음.</li>\n</ul>\n<h3>원거리 시계가 없나요?</h3>\n<p>잠금 해제된 iPhone / iPad가 필요합니다. 「双眼」은 무료로 열립니다. Mac에는 없습니다.</p>\n<h3>알림이 없나요?</h3>\n<p>시스템 설정에서 알림을 허용하세요. 보류 모드는 의도적으로 알림을 막습니다.</p>\n<h3>엄격 모드를 못 나가나요?</h3>\n<p>화면 조작 또는 Mac 메뉴 막대를 사용하세요. 강제 종료 후 다시 여세요.</p>\n"
+    },
+    {
+      "id": "section",
+      "title": "법률",
+      "body": "<ul>\n<li><a href=\"privacy.html\">개인정보 처리방침</a></li>\n<li><a href=\"terms.html\">이용 약관</a></li>\n</ul>\n<h3>버전 기록</h3>\n<table>\n<thead>\n<tr>\n<th>버전</th>\n<th>시행일</th>\n<th>요약</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac 무료 / iOS 잠금 해제 / iCloud 무료; 원거리 시계; 6개 언어.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>초기 FAQ.</td>\n</tr>\n</tbody>\n</table>\n"
+    }
+  ]
+}

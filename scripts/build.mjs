@@ -44,6 +44,42 @@ const UI_LABELS = {
     effectiveDate: "生效日期",
     chooseLanguage: "选择语言",
   },
+  ja: {
+    home: "ホーム",
+    privacy: "プライバシーポリシー",
+    terms: "利用規約",
+    support: "サポート",
+    contact: "連絡先",
+    effectiveDate: "発効日",
+    chooseLanguage: "言語を選択",
+  },
+  ko: {
+    home: "홈",
+    privacy: "개인정보 처리방침",
+    terms: "이용 약관",
+    support: "지원",
+    contact: "연락처",
+    effectiveDate: "시행일",
+    chooseLanguage: "언어 선택",
+  },
+  ru: {
+    home: "Главная",
+    privacy: "Политика конфиденциальности",
+    terms: "Условия использования",
+    support: "Поддержка",
+    contact: "Контакты",
+    effectiveDate: "Вступает в силу",
+    chooseLanguage: "Выберите язык",
+  },
+  es: {
+    home: "Inicio",
+    privacy: "Política de privacidad",
+    terms: "Términos de uso",
+    support: "Soporte",
+    contact: "Contacto",
+    effectiveDate: "Vigencia",
+    chooseLanguage: "Elige tu idioma",
+  },
 };
 
 function slugify(text) {

@@ -1,0 +1,100 @@
+{
+  "app": "eyesProtector",
+  "locale": "es",
+  "document": "privacy",
+  "title": "Política de privacidad",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
+  "sections": [
+    {
+      "id": "resumen",
+      "title": "Resumen",
+      "body": "<p>EyesProtector (la «App») es un <strong>entrenador de hábitos</strong> ante la fatiga visual y un <strong>compañero de gafas de cerca</strong> para Mac, iPhone e iPad. Ayuda con miradas a lo lejos, avisos de cambio de gafas con dos pares y un diario subjetivo. La App <strong>no</strong> es un dispositivo médico y <strong>no</strong> diagnostica, trata ni sustituye la atención profesional.</p>\n<p>Esta política explica quiénes somos, qué información tratamos, cómo se relacionan la sincronización opcional con <strong>iCloud</strong> y las funciones de <strong>pago</strong>, y tus opciones. El ciclo principal funciona en el dispositivo sin crear una cuenta con nosotros.</p>\n"
+    },
+    {
+      "id": "quines-somos",
+      "title": "Quiénes somos",
+      "body": "<p>El responsable es el desarrollador individual <strong>dasky92</strong>, con sede en la República Popular China. Para privacidad, usa Contacto abajo.</p>\n"
+    },
+    {
+      "id": "mbito",
+      "title": "Ámbito",
+      "body": "<p>Se aplica a usuarios <strong>en todo el mundo</strong>, salvo que la ley local exija otra cosa. Posicionamiento App Store: Salud y forma física / hábitos. La clasificación por edad la decide Apple (no es un producto dirigido a niños).</p>\n"
+    },
+    {
+      "id": "informacin-que-tratamos",
+      "title": "Información que tratamos",
+      "body": "<h3>1. Uso en el dispositivo (predeterminado)</h3>\n<p>Sin sincronización, suele permanecer en el dispositivo y <strong>no</strong> se sube a servidores nuestros:</p>\n<ul>\n<li>horarios de mirada, jornada, pausa / fuera de trabajo / silenciar hoy;</li>\n<li>plan de gafas y ajustes relacionados;</li>\n<li>pausa inteligente (Concentración, lista de apps en primer plano en Mac);</li>\n<li>diario de confort e historial de cumplimiento;</li>\n<li>apariencia y otros ajustes locales.</li>\n</ul>\n<h3>2. Sincronización iCloud opcional</h3>\n<p>Si activas <strong>iCloud Sync</strong>, datos seleccionados pueden sincronizarse entre dispositivos con el <strong>mismo Apple ID</strong> mediante <strong>Apple iCloud</strong>. El alojamiento es de <strong>Apple</strong>. No operamos una base de datos propia del diario ni podemos iniciar sesión en tu iCloud.</p>\n<h3>3. Permisos</h3>\n<p>Notificaciones; estado de Concentración (si está disponible); app en primer plano en Mac solo para la lista que tú añades.</p>\n<h3>4. Conexiones técnicas</h3>\n<p>Actualizaciones de App Store, compras vía Apple, páginas legales públicas en GitHub Pages, iCloud si la sync está activa. No para perfiles publicitarios.</p>\n<h3>5. Información voluntaria</h3>\n<p>Solo lo que envíes por correo o en un GitHub Issue público.</p>\n<h3>6. Lo que no hacemos</h3>\n<p>Sin teléfono / login social obligatorio para el núcleo; sin cámara de cara / atención; en esta versión sin SDK de publicidad / analítica de terceros para rastreo entre apps; <strong>no vendemos</strong> datos personales.</p>\n"
+    },
+    {
+      "id": "compras-y-facturacin-de-apple",
+      "title": "Compras y facturación de Apple",
+      "body": "<p>Modelo comercial previsto (SKU y precios en la ficha de App Store):</p>\n<ul>\n<li><strong>Mac:</strong> el ciclo principal es gratis;</li>\n<li><strong>iPhone / iPad:</strong> una compra única desbloquea el ciclo;</li>\n<li><strong>Sincronización iCloud:</strong> opcional y <strong>sin</strong> cargo aparte si tienes iCloud;</li>\n<li><strong>Temas del reloj de mirada:</strong> tras el desbloqueo, Eyes es gratis; otros pueden ser compras únicas. Mac no tiene reloj.</li>\n</ul>\n<p><strong>Apple</strong> procesa el pago. No recibimos el número completo de tarjeta. Restaura compras en la App.</p>\n"
+    },
+    {
+      "id": "cmo-usamos-la-informacin",
+      "title": "Cómo usamos la información",
+      "body": "<p>Funciones en el dispositivo, sync, desbloqueo de lo comprado, responder a contactos. Sin publicidad de terceros ni venta.</p>\n"
+    },
+    {
+      "id": "base-legal-eee-reino-unido",
+      "title": "Base legal (EEE / Reino Unido)",
+      "body": "<p>Ejecución del contrato / interés legítimo; consentimiento; obligaciones legales.</p>\n"
+    },
+    {
+      "id": "conservacin",
+      "title": "Conservación",
+      "body": "<p>Datos locales hasta borrar la App; copias iCloud según Apple; correspondencia el tiempo necesario para responder y un registro razonable de soporte.</p>\n"
+    },
+    {
+      "id": "terceros",
+      "title": "Terceros",
+      "body": "<p>Apple App Store / Apple ID / IAP; Apple iCloud; GitHub Pages; GitHub (Issues).</p>\n"
+    },
+    {
+      "id": "transferencias-internacionales",
+      "title": "Transferencias internacionales",
+      "body": "<p>Estamos en China. Los contactos desde fuera pueden tratarse en China y en países de proveedores de correo / GitHub. Apple trata App Store, IAP e iCloud donde Apple determine.</p>\n"
+    },
+    {
+      "id": "derechos-y-opciones",
+      "title": "Derechos y opciones",
+      "body": "<p>Según tu ubicación: acceso, rectificación, eliminación, etc. Sobre correspondencia voluntaria: <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a>. Puedes apagar la sync, revocar permisos, borrar la App y gestionar compras en Apple ID.</p>\n"
+    },
+    {
+      "id": "eee-reino-unido",
+      "title": "EEE / Reino Unido",
+      "body": "<p>Puedes reclamar ante tu autoridad. Pretendemos responder en unos <strong>30 días</strong>. Si la edad de consentimiento digital llega a <strong>16</strong>, úsala con un tutor si eres menor.</p>\n"
+    },
+    {
+      "id": "california",
+      "title": "California",
+      "body": "<p>No vendemos ni compartimos datos para publicidad conductual entre contextos. No discriminamos por ejercer derechos.</p>\n"
+    },
+    {
+      "id": "privacidad-infantil",
+      "title": "Privacidad infantil",
+      "body": "<p>No está dirigida principalmente a niños. En EE. UU. no recopilamos a sabiendas de menores de <strong>13</strong> (COPPA).</p>\n"
+    },
+    {
+      "id": "notas-de-salud",
+      "title": "Notas de salud",
+      "body": "<p>Las puntuaciones y notas son <strong>registros subjetivos de hábito</strong>, no registros clínicos.</p>\n"
+    },
+    {
+      "id": "cambios",
+      "title": "Cambios",
+      "body": "<p>Publicamos la versión actualizada en esta URL con fecha. El uso continuado implica aceptación, salvo que la ley exija otra cosa.</p>\n<h3>Historial de versiones</h3>\n<table>\n<thead>\n<tr>\n<th>Versión</th>\n<th>Fecha</th>\n<th>Resumen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>Mac gratis / desbloqueo iOS / iCloud gratis; reloj de mirada; seis idiomas.</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>Publicación inicial.</td>\n</tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "body": "<p><strong>Correo:</strong> <a href=\"mailto:1621829808@qq.com\">1621829808@qq.com</a></p>\n<p><strong>GitHub Issues:</strong> <a href=\"https://github.com/dasky92/dasky92.github.io/issues\">https://github.com/dasky92/dasky92.github.io/issues</a></p>\n"
+    },
+    {
+      "id": "idioma",
+      "title": "Idioma",
+      "body": "<p>Se publica en inglés, chino simplificado, japonés, coreano, ruso y español. Si hay conflicto, prevalece la versión en <strong>inglés</strong>, salvo que la ley obligue otra cosa.</p>\n"
+    }
+  ]
+}

@@ -52,13 +52,17 @@ Base: `https://dasky92.github.io/verde`
 
 Base: `https://dasky92.github.io/eyesProtector`
 
-| Purpose | English | 简体中文 |
-|---------|---------|----------|
-| Language picker | [/eyesProtector/](https://dasky92.github.io/eyesProtector/) | same |
-| Marketing | [/eyesProtector/en/](https://dasky92.github.io/eyesProtector/en/) | [/eyesProtector/zh-Hans/](https://dasky92.github.io/eyesProtector/zh-Hans/) |
-| Privacy | [/eyesProtector/en/privacy.html](https://dasky92.github.io/eyesProtector/en/privacy.html) | [/eyesProtector/zh-Hans/privacy.html](https://dasky92.github.io/eyesProtector/zh-Hans/privacy.html) |
-| Terms | [/eyesProtector/en/terms.html](https://dasky92.github.io/eyesProtector/en/terms.html) | [/eyesProtector/zh-Hans/terms.html](https://dasky92.github.io/eyesProtector/zh-Hans/terms.html) |
-| Support | [/eyesProtector/en/support.html](https://dasky92.github.io/eyesProtector/en/support.html) | [/eyesProtector/zh-Hans/support.html](https://dasky92.github.io/eyesProtector/zh-Hans/support.html) |
+Locales (aligned with the app): `en` · `zh-Hans` · `ja` · `ko` · `ru` · `es`
+
+| Purpose | Path pattern |
+|---------|----------------|
+| Language picker | [/eyesProtector/](https://dasky92.github.io/eyesProtector/) |
+| Marketing | `/eyesProtector/{locale}/` |
+| Privacy | `/eyesProtector/{locale}/privacy.html` |
+| Terms | `/eyesProtector/{locale}/terms.html` |
+| Support | `/eyesProtector/{locale}/support.html` |
+
+Examples: [en](https://dasky92.github.io/eyesProtector/en/) · [简体中文](https://dasky92.github.io/eyesProtector/zh-Hans/) · [日本語](https://dasky92.github.io/eyesProtector/ja/) · [한국어](https://dasky92.github.io/eyesProtector/ko/) · [Русский](https://dasky92.github.io/eyesProtector/ru/) · [Español](https://dasky92.github.io/eyesProtector/es/)
 
 ### App in-app JSON (remote fetch)
 

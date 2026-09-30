@@ -3,8 +3,8 @@
   "locale": "zh-Hans",
   "document": "privacy",
   "title": "隐私政策",
-  "version": "1.0.0",
-  "effectiveDate": "2026-08-11",
+  "version": "1.1.0",
+  "effectiveDate": "2026-09-30",
   "sections": [
     {
       "id": "概述",
@@ -24,12 +24,12 @@
     {
       "id": "我们处理的信息",
       "title": "我们处理的信息",
-      "body": "<p>我们尽可能减少收集。视您如何使用本应用，可能涉及以下情形。</p>\n<h3>1. 本地使用（默认；无需向我们注册）</h3>\n<p>在未开启同步时，下列信息通常仅保存在您的设备上，<strong>不会</strong>上传到我们自建的服务器（我们也不运营自建账号后端）：</p>\n<ul>\n<li>远眺安排、工作时段、休息暂停 / 下班模式 / 当日关闭等状态</li>\n<li>配镜方案（单镜 / 双镜）及相关提醒偏好</li>\n<li>智能暂停偏好（例如专注模式开关、Mac 前台 App 列表）</li>\n<li>症状 / 酸胀日记（评分与可选备注）与远眺依从记录</li>\n<li>外观及其他本地设置</li>\n</ul>\n<p>卸载本应用后，本机应用数据通常会一并清除（具体以操作系统为准）。</p>\n<h3>2. 可选的 iCloud 同步（默认关闭，需您主动开启）</h3>\n<p>若您在本应用中开启 <strong>iCloud 同步</strong>：</p>\n<ul>\n<li>相关设置、提醒相关状态、症状日记等习惯数据，可能经 <strong>Apple iCloud</strong> 在登录<strong>同一 Apple ID</strong> 的设备之间同步（例如本应用使用的 iCloud 键值 / Apple 提供的同步机制）。</li>\n<li>同步由 <strong>Apple</strong> 提供与托管。我们<strong>不</strong>在自有服务器上另建一份您的日记库，也<strong>无法</strong>登录您的 iCloud 账号读取同步内容。</li>\n<li>在本应用中<strong>关闭</strong>同步后，本应用侧将停止新的同步；本机通常仍保留本地副本。已存在于 iCloud 中的副本，其保留与删除受 <strong>Apple</strong> 的 iCloud 机制约束（系统设置 / 设置 → [您的姓名] → iCloud，以及 Apple 帮助文档）。</li>\n<li>iCloud 是否可用、容量与地区能力由 Apple 及您的 Apple ID / 店面决定。</li>\n</ul>\n<p>请同时参阅 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a> 与 iCloud 相关条款。</p>\n<h3>3. 您授予的系统权限与能力</h3>\n<p>在您授权（或系统向本应用开放）的前提下，本应用可能使用：</p>\n<ul>\n<li><strong>通知</strong> — 用于远眺或其他习惯提醒</li>\n<li><strong>专注状态</strong>（如系统提供）— 以便智能暂停在专注开启时搁置提醒</li>\n<li><strong>Mac 前台应用信息</strong> — 仅用于匹配您加入智能暂停列表的 App（例如会议类 App）</li>\n</ul>\n<p>您可在系统设置中撤销授权。拒绝授权可能影响对应功能，其余功能仍可使用。</p>\n<h3>4. 技术性网络连接</h3>\n<p>本应用或您的设备可能在您未向我们托管的表单填写个人信息的情况下联网，例如：</p>\n<ul>\n<li>通过 <strong>Apple App Store</strong> 检查或下载更新</li>\n<li>通过 Apple 完成<strong>内购 / 订阅</strong>（如已提供）</li>\n<li>从 <strong>GitHub Pages</strong> 获取公开托管的法律文档（如本政策）</li>\n<li>在开启同步时与 <strong>Apple iCloud</strong> 通信</li>\n</ul>\n<p>我们不会利用上述连接为您建立广告画像。</p>\n<h3>5. 您主动提供的信息</h3>\n<p>若您发送邮件或提交 GitHub Issue，我们仅收到您选择提供的内容（例如邮箱、正文、设备信息、截图）。<strong>GitHub Issue 为公开内容</strong>，请勿提交敏感个人或健康细节。</p>\n<h3>6. 我们不会做的事</h3>\n<ul>\n<li>核心循环不要求手机号 / 微信 / 社交账号登录</li>\n<li>不使用摄像头做人脸或注意力检测</li>\n<li>本版本未集成用于跨 App 追踪的第三方广告或分析 SDK</li>\n<li>我们<strong>不出售</strong>您的个人信息</li>\n</ul>\n"
+      "body": "<p>我们尽可能减少收集。视您如何使用本应用，可能涉及以下情形。</p>\n<h3>1. 本地使用（默认；无需向我们注册）</h3>\n<p>在未开启同步时，下列信息通常仅保存在您的设备上，<strong>不会</strong>上传到我们自建的服务器（我们也不运营自建账号后端）：</p>\n<ul>\n<li>远眺安排、工作时段、休息暂停 / 下班模式 / 当日关闭等状态</li>\n<li>配镜方案（单镜 / 双镜）及相关提醒偏好</li>\n<li>智能暂停偏好（例如专注模式开关、Mac 前台 App 列表）</li>\n<li>症状 / 酸胀日记（评分与可选备注）与远眺依从记录</li>\n<li>外观及其他本地设置</li>\n</ul>\n<p>卸载本应用后，本机应用数据通常会一并清除（具体以操作系统为准）。</p>\n<h3>2. 可选的 iCloud 同步（默认关闭，需您主动开启）</h3>\n<p>若您在本应用中开启 <strong>iCloud 同步</strong>：</p>\n<ul>\n<li>相关设置、提醒相关状态、症状日记等习惯数据，可能经 <strong>Apple iCloud</strong> 在登录<strong>同一 Apple ID</strong> 的设备之间同步（例如本应用使用的 iCloud 键值 / Apple 提供的同步机制）。</li>\n<li>同步由 <strong>Apple</strong> 提供与托管。我们<strong>不</strong>在自有服务器上另建一份您的日记库，也<strong>无法</strong>登录您的 iCloud 账号读取同步内容。</li>\n<li>在本应用中<strong>关闭</strong>同步后，本应用侧将停止新的同步；本机通常仍保留本地副本。已存在于 iCloud 中的副本，其保留与删除受 <strong>Apple</strong> 的 iCloud 机制约束（系统设置 / 设置 → [您的姓名] → iCloud，以及 Apple 帮助文档）。</li>\n<li>iCloud 是否可用、容量与地区能力由 Apple 及您的 Apple ID / 店面决定。</li>\n</ul>\n<p>请同时参阅 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a> 与 iCloud 相关条款。</p>\n<h3>3. 您授予的系统权限与能力</h3>\n<p>在您授权（或系统向本应用开放）的前提下，本应用可能使用：</p>\n<ul>\n<li><strong>通知</strong> — 用于远眺或其他习惯提醒</li>\n<li><strong>专注状态</strong>（如系统提供）— 以便智能暂停在专注开启时搁置提醒</li>\n<li><strong>Mac 前台应用信息</strong> — 仅用于匹配您加入智能暂停列表的 App</li>\n</ul>\n<p>您可在系统设置中撤销授权。拒绝授权可能影响对应功能，其余功能仍可使用。</p>\n<h3>4. 技术性网络连接</h3>\n<p>本应用或您的设备可能在您未向我们托管的表单填写个人信息的情况下联网，例如：</p>\n<ul>\n<li>通过 <strong>Apple App Store</strong> 检查或下载更新</li>\n<li>通过 Apple 完成<strong>内购 / 订阅</strong>（如已提供）</li>\n<li>从 <strong>GitHub Pages</strong> 获取公开托管的法律文档（如本政策）</li>\n<li>在开启同步时与 <strong>Apple iCloud</strong> 通信</li>\n</ul>\n<p>我们不会利用上述连接为您建立广告画像。</p>\n<h3>5. 您主动提供的信息</h3>\n<p>若您发送邮件或提交 GitHub Issue，我们仅收到您选择提供的内容（例如邮箱、正文、设备信息、截图）。<strong>GitHub Issue 为公开内容</strong>，请勿提交敏感个人或健康细节。</p>\n<h3>6. 我们不会做的事</h3>\n<ul>\n<li>核心循环不要求手机号 / 微信 / 社交账号登录</li>\n<li>不使用摄像头做人脸或注意力检测</li>\n<li>本版本未集成用于跨 App 追踪的第三方广告或分析 SDK</li>\n<li>我们<strong>不出售</strong>您的个人信息</li>\n</ul>\n"
     },
     {
-      "id": "购买订阅与-apple-计费",
-      "title": "购买、订阅与 Apple 计费",
-      "body": "<p>若 App Store 页面提供<strong>付费</strong>能力（例如将多设备 <strong>iCloud 同步</strong>作为订阅或一次性内购）：</p>\n<ul>\n<li><strong>Apple</strong> 按 Apple 条款处理支付、收据与退款。我们不会收到您的完整银行卡号。</li>\n<li>Apple 可能向本应用提供有限的购买 / 权益状态（例如订阅是否有效），以便解锁付费功能。</li>\n<li>请在 Apple ID 的订阅管理中取消或变更订阅；退款遵循 Apple 流程及适用法律。</li>\n</ul>\n<p>免费核心能力（远眺节奏与搁置、配镜方案、本地日记）拟在<strong>无需</strong>购买同步的情况下可用。具体商品与价格以 App Store 产品页为准，可能因国家或地区而异。</p>\n"
+      "id": "购买与-apple-计费",
+      "title": "购买与 Apple 计费",
+      "body": "<p>当前拟采用的商业模式（具体商品与价格以 App Store 产品页为准，可能因国家或地区而异）：</p>\n<ul>\n<li><strong>Mac：</strong> 核心习惯循环免费。</li>\n<li><strong>iPhone / iPad：</strong> 一次性内购解锁手机与平板上的核心循环。</li>\n<li><strong>iCloud 同步：</strong> 可选，有 iCloud 即可开启，<strong>不</strong>另收费。</li>\n<li><strong>远眺钟主题：</strong> 设备解锁后，首个主题「双眼」免费；更多主题可能为各自一次性购买。Mac 不含远眺钟。</li>\n</ul>\n<p><strong>Apple</strong> 按 Apple 条款处理支付、收据与退款。我们不会收到您的完整银行卡号。Apple 可能向本应用提供有限的购买 / 权益状态，以便解锁您已购买的内容。非消耗型权益请在应用内使用「恢复购买」；退款遵循 Apple 流程及适用法律。</p>\n"
     },
     {
       "id": "我们如何使用信息",
@@ -84,7 +84,7 @@
     {
       "id": "政策变更",
       "title": "政策变更",
-      "body": "<p>我们可能不时更新本政策。最新版本将发布于本网址，并更新生效日期与版本号。更新后继续使用本应用，即表示您知悉更新后的政策（适用法律另有要求的除外）。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>变更摘要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>全球首发：本机默认、可选 iCloud 同步、购买说明、地区权利。</td>\n</tr>\n</tbody>\n</table>\n"
+      "body": "<p>我们可能不时更新本政策。最新版本将发布于本网址，并更新生效日期与版本号。更新后继续使用本应用，即表示您知悉更新后的政策（适用法律另有要求的除外）。</p>\n<h3>版本历史</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>生效日期</th>\n<th>变更摘要</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1.1.0</td>\n<td>2026-09-30</td>\n<td>明确 Mac 免费 / iOS 解锁 / iCloud 免费；远眺钟主题；智能暂停列表；六语版本。</td>\n</tr>\n<tr>\n<td>1.0.0</td>\n<td>2026-08-11</td>\n<td>全球首发：本机默认、可选 iCloud 同步、购买说明、地区权利。</td>\n</tr>\n</tbody>\n</table>\n"
     },
     {
       "id": "联系我们",
@@ -94,7 +94,7 @@
     {
       "id": "语言",
       "title": "语言",
-      "body": "<p>本政策提供英文与简体中文版本。若译本冲突，以<strong>英文</strong>版本为准（当地法律另有强制规定的除外）。</p>\n"
+      "body": "<p>本政策提供英文、简体中文、日文、韩文、俄文与西班牙文版本。若译本冲突，以<strong>英文</strong>版本为准（当地法律另有强制规定的除外）。</p>\n"
     }
   ]
 }
